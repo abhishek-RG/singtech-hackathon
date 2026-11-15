@@ -83,7 +83,10 @@ export default function Landing() {
           faster.
         </p>
         <div className="hero__actions">
-          <Button href="#getting-started">Get started</Button>
+          <Button to="/leads">Lead Scoring Dashboard</Button>
+          <Button href="#getting-started" variant="secondary">
+            Get started
+          </Button>
         </div>
       </section>
 

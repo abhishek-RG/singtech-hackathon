@@ -5,7 +5,10 @@ import { getTheme, setTheme } from '../lib/theme.js';
 import './Navbar.css';
 
 // Add top-level nav entries here as pages are added.
-const NAV_LINKS = [{ to: '/', label: 'Home', end: true }];
+const NAV_LINKS = [
+  { to: '/', label: 'Home', end: true },
+  { to: '/leads', label: 'Lead Scoring' },
+];
 
 export default function Navbar() {
   const [theme, setThemeState] = useState(getTheme);

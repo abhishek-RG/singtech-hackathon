@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SingTech | Coming soon</title>
+  <meta name="description" content="SingTech, the enterprise sales workspace for Singtel Business. Coming soon.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #ffffff;
+      --surface: #f8fafc;
+      --text: #0f172a;
+      --muted: #64748b;
+      --border: #e2e8f0;
+      --accent: #e60000;
+      --grid: rgba(15, 23, 42, 0.05);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b1120;
+        --surface: #111827;
+        --text: #f1f5f9;
+        --muted: #94a3b8;
+        --border: #1f2937;
+        --accent: #ff3b3b;
+        --grid: rgba(241, 245, 249, 0.04);
+      }
+    }
+    * { box-sizing: border-box; margin: 0; }
+    html, body { height: 100%; }
+    body {
+      font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      -webkit-font-smoothing: antialiased;
+      display: flex;
+      flex-direction: column;
+      background-image:
+        linear-gradient(var(--grid) 1px, transparent 1px),
+        linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+      background-size: 48px 48px;
+      background-position: center;
+    }
+    header, footer {
+      width: 100%;
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 700;
+      font-size: 17px;
+      letter-spacing: -0.01em;
+    }
+    .mark {
+      width: 28px;
+      height: 28px;
+      border-radius: 7px;
+      background: var(--accent);
+      display: grid;
+      place-items: center;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 700;
+    }
+    main {
+      flex: 1;
+      display: grid;
+      place-items: center;
+      padding: 24px 16px 64px;
+    }
+    .hero { max-width: 640px; text-align: center; }
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 12px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: var(--surface);
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 500;
+    }
+    .dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--accent);
+      animation: pulse 2s ease-in-out infinite;
+    }
+    @keyframes pulse { 50% { opacity: 0.35; } }
+    @media (prefers-reduced-motion: reduce) { .dot { animation: none; } }
+    h1 {
+      margin-top: 24px;
+      font-size: clamp(40px, 8vw, 72px);
+      line-height: 1.05;
+      font-weight: 700;
+      letter-spacing: -0.035em;
+    }
+    h1 span { color: var(--accent); }
+    p.lead {
+      margin: 20px auto 0;
+      max-width: 520px;
+      color: var(--muted);
+      font-size: clamp(16px, 2.2vw, 18px);
+      line-height: 1.6;
+    }
+    footer { color: var(--muted); font-size: 13px; }
+    @media (max-width: 480px) {
+      header, footer { padding: 16px; }
+      footer { flex-direction: column; gap: 4px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand"><div class="mark" aria-hidden="true">S</div>SingTech</div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="pill"><span class="dot" aria-hidden="true"></span>In development</div>
+      <h1>Coming <span>soon</span></h1>
+      <p class="lead">The enterprise sales workspace for Singtel Business account teams. Account signals, opportunities and client proposals in one place.</p>
+    </section>
+  </main>
+
+  <footer>
+    <span>&copy; <span id="year">2026</span> SingTech</span>
+    <span>Built for Singtel Business</span>
+  </footer>
+
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

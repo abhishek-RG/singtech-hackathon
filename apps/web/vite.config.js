@@ -6,7 +6,7 @@ export default defineConfig({
   // Read VITE_* vars from the repo-root .env (shared with the server).
   envDir: '../..',
   server: {
-    port: 5173,
+    port: 3000,
     proxy: {
       '/api': 'http://localhost:8787',
     },

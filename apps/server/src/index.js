@@ -1,6 +1,6 @@
 import { existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
-import { DEFAULT_API_PORT, SERVICE_NAME } from '@telsing/shared';
+import { DEFAULT_API_PORT, SERVICE_NAME } from '@singtech/shared';
 
 // Load the repo-root .env if present (Node >= 20.12 built-in, no dotenv needed).
 const envPath = fileURLToPath(new URL('../../../.env', import.meta.url));

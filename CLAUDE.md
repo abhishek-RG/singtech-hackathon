@@ -1,4 +1,4 @@
-# TelSing: conventions
+# SingTech AI: conventions
 
 AI sales copilot for Singtel enterprise sales. npm workspaces, JavaScript ESM, Node 20.19+.
 No TypeScript, no CSS frameworks.
@@ -21,13 +21,13 @@ No TypeScript, no CSS frameworks.
 - Error: `{ ok: false, error: { code, message } }`. Throw `HttpError(status, code, message)`
   from `middleware/errorHandler.js`; the central handler formats it. Express 5 catches async errors.
 - `GET /api/health` is the one exception: `{ ok: true, service, time }`.
-- All routes live under `/api` (`API_PREFIX` from `@telsing/shared`).
+- All routes live under `/api` (`API_PREFIX` from `@singtech/shared`).
 
 ## Keep the server thin
 
 - Handlers: validate input, call a service, respond. No business logic in `app.js` or routes.
 - Read config from `process.env` (root `.env`, see `.env.example`). Never commit secrets.
-- Add dependencies only to the workspace that needs them: `npm i <pkg> -w @telsing/server`.
+- Add dependencies only to the workspace that needs them: `npm i <pkg> -w @singtech/server`.
 
 ## Workflow
 

@@ -1,8 +1,8 @@
 {
-  "name": "@telsing/shared",
+  "name": "@singtech/shared",
   "version": "0.1.0",
   "private": true,
-  "description": "Constants and pure utils shared by @telsing/web and @telsing/server",
+  "description": "Constants and pure utils shared by @singtech/web and @singtech/server",
   "type": "module",
   "exports": {
     ".": "./src/index.js"

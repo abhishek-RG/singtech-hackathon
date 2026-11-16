@@ -1,4 +1,4 @@
-import { API_PREFIX } from '@telsing/shared';
+import { API_PREFIX } from '@singtech/shared';
 
 // Empty in dev (Vite proxies /api). Set VITE_API_BASE_URL when the API is hosted elsewhere.
 const BASE_URL = (import.meta.env.VITE_API_BASE_URL || '').replace(/\/$/, '');

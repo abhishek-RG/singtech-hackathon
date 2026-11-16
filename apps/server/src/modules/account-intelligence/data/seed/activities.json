@@ -1,0 +1,262 @@
+[
+  {
+    "id": "d0b2dec1-b269-5663-9946-35102d315655",
+    "account_id": "67ebf87e-cb3a-55f3-8f4a-bbb9bfc2c555",
+    "contact_id": "5595b113-e128-5776-a200-171309dc64ff",
+    "activity_type": "call",
+    "occurred_on": "2026-11-05",
+    "subject": "Escalation call on Tuas outage",
+    "outcome": "Customer asked for root cause and a written resilience plan",
+    "notes": "Third major outage since August."
+  },
+  {
+    "id": "6b306a33-56a3-5654-8ea4-87dc0f4dabbe",
+    "account_id": "67ebf87e-cb3a-55f3-8f4a-bbb9bfc2c555",
+    "contact_id": "c1024e05-65e0-5544-b4ac-f9e24a09806d",
+    "activity_type": "email",
+    "occurred_on": "2026-10-27",
+    "subject": "Outage summary sent",
+    "outcome": "Acknowledged",
+    "notes": ""
+  },
+  {
+    "id": "dec6a6b6-c25b-5957-850d-4cc4141b13d2",
+    "account_id": "67ebf87e-cb3a-55f3-8f4a-bbb9bfc2c555",
+    "contact_id": "c1024e05-65e0-5544-b4ac-f9e24a09806d",
+    "activity_type": "meeting",
+    "occurred_on": "2026-10-02",
+    "subject": "Service review",
+    "outcome": "COO unhappy with incident response times",
+    "notes": ""
+  },
+  {
+    "id": "423e486d-7ff2-5c93-ae55-7859a2c6bdde",
+    "account_id": "67ebf87e-cb3a-55f3-8f4a-bbb9bfc2c555",
+    "contact_id": "5595b113-e128-5776-a200-171309dc64ff",
+    "activity_type": "qbr",
+    "occurred_on": "2026-06-19",
+    "subject": "Quarterly business review",
+    "outcome": "Positive; discussed plant expansion",
+    "notes": ""
+  },
+  {
+    "id": "c691d273-a781-5bed-a8d2-b15b94f96fb0",
+    "account_id": "a26782ac-5907-59ad-bbcd-2c1b8e6cfa54",
+    "contact_id": "1ce5aa88-cfbb-5ee5-9e0d-a9ee2fd713d4",
+    "activity_type": "qbr",
+    "occurred_on": "2026-10-20",
+    "subject": "Quarterly business review",
+    "outcome": "Customer satisfied; asked about private 5G for the Jurong plant floor",
+    "notes": ""
+  },
+  {
+    "id": "f15d2af5-e82b-5836-bfb2-04650afb8a6a",
+    "account_id": "a26782ac-5907-59ad-bbcd-2c1b8e6cfa54",
+    "contact_id": "fb38f261-1617-56a9-824d-2a3a047292f7",
+    "activity_type": "meeting",
+    "occurred_on": "2026-09-07",
+    "subject": "Operations planning",
+    "outcome": "Plans to automate two more lines in 2027",
+    "notes": ""
+  },
+  {
+    "id": "4cf88467-839c-5e45-b42c-84501e873809",
+    "account_id": "a26782ac-5907-59ad-bbcd-2c1b8e6cfa54",
+    "contact_id": "937027cc-0508-5ad1-b7b3-191e018e2738",
+    "activity_type": "call",
+    "occurred_on": "2026-11-04",
+    "subject": "Change request follow-up",
+    "outcome": "Completed",
+    "notes": ""
+  },
+  {
+    "id": "e26345b8-e635-5f75-a3f4-300cacefb69a",
+    "account_id": "0c4c7a51-a117-5838-8c87-d1cdb0133f51",
+    "contact_id": "50466c3f-9508-5341-ba60-9338624a5d9c",
+    "activity_type": "meeting",
+    "occurred_on": "2026-10-12",
+    "subject": "Renewal kick-off",
+    "outcome": "Customer asked for a pricing benchmark before committing",
+    "notes": ""
+  },
+  {
+    "id": "b6a90287-0c21-5902-b32d-ac21a35fbd67",
+    "account_id": "0c4c7a51-a117-5838-8c87-d1cdb0133f51",
+    "contact_id": "2c508c03-ca96-5e6e-90dd-6bd9704912f7",
+    "activity_type": "email",
+    "occurred_on": "2026-10-26",
+    "subject": "Benchmark request received",
+    "outcome": "Awaiting our response",
+    "notes": ""
+  },
+  {
+    "id": "8df6bd2a-56c0-5bd1-8517-7d3061c205c0",
+    "account_id": "0c4c7a51-a117-5838-8c87-d1cdb0133f51",
+    "contact_id": "6f524ae8-e9cb-545d-ab58-772661e90932",
+    "activity_type": "call",
+    "occurred_on": "2026-09-27",
+    "subject": "Security roadmap check-in",
+    "outcome": "Interest in quantum-safe encryption for trading links",
+    "notes": ""
+  },
+  {
+    "id": "57f698d8-1a79-5e5b-9dcb-3167dfbab592",
+    "account_id": "0c4c7a51-a117-5838-8c87-d1cdb0133f51",
+    "contact_id": "6f524ae8-e9cb-545d-ab58-772661e90932",
+    "activity_type": "qbr",
+    "occurred_on": "2026-04-30",
+    "subject": "Quarterly business review",
+    "outcome": "Neutral",
+    "notes": ""
+  },
+  {
+    "id": "37ea39b0-f43f-52d3-8b6e-26ca852d5fab",
+    "account_id": "a41d940a-f189-534e-953a-53cd852d0135",
+    "contact_id": "8ba98343-d657-54e4-80a9-45c76b3ed66e",
+    "activity_type": "qbr",
+    "occurred_on": "2026-10-06",
+    "subject": "Quarterly business review",
+    "outcome": "Renewal on track; asked about quantum-safe options for data replication",
+    "notes": ""
+  },
+  {
+    "id": "696626ed-8de6-580e-8273-8dc53d5eb540",
+    "account_id": "a41d940a-f189-534e-953a-53cd852d0135",
+    "contact_id": "2d2f2681-5466-5902-8637-3128d50dbf65",
+    "activity_type": "meeting",
+    "occurred_on": "2026-11-01",
+    "subject": "Budget planning 2027",
+    "outcome": "Technology budget up next year",
+    "notes": ""
+  },
+  {
+    "id": "aff1c555-a656-5e3e-b2cf-1b9103fdcb56",
+    "account_id": "f2003dee-89d5-5c7a-8f61-53acc4349356",
+    "contact_id": "759fae9d-e56b-5fa7-9e02-b88f608634ac",
+    "activity_type": "meeting",
+    "occurred_on": "2026-07-10",
+    "subject": "Digital health roadmap",
+    "outcome": "Agreed to scope clinic IoT expansion",
+    "notes": ""
+  },
+  {
+    "id": "7f80951a-6aa9-5d10-adb4-1180739ac0ca",
+    "account_id": "f2003dee-89d5-5c7a-8f61-53acc4349356",
+    "contact_id": "d5ce1d31-2718-553f-865b-195ede32923a",
+    "activity_type": "call",
+    "occurred_on": "2026-08-13",
+    "subject": "IoT device count review",
+    "outcome": "Customer plans to reduce asset trackers",
+    "notes": ""
+  },
+  {
+    "id": "4b400e85-1ba9-5f3b-98f7-953cd71916b9",
+    "account_id": "f2003dee-89d5-5c7a-8f61-53acc4349356",
+    "contact_id": "d8c08ba5-e58b-5def-b64b-26dadf3e96ba",
+    "activity_type": "email",
+    "occurred_on": "2026-10-07",
+    "subject": "Introduction request after CIO departure",
+    "outcome": "No reply",
+    "notes": ""
+  },
+  {
+    "id": "010a4c2a-0aac-5caf-9735-79993ab03fbb",
+    "account_id": "d3fcd1fd-c26f-5394-93ea-d3b29797345c",
+    "contact_id": "0ca2661c-82b9-59b0-a9e6-c07d8f942709",
+    "activity_type": "qbr",
+    "occurred_on": "2026-10-17",
+    "subject": "Quarterly business review",
+    "outcome": "Two new clinics planned for 2027; more mobile lines needed",
+    "notes": ""
+  },
+  {
+    "id": "a88be8f3-70bb-59b0-bbd5-a567d1fa910e",
+    "account_id": "d3fcd1fd-c26f-5394-93ea-d3b29797345c",
+    "contact_id": "e6f7d84b-a9c3-501b-9feb-a374ab64cd24",
+    "activity_type": "meeting",
+    "occurred_on": "2026-09-13",
+    "subject": "Annual planning",
+    "outcome": "Positive",
+    "notes": ""
+  },
+  {
+    "id": "67872e7a-067a-59f0-9479-138e387d1a08",
+    "account_id": "dc0d669a-a1ec-5409-9f54-fa64684d901d",
+    "contact_id": "5472a0ba-6cc5-5f72-9fc0-ff6664f3d9b2",
+    "activity_type": "call",
+    "occurred_on": "2026-10-29",
+    "subject": "RFP confirmed",
+    "outcome": "RFP responses due in January",
+    "notes": ""
+  },
+  {
+    "id": "4183f3e6-06c3-5821-b9db-4695fc3a7a63",
+    "account_id": "dc0d669a-a1ec-5409-9f54-fa64684d901d",
+    "contact_id": "b749143d-79d5-5b8b-a19c-ff9ca3a97890",
+    "activity_type": "meeting",
+    "occurred_on": "2026-09-17",
+    "subject": "Operations review",
+    "outcome": "Concerns about store link performance",
+    "notes": ""
+  },
+  {
+    "id": "bb68eb43-fb55-5dc3-a073-8b98a19614c8",
+    "account_id": "fccc69ee-229c-58cb-9bbd-4a7db2ce26f9",
+    "contact_id": "53a02faa-31a5-5841-9ec1-e4e3d21faa9c",
+    "activity_type": "qbr",
+    "occurred_on": "2026-10-27",
+    "subject": "Quarterly business review",
+    "outcome": "Second distribution centre planned; interested in private 5G for automation",
+    "notes": ""
+  },
+  {
+    "id": "596a437f-7e89-5c4e-a8eb-73f2fd124246",
+    "account_id": "fccc69ee-229c-58cb-9bbd-4a7db2ce26f9",
+    "contact_id": "8a4ec14d-8642-5127-a276-f572b784ad0b",
+    "activity_type": "meeting",
+    "occurred_on": "2026-09-22",
+    "subject": "Store expansion update",
+    "outcome": "Positive",
+    "notes": ""
+  },
+  {
+    "id": "e3f5bae6-5f7d-55b9-b74f-2f1c5487b7e4",
+    "account_id": "28171da6-2ec4-5b39-8d78-f510fe3cd7f2",
+    "contact_id": "2b6236c0-7d77-5979-938b-8afc63bf492a",
+    "activity_type": "qbr",
+    "occurred_on": "2026-10-22",
+    "subject": "Quarterly business review",
+    "outcome": "Indonesia subsidiary expanding warehouses; group wants one network across markets",
+    "notes": ""
+  },
+  {
+    "id": "9d8ac2e2-5d3d-5a5d-a1f5-1ab8a54f6eeb",
+    "account_id": "28171da6-2ec4-5b39-8d78-f510fe3cd7f2",
+    "contact_id": "59c2e526-87b4-52b4-b890-230cc13ab114",
+    "activity_type": "meeting",
+    "occurred_on": "2026-09-27",
+    "subject": "Regional growth plan",
+    "outcome": "Positive",
+    "notes": ""
+  },
+  {
+    "id": "d8dab90c-b1ce-58f8-a8d5-1f16a338ed20",
+    "account_id": "40d667fb-19c5-5112-ad41-f97c3a515ac9",
+    "contact_id": "c3e711be-9433-5ba8-be24-fb2539a119e3",
+    "activity_type": "meeting",
+    "occurred_on": "2026-10-14",
+    "subject": "Expansion update",
+    "outcome": "Two new warehouses opened; connectivity sourced locally for speed",
+    "notes": ""
+  },
+  {
+    "id": "9f67fdc2-8427-5ee7-a448-5acb8ab18130",
+    "account_id": "40d667fb-19c5-5112-ad41-f97c3a515ac9",
+    "contact_id": "296cc46d-f168-5813-8733-c5a198fa50b9",
+    "activity_type": "call",
+    "occurred_on": "2026-11-07",
+    "subject": "Surabaya link issues",
+    "outcome": "Customer asked whether the group network can extend to the new sites",
+    "notes": ""
+  }
+]

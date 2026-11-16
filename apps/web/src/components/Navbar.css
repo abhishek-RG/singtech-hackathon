@@ -78,3 +78,14 @@
 .navbar__theme:hover {
   border-color: var(--border-strong);
 }
+
+.navbar__brand {
+  white-space: nowrap;
+}
+
+/* Phones: keep the brand and every link on one line. */
+@media (max-width: 420px) {
+  .navbar__link {
+    padding-inline: var(--space-2);
+  }
+}

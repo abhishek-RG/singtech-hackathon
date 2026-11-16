@@ -1,6 +1,6 @@
 // Theme = system preference by default; an explicit choice is stored per browser.
 // tokens.css reads <html data-theme="light|dark">.
-const STORAGE_KEY = 'telsing-theme';
+const STORAGE_KEY = 'singtech-theme';
 
 export function initTheme() {
   try {

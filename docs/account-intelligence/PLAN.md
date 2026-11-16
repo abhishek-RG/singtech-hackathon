@@ -11,7 +11,7 @@ Status: approved on 2026-11-16 ("go"). Build steps run one at a time, one commit
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Base branch      | `accounting-ai` is based on the scaffold commit `9635a06 chore: base scaffold`, the same base as the teammates' branches. `main` holds only a static coming soon page and is not the base.                                                                                                      |
 | Branch name      | `accounting-ai` (the misspelled `accouting-ai` was replaced).                                                                                                                                                                                                                                   |
-| Product name     | "SingTech AI" everywhere in this module: UI, docs, code comments. Never "TelSing". `APP_NAME` in `packages/shared` is not edited; our pages carry their own label.                                                                                                                              |
+| Product name     | "SingTech AI" everywhere, including the shared scaffold files (renamed repo-wide on 2026-11-16: package scope `@singtech/*`, service `singtech-api`). `APP_NAME` is "SingTech AI".                                                                                                              |
 | The six products | 5G+, Singtel CUBΣ, Cyber Security, Internet of Things, Mobility, Quantum-Safe Network.                                                                                                                                                                                                          |
 | Currency         | Every money row stores `amount` in local `currency` plus `amount_sgd`. The UI displays SGD.                                                                                                                                                                                                     |
 | Tests            | Root `test` script runs the built-in `node --test`.                                                                                                                                                                                                                                             |
@@ -113,10 +113,12 @@ apps/server/src/modules/account-intelligence/
   account-intelligence.routes.js            Express Router, thin handlers
   account-intelligence.service.js           orchestrates: load account bundle, compute, respond
   data/
+    schema.js                               column lists, allowed values and references per table (validates seed rows)
     adapter.js                              interface description + getAdapter() (env switch)
     mock.adapter.js                         MockAdapter: reads seed JSON, in-memory filters
     supabase.adapter.js                     SupabaseAdapter: same methods over Supabase REST (PostgREST), fetch only
     seed/
+      generate.js                           deterministic generator for every seed file (stories inline; step 8 adds the other 30)
       accounts.json                         about 40 accounts with parent_id hierarchy
       sites.json
       contacts.json
@@ -134,8 +136,9 @@ apps/server/src/modules/account-intelligence/
     health.js                               0-100 score with reasons[] each carrying evidence ids
     whitespace.js                           products lacked vs signals ("what is missing")
     next-action.js                          decision tree (4 questions to 6 actions), config-driven
-    revenue-at-stake.js                     monthly value x months of contract runway, used for sorting
-  account-intelligence.test.js              node:test unit tests for rules on the 10 scripted stories
+    revenue-at-stake.js                     annual recurring revenue x band weight, used for sorting
+    index.js                                analyseAccount(): loads config, applies industry overrides, runs every rule
+  account-intelligence.test.js              node:test tests: seed shape, adapter, rules on the 10 stories, API
 
 supabase/
   migrations/0001_account_intelligence.sql  tables, indexes, RLS policies (not applied until keys exist)
@@ -146,25 +149,22 @@ apps/web/src/pages/
   AccountPage.jsx                           renders <AccountDetail />
 
 apps/web/src/features/account-intelligence/
-  api.js                                    getAccounts(), getAccount(id) via lib/api.js
-  format.js                                 currency, tenure "4 y 3 m", dates, band labels
+  api.js                                    getMeta(), getAccountBook(), getAccount(id), getEvidence() via lib/api.js
+  format.js                                 SGD, dates, tenure "4 y 3 m", labels, evidence index
+  storage.js                                remembered filters, sort and tab (localStorage, guarded)
+  csv.js                                    CSV export, Excel-safe (UTF-8 BOM, formula guard)
   AccountIntelligence.css                   all styles for the feature, tokens only
-  AccountBook.jsx                           list sorted by revenue at stake, filters, summary tiles
-  AccountDetail.jsx                         360 page composed of the cards below
+  AccountBook.jsx                           list view: saved views, filters, sortable table, CSV, keyboard
+  AccountDetail.jsx                         record page: highlights, decision path, tabs, related lists
   components/
     SimulatedDataBanner.jsx                 the visible "Simulated data" label (both pages)
     HealthBadge.jsx                         band pill (Healthy / Watch / At risk) with score
-    AccountHeader.jsx                       name, parent, country, industry, owner, tenure
-    HierarchyTree.jsx                       parent and subsidiaries by country
-    ServicesTable.jsx                       services, site, start date, tenure, status, monthly value
-    ContractsCard.jsx                       contracts, end dates, runway, renewal window
-    StakeholdersCard.jsx                    contacts, roles, "left company" flag
-    ChangesTimeline.jsx                     what changed, newest first, each with evidence
-    HealthCard.jsx                          score, band, reasons with evidence links
-    WhitespaceCard.jsx                      products lacked, matched signal, competitor note
-    NextActionCard.jsx                      one action, talking points, Deal desk button
-    AgentPanel.jsx                          empty slot: "Ask SingTech (coming soon)"
-    EvidenceLink.jsx                        renders an evidence id as "Case C-0412" etc.
+    Toast.jsx                               toast for confirmed actions (CSV export, copy)
+    InsightCards.jsx                        Health and why, What changed, What is missing, Next best action,
+                                            Ask SingTech slot, Account hierarchy
+    RelatedTable.jsx                        related lists (Services, Contracts, Cases, Activities,
+                                            Opportunities, Stakeholders), cards on phones
+    Evidence.jsx                            evidence chips and the source record dialog
 ```
 
 Files we edit (one line each): `routes.jsx`, `Navbar.jsx`, `app.js`, `packages/shared/src/index.js`,
@@ -246,8 +246,9 @@ getCases(accountId, { since })                   -> cases[]
 getActivities(accountId, { since })              -> activities[]
 getBills(accountId, { months })                  -> bills[]
 getOpportunities(accountId)                      -> opportunities[]
-saveHealthScore(row)                             -> row           (mock: in-memory map)
-writeAudit(row)                                  -> void          (mock: console in dev, no-op in test)
+findRecord(id)                                   -> { table, row } | null   (resolves evidence links)
+saveHealthScore(row)                             -> row           (mock: latest per account, in memory)
+writeAudit(row)                                  -> void          (mock: last 500 rows, in memory)
 ```
 
 - `MockAdapter` reads the seed JSON once at start and answers from memory. `today` comes from
@@ -320,9 +321,10 @@ Phase 1 is read-only. No POST routes until Phase 3.
   meeting in N days, contract ending with no renewal opportunity), add small credits (recent QBR,
   spend growth, new sites). Clamp 0 to 100. Bands: Healthy 70 and above, Watch 40 to 69, At risk
   under 40. Every penalty records `evidence_ids`.
-- Revenue at stake: sum of active `monthly_value` x months of runway to the nearest contract end
-  (cap 36), multiplied by a band factor (At risk 1.0, Watch 0.5, Healthy 0.0 for sorting ties).
-  The Account book sorts by this.
+- Revenue at stake: annual recurring revenue (active `monthly_value_sgd` x 12) multiplied by a
+  band weight (At risk 1.0, Watch 0.5, Healthy 0.1). The Account book sorts by this. Changed on
+  2026-11-16 from the first draft (monthly value x months of runway), which ranked a renewal due
+  next month below one due next year: the opposite of what a seller needs.
 - Whitespace: six products minus owned; each lacked product is matched to a signal (for example
   security cases match Cyber Security; new sites or performance cases match Singtel CUBΣ; new
   plants or warehouses match Internet of Things; financial services match Quantum-Safe Network)
@@ -367,7 +369,7 @@ Every number on both screens is computed by the server rules; the UI formats onl
 | #   | Step                                                                                                                                            | Acceptance check                                                                                                                                                                               |
 | --- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1   | Base `accounting-ai` on the scaffold. `npm install`, `npm run build`, start the API and check `/api/health`. Record the decisions in this plan. | Build passes, API answers, no module file yet.                                                                                                                                                 |
-| 2   | Add `packages/shared/src/account-intelligence.js` (products, bands, actions) and `DATA-MODEL.md`. Append `.env.example` block.                  | `npm run build` passes; importing `@telsing/shared` lists six products.                                                                                                                        |
+| 2   | Add `packages/shared/src/account-intelligence.js` (products, bands, actions) and `DATA-MODEL.md`. Append `.env.example` block.                  | `npm run build` passes; importing `@singtech/shared` lists six products.                                                                                                                       |
 | 3   | Seed JSON for the 10 scripted stories only (5 at-risk, 5 healthy) plus `stories.json`.                                                          | JSON validates against the column lists in section 4 (small check in the test file).                                                                                                           |
 | 4   | `MockAdapter` plus `adapter.js` with the env switch.                                                                                            | Unit test: `getAdapter()` returns Mock when env is empty; `listAccounts()` returns 10.                                                                                                         |
 | 5   | Rules: `tenure.js`, `changes.js`, `health.js`, `revenue-at-stake.js`.                                                                           | `node --test` passes: each scripted story gets its expected band and top reason.                                                                                                               |
@@ -390,7 +392,7 @@ purpose.
 | Risk                                                             | Mitigation                                                                                                                                                             |
 | ---------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Branch base differs from `main` (main has no scaffold)           | Decided: based on `9635a06`. The PR target is agreed with the team before opening it.                                                                                  |
-| Port clash: another local session already uses 8787 and 5173     | Run with `PORT=8788` and Vite `--port 5174` while that session is alive; both are env or flag only.                                                                    |
+| Port clash: another local session may hold 8787 or 3000          | Web dev server is on 3000 (`vite.config.js`), API on 8787. Run with `PORT=8788` and `vite --port 3001` while that session is alive; both are env or flag only.         |
 | Scope drift into billing operations                              | Bills are read-only rows and a spend trend; no edit route exists.                                                                                                      |
 | Save plays reading as discounts                                  | The six actions contain no discount action; "price perception" routes to "renewal with value case".                                                                    |
 | Judges see mock data as circular                                 | `stories.json` records the expected outcome next to the inputs, and the tests prove the rules reproduce it; weights live in `config.json` for the mentor to challenge. |
@@ -408,3 +410,52 @@ open, to be raised when they become relevant:
 - Which branch the team will use as the PR target, given that `main` currently holds the
   coming soon page rather than the scaffold.
 - Supabase URL and anon key (and the service-role key for seeding, shared outside git).
+
+## 11. Visual system, workspace, product site and demo sign-in (2026-11-16)
+
+Added after steps 1 to 7, 9 and 10. Step 8 (the other 30 accounts) and step 11 (Supabase) are
+still open.
+
+- **Visual system:** `features/account-intelligence/theme.css` is the only file with colour
+  values. It is scoped to `.st-root`, so teammates' pages keep the shared look, and it remaps
+  the shared token names inside that scope. Light and dark follow the existing theme switch.
+  Checked contrast: body, muted, status pills and button text all meet WCAG AA in both themes.
+- **Routes** (`routes.jsx`, the one shared file changed for this): `/` product site,
+  `/sign-in` demo sign-in, then a signed-in workspace shell for `/accounts`,
+  `/accounts/:accountId` and `/assistant`. The scaffold welcome page moved to `/dev`.
+- **Demo sign-in:** see `DEMO-LOGIN.md`. Two dummy users (admin sees 10 accounts, account
+  manager sees her 4). Every Account Intelligence API route except `/auth/*` needs a session.
+- **Ask SingTech AI:** a rules-based preview. `POST /api/account-intelligence/assistant`
+  answers five intents (summary, why at risk, renewal plan, what is missing, next action) from
+  the same rules, cites records and ends with the next action. No model is called; the Phase 2
+  agent replaces the wording, not the facts.
+
+```
+apps/server/src/modules/account-intelligence/
+  auth/auth.service.js           scrypt hashes, signed session tokens, visibility rule
+  auth/auth.routes.js            /auth/login, /logout, /me, /demo-accounts; requireSession
+  assistant.service.js           intent detection, account matching, sourced answers
+  data/seed/demo-users.json      two dummy users, hashes only
+  auth-and-assistant.test.js     sign-in, throttling, visibility, assistant answers
+
+apps/web/src/features/account-intelligence/
+  theme.css                      the visual system tokens
+  components/Icon.jsx            outline icon set and the SingTech AI mark (no icon library)
+  shell/WorkspaceShell.jsx       sidebar, top bar, theme toggle, rail and drawer
+  shell/session.jsx              session guard and sign-out
+  shell/shell.css
+  auth/SignIn.jsx, auth.css      demo sign-in page
+  assistant/Assistant.jsx        history column, account selector, empty state, thread, composer
+  assistant/assistant.css
+  landing/Landing.jsx            product site, ten sections
+  landing/ProductPreview.jsx     static screenshot-style previews (simulated data)
+  landing/landing.css
+
+apps/web/src/pages/
+  LandingPage.jsx, SignInPage.jsx, AssistantPage.jsx, WorkspaceLayout.jsx
+```
+
+Pattern sources (structure only, rebuilt with our CSS): shadcn-ui/ui sidebar-07 and
+dashboard-01 blocks (MIT), vercel/chatbot `components/chat/*` (licence not detected, no code
+copied), assistant-ui docs demo elements (MIT), magicui `bento-grid.tsx` and `blur-fade.tsx`
+(MIT). Each file that follows one names it in a comment.

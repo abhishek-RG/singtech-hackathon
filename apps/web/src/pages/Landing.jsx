@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from 'react';
-import { APP_NAME } from '@telsing/shared';
+import { APP_NAME } from '@singtech/shared';
 import Button from '../components/Button.jsx';
 import StatusBadge from '../components/StatusBadge.jsx';
 import { api } from '../lib/api.js';

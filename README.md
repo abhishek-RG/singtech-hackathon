@@ -1,6 +1,6 @@
-# TelSing
+# SingTech AI
 
-**TelSing** is an AI sales copilot for Singtel enterprise sales teams: it helps account managers
+**SingTech AI** is the sales copilot for Singtel enterprise sales teams: it helps account managers
 prep accounts, sharpen pitches and close faster.
 
 This repo is the **base scaffold** only: structure, a landing page and a health check.
@@ -14,7 +14,7 @@ Express 5 · plain CSS with design tokens.
 ```
 .
 ├── apps/
-│   ├── web/                    React 19 + Vite front end (port 5173)
+│   ├── web/                    React 19 + Vite front end (port 3000)
 │   │   ├── public/             static files served as-is (favicon)
 │   │   └── src/
 │   │       ├── pages/          one component per route (Landing, NotFound)
@@ -33,7 +33,7 @@ Express 5 · plain CSS with design tokens.
 │           ├── app.js          builds the Express app: json, cors, routes, errors
 │           └── index.js        loads .env and starts the server
 ├── packages/
-│   └── shared/                 constants/utils used by web and server (@telsing/shared)
+│   └── shared/                 constants/utils used by web and server (@singtech/shared)
 ├── .env.example                copy to .env for local config
 ├── CLAUDE.md                   conventions for humans and AI assistants
 └── package.json                workspaces + root scripts
@@ -49,11 +49,11 @@ cp .env.example .env    # optional, defaults work
 npm run dev
 ```
 
-Open **http://localhost:5173**. The status card should show a green **API connected**.
+Open **http://localhost:3000**. The status card should show a green **API connected**.
 
 | Script                 | What it does                                 |
 | ---------------------- | -------------------------------------------- |
-| `npm run dev`          | web (5173) + API (8787) together, hot reload |
+| `npm run dev`          | web (3000) + API (8787) together, hot reload |
 | `npm run dev:web`      | web only                                     |
 | `npm run dev:server`   | API only                                     |
 | `npm run build`        | production build of every workspace          |
@@ -95,7 +95,7 @@ with no CORS setup. Health check: http://localhost:8787/api/health.
 { ok: false, error: { code: 'NOT_FOUND', message: '...' } }  // failure
 ```
 
-`GET /api/health` returns `{ ok: true, service: "telsing-api", time }`.
+`GET /api/health` returns `{ ok: true, service: "singtech-api", time }`.
 
 ## Branch flow
 

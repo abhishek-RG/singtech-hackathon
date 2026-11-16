@@ -1,0 +1,220 @@
+// Column lists and allowed values for the SingTech AI Account Intelligence tables.
+// Mirrors docs/account-intelligence/DATA-MODEL.md. Used to validate the mock seed data, and kept
+// next to the adapters so the MockAdapter and SupabaseAdapter agree on row shape.
+// The audit columns created_at and updated_at are database defaults and are not seeded.
+
+import {
+  CONTACT_ROLES,
+  INDUSTRIES,
+  MARKETS,
+  PRODUCT_CODES,
+  RISK_REASONS as RISK_REASON_LIST,
+  SEGMENTS,
+} from '@singtech/shared';
+
+const MARKET_CODES = MARKETS.map((market) => market.code);
+
+export const COMPETITOR_ALIASES = Object.freeze(['Competitor A', 'Competitor B', 'Competitor C']);
+
+export const TABLES = Object.freeze({
+  accounts: {
+    columns: [
+      'id',
+      'parent_id',
+      'name',
+      'account_type',
+      'segment',
+      'industry',
+      'country',
+      'market',
+      'employee_band',
+      'annual_revenue_band',
+      'owner_name',
+      'owner_email',
+      'is_customer',
+      'customer_since',
+    ],
+    enums: {
+      account_type: ['business', 'billing', 'service'],
+      segment: SEGMENTS.map((segment) => segment.code),
+      industry: [...INDUSTRIES],
+      market: MARKET_CODES,
+      country: MARKET_CODES,
+      employee_band: ['1k-5k', '5k-20k', '20k+'],
+    },
+    dates: ['customer_since'],
+    refs: { parent_id: 'accounts' },
+  },
+  sites: {
+    columns: [
+      'id',
+      'account_id',
+      'name',
+      'site_type',
+      'city',
+      'country',
+      'on_net',
+      'opened_on',
+      'closed_on',
+    ],
+    enums: {
+      site_type: ['hq', 'office', 'plant', 'data_centre', 'warehouse'],
+      country: MARKET_CODES,
+    },
+    dates: ['opened_on', 'closed_on'],
+    refs: { account_id: 'accounts' },
+  },
+  contacts: {
+    columns: [
+      'id',
+      'account_id',
+      'full_name',
+      'title',
+      'email_masked',
+      'role',
+      'left_company',
+      'left_on',
+      'last_contacted_on',
+    ],
+    enums: { role: CONTACT_ROLES.map((role) => role.code) },
+    dates: ['left_on', 'last_contacted_on'],
+    refs: { account_id: 'accounts' },
+  },
+  assets: {
+    columns: [
+      'id',
+      'account_id',
+      'site_id',
+      'product_code',
+      'product_name',
+      'status',
+      'start_date',
+      'end_date',
+      'quantity',
+      'currency',
+      'monthly_value',
+      'monthly_value_sgd',
+      'previous_monthly_value_sgd',
+      'changed_on',
+      'change_type',
+    ],
+    enums: {
+      product_code: [...PRODUCT_CODES],
+      status: ['active', 'downgraded', 'cancelled', 'pending'],
+      change_type: ['added', 'upgraded', 'downgraded', 'removed'],
+    },
+    dates: ['start_date', 'end_date', 'changed_on'],
+    refs: { account_id: 'accounts', site_id: 'sites' },
+    money: [['monthly_value', 'monthly_value_sgd']],
+  },
+  contracts: {
+    columns: [
+      'id',
+      'account_id',
+      'contract_number',
+      'start_date',
+      'end_date',
+      'term_months',
+      'currency',
+      'total_value',
+      'total_value_sgd',
+      'auto_renew',
+      'status',
+      'product_codes',
+    ],
+    enums: { status: ['active', 'expiring', 'expired', 'renewed'] },
+    dates: ['start_date', 'end_date'],
+    refs: { account_id: 'accounts' },
+    money: [['total_value', 'total_value_sgd']],
+    productArrays: ['product_codes'],
+  },
+  cases: {
+    columns: [
+      'id',
+      'account_id',
+      'site_id',
+      'case_number',
+      'opened_on',
+      'closed_on',
+      'severity',
+      'category',
+      'subject',
+      'description',
+      'mentions_competitor',
+      'competitor_alias',
+      'csat',
+    ],
+    enums: {
+      severity: ['low', 'medium', 'high', 'critical'],
+      category: ['outage', 'performance', 'billing_query', 'service_request', 'complaint'],
+      competitor_alias: [...COMPETITOR_ALIASES],
+    },
+    dates: ['opened_on', 'closed_on'],
+    refs: { account_id: 'accounts', site_id: 'sites' },
+  },
+  activities: {
+    columns: [
+      'id',
+      'account_id',
+      'contact_id',
+      'activity_type',
+      'occurred_on',
+      'subject',
+      'outcome',
+      'notes',
+    ],
+    enums: { activity_type: ['meeting', 'call', 'email', 'qbr'] },
+    dates: ['occurred_on'],
+    refs: { account_id: 'accounts', contact_id: 'contacts' },
+  },
+  bills: {
+    columns: [
+      'id',
+      'billing_account_id',
+      'bill_number',
+      'period_start',
+      'period_end',
+      'currency',
+      'amount',
+      'amount_sgd',
+      'status',
+      'product_lines',
+    ],
+    enums: { status: ['paid', 'due', 'overdue', 'disputed'] },
+    dates: ['period_start', 'period_end'],
+    refs: { billing_account_id: 'accounts' },
+    money: [['amount', 'amount_sgd']],
+  },
+  opportunities: {
+    columns: [
+      'id',
+      'account_id',
+      'name',
+      'opportunity_type',
+      'stage',
+      'currency',
+      'amount',
+      'amount_sgd',
+      'product_codes',
+      'created_on',
+      'closed_on',
+      'source',
+      'lost_reason',
+    ],
+    enums: {
+      opportunity_type: ['renewal', 'upsell', 'cross_sell', 'executive_meeting'],
+      stage: ['identified', 'meeting', 'proposal', 'won', 'lost'],
+      source: ['account_intelligence', 'manual'],
+    },
+    dates: ['created_on', 'closed_on'],
+    refs: { account_id: 'accounts' },
+    money: [['amount', 'amount_sgd']],
+    productArrays: ['product_codes'],
+  },
+});
+
+// Tables the MockAdapter loads from seed JSON, in load order.
+export const SEED_TABLES = Object.freeze(Object.keys(TABLES));
+
+// Reason codes the health rules can name as the top reason for an at-risk or watch account.
+export const RISK_REASONS = Object.freeze(RISK_REASON_LIST.map((reason) => reason.code));

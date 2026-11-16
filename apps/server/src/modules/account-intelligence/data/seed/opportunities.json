@@ -1,0 +1,17 @@
+[
+  {
+    "id": "cfaa6e23-38f2-5bb6-b525-3ecaf3d8dfa0",
+    "account_id": "28171da6-2ec4-5b39-8d78-f510fe3cd7f2",
+    "name": "5G+ for Tuas logistics hub",
+    "opportunity_type": "cross_sell",
+    "stage": "won",
+    "currency": "SGD",
+    "amount": 460800,
+    "amount_sgd": 460800,
+    "product_codes": ["5G_PLUS"],
+    "created_on": "2026-03-21",
+    "closed_on": "2026-05-20",
+    "source": "manual",
+    "lost_reason": null
+  }
+]

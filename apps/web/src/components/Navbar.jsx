@@ -1,11 +1,14 @@
 import { useState } from 'react';
 import { Link, NavLink } from 'react-router';
-import { APP_NAME } from '@telsing/shared';
+import { APP_NAME } from '@singtech/shared';
 import { getTheme, setTheme } from '../lib/theme.js';
 import './Navbar.css';
 
 // Add top-level nav entries here as pages are added.
-const NAV_LINKS = [{ to: '/', label: 'Home', end: true }];
+const NAV_LINKS = [
+  { to: '/', label: 'Home', end: true },
+  { to: '/accounts', label: 'Accounts' },
+];
 
 export default function Navbar() {
   const [theme, setThemeState] = useState(getTheme);
@@ -21,7 +24,7 @@ export default function Navbar() {
       <div className="container navbar__inner">
         <Link to="/" className="navbar__brand" aria-label={`${APP_NAME} home`}>
           <span className="navbar__logo" aria-hidden="true">
-            T
+            S
           </span>
           {APP_NAME}
         </Link>

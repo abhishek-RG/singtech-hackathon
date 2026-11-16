@@ -1,0 +1,15 @@
+{
+  "name": "singtech-ai",
+  "version": "0.1.0",
+  "private": true,
+  "description": "SingTech AI coming soon page",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js",
+    "test": "node --test"
+  }
+}

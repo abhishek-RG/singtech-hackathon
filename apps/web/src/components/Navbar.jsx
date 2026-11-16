@@ -7,7 +7,7 @@ import './Navbar.css';
 // Add top-level nav entries here as pages are added.
 const NAV_LINKS = [{ to: '/', label: 'Home', end: true }];
 
-export default function Navbar() {
+export default function Navbar({ user, onSignOut }) {
   const [theme, setThemeState] = useState(getTheme);
 
   const toggleTheme = () => {
@@ -27,6 +27,14 @@ export default function Navbar() {
         </Link>
 
         <nav className="navbar__nav" aria-label="Main">
+          {user && (
+            <>
+              <span className="navbar__user">{user.name}</span>
+              <button type="button" className="navbar__signout" onClick={onSignOut}>
+                Sign out
+              </button>
+            </>
+          )}
           {NAV_LINKS.map((link) => (
             <NavLink key={link.to} to={link.to} end={link.end} className="navbar__link">
               {link.label}

@@ -49,7 +49,25 @@ cp .env.example .env    # optional, defaults work
 npm run dev
 ```
 
-Open **http://localhost:5173**. The status card should show a green **API connected**.
+Open **http://localhost:5173** to reach the sign-in page, then open the customer workspace.
+
+The prototype currently has one preconfigured demo login and no public signup. Copy the values in
+`.env.example` into `.env`, then use the configured `DEMO_USER_EMAIL` and `DEMO_USER_PASSWORD` to
+sign in. Replace the example password and session secret before exposing the app beyond local
+development. This prototype login is not the final Singtel SSO/authentication setup.
+
+Pasted email conversations are saved under `apps/server/.local-data/` so they remain in the
+customer timeline after a server restart. That directory is ignored by Git. Use synthetic content
+only; this local file store is a prototype adapter, not production customer-data storage.
+
+The Intelligence tab can retrieve semantically relevant account records using a local Node
+embedding model. The model weights download on the first semantic search. Add `GROQ_API_KEY` to
+`.env` when you want the app to generate natural-language answers; without it, the app still shows
+retrieved source passages.
+
+The Supabase Postgres/pgvector schema and connection check are prepared, but the app remains on
+local prototype storage until `SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY` are configured and the
+data access layer is migrated. See `docs/database-setup.md` before enabling the connection.
 
 | Script                 | What it does                                 |
 | ---------------------- | -------------------------------------------- |

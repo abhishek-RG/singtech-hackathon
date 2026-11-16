@@ -23,6 +23,7 @@ export async function request(path, { method = 'GET', body, headers, signal } = 
     res = await fetch(`${BASE_URL}${API_PREFIX}${path}`, {
       method,
       signal,
+      credentials: 'same-origin',
       headers: {
         Accept: 'application/json',
         ...(body !== undefined && { 'Content-Type': 'application/json' }),

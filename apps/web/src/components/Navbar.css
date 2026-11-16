@@ -78,3 +78,31 @@
 .navbar__theme:hover {
   border-color: var(--border-strong);
 }
+
+.navbar__user {
+  padding-inline: var(--space-3);
+  color: var(--text-muted);
+  font-size: var(--text-sm);
+}
+
+.navbar__signout {
+  border: 0;
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--text-muted);
+  font: inherit;
+  font-size: var(--text-sm);
+  cursor: pointer;
+}
+
+.navbar__signout:hover {
+  background: var(--bg-subtle);
+  color: var(--text);
+}
+
+@media (max-width: 520px) {
+  .navbar__user {
+    display: none;
+  }
+}

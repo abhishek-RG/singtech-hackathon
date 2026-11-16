@@ -2,7 +2,7 @@
 
 The enterprise sales workspace for Singtel Business account teams. Coming soon.
 
-This branch holds a single static placeholder page.
+`main` holds a single static placeholder page with no build step and no dependencies.
 
 ## Preview
 
@@ -14,5 +14,8 @@ npx serve .
 
 ## Files
 
-- `index.html`: the coming soon page (self-contained, light and dark mode, mobile friendly)
-- `favicon.svg`: site icon
+| File          | Purpose                                                      |
+| ------------- | ------------------------------------------------------------ |
+| `index.html`  | The coming soon page. Light and dark mode, mobile friendly.  |
+| `favicon.svg` | Brand mark, used as the favicon and the header logo.         |
+| `CLAUDE.md`   | Conventions for contributors and AI assistants.              |

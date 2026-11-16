@@ -3,12 +3,18 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0b1120" media="(prefers-color-scheme: dark)">
   <title>SingTech | Coming soon</title>
-  <meta name="description" content="SingTech, the enterprise sales workspace for Singtel Business. Coming soon.">
+  <meta name="description" content="SingTech is the enterprise sales workspace for Singtel Business account teams. Coming soon.">
+  <meta property="og:title" content="SingTech | Coming soon">
+  <meta property="og:description" content="The enterprise sales workspace for Singtel Business account teams.">
+  <meta property="og:type" content="website">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap">
   <style>
     :root {
       --bg: #ffffff;
@@ -19,6 +25,7 @@
       --accent: #e60000;
       --grid: rgba(15, 23, 42, 0.05);
     }
+
     @media (prefers-color-scheme: dark) {
       :root {
         --bg: #0b1120;
@@ -30,22 +37,31 @@
         --grid: rgba(241, 245, 249, 0.04);
       }
     }
-    * { box-sizing: border-box; margin: 0; }
-    html, body { height: 100%; }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+    }
+
     body {
-      font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      -webkit-font-smoothing: antialiased;
+      min-height: 100vh;
+      min-height: 100dvh;
       display: flex;
       flex-direction: column;
+      font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      color: var(--text);
+      background-color: var(--bg);
       background-image:
         linear-gradient(var(--grid) 1px, transparent 1px),
         linear-gradient(90deg, var(--grid) 1px, transparent 1px);
       background-size: 48px 48px;
       background-position: center;
+      -webkit-font-smoothing: antialiased;
     }
-    header, footer {
+
+    .bar {
       width: 100%;
       max-width: 1120px;
       margin: 0 auto;
@@ -53,34 +69,37 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
+      gap: 8px;
     }
+
     .brand {
       display: flex;
       align-items: center;
       gap: 10px;
-      font-weight: 700;
       font-size: 17px;
+      font-weight: 700;
       letter-spacing: -0.01em;
     }
-    .mark {
+
+    .brand img {
       width: 28px;
       height: 28px;
-      border-radius: 7px;
-      background: var(--accent);
-      display: grid;
-      place-items: center;
-      color: #fff;
-      font-size: 14px;
-      font-weight: 700;
+      display: block;
     }
+
     main {
       flex: 1;
       display: grid;
       place-items: center;
       padding: 24px 16px 64px;
     }
-    .hero { max-width: 640px; text-align: center; }
-    .pill {
+
+    .hero {
+      max-width: 640px;
+      text-align: center;
+    }
+
+    .status {
       display: inline-flex;
       align-items: center;
       gap: 8px;
@@ -92,55 +111,74 @@
       font-size: 13px;
       font-weight: 500;
     }
-    .dot {
+
+    .status::before {
+      content: "";
       width: 7px;
       height: 7px;
       border-radius: 50%;
       background: var(--accent);
       animation: pulse 2s ease-in-out infinite;
     }
-    @keyframes pulse { 50% { opacity: 0.35; } }
-    @media (prefers-reduced-motion: reduce) { .dot { animation: none; } }
+
+    @keyframes pulse {
+      50% { opacity: 0.35; }
+    }
+
     h1 {
       margin-top: 24px;
       font-size: clamp(40px, 8vw, 72px);
-      line-height: 1.05;
       font-weight: 700;
+      line-height: 1.05;
       letter-spacing: -0.035em;
     }
-    h1 span { color: var(--accent); }
-    p.lead {
-      margin: 20px auto 0;
+
+    h1 span {
+      color: var(--accent);
+    }
+
+    .lead {
       max-width: 520px;
+      margin: 20px auto 0;
       color: var(--muted);
       font-size: clamp(16px, 2.2vw, 18px);
       line-height: 1.6;
     }
-    footer { color: var(--muted); font-size: 13px; }
+
+    footer.bar {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
     @media (max-width: 480px) {
-      header, footer { padding: 16px; }
-      footer { flex-direction: column; gap: 4px; }
+      .bar { padding: 16px; }
+      footer.bar { flex-direction: column; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .status::before { animation: none; }
     }
   </style>
 </head>
 <body>
-  <header>
-    <div class="brand"><div class="mark" aria-hidden="true">S</div>SingTech</div>
+  <header class="bar">
+    <div class="brand">
+      <img src="favicon.svg" alt="" width="28" height="28">
+      <span>SingTech</span>
+    </div>
   </header>
 
   <main>
     <section class="hero">
-      <div class="pill"><span class="dot" aria-hidden="true"></span>In development</div>
+      <p class="status">In development</p>
       <h1>Coming <span>soon</span></h1>
       <p class="lead">The enterprise sales workspace for Singtel Business account teams. Account signals, opportunities and client proposals in one place.</p>
     </section>
   </main>
 
-  <footer>
-    <span>&copy; <span id="year">2026</span> SingTech</span>
+  <footer class="bar">
+    <span>&copy; 2026 SingTech</span>
     <span>Built for Singtel Business</span>
   </footer>
-
-  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
 </body>
 </html>

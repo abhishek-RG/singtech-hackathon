@@ -1,0 +1,1205 @@
+[
+  {
+    "id": "51a2fe0757c5d0afe3c7a7a9c838c692bc54495f",
+    "title": "Singtel Group raises EBIT guidance as underlying profit up 10% to S$1.49 billion",
+    "url": "https://www.singtel.com/about-us/media-centre/news-releases/singtel-group-raise-ebit-guidance",
+    "publishedAt": "2026-11-13T04:00:00.000Z",
+    "source": "Singtel",
+    "snippet": "H1 FY27: NCS revenue grew 10% with S$1.6 billion of bookings and increasing demand for AI and digital resilience work. Digital InfraCo revenue and EBIT rose 22% and 25%; Nxera revenue rose 21% as customers ramped up at its 58MW DC Tuas. RE:AI is on track to reach 6MW by the end of the financial year, all contracted for three to five years.",
+    "kind": "singtel-news",
+    "products": [
+      "SGT-CUBE",
+      "SGT-REAI",
+      "SGT-NXERA",
+      "SGT-NCS"
+    ],
+    "triggers": [
+      "Data centre or colocation",
+      "AI compute or sovereign AI",
+      "Nxera data centres named",
+      "RE:AI sovereign cloud named",
+      "NCS named"
+    ],
+    "score": 80,
+    "scoreBreakdown": [
+      {
+        "label": "Recency",
+        "points": 30
+      },
+      {
+        "label": "Trigger strength",
+        "points": 35
+      },
+      {
+        "label": "Product fit",
+        "points": 15
+      },
+      {
+        "label": "Singapore and India relevance",
+        "points": 0
+      }
+    ]
+  },
+  {
+    "id": "72bd22a26124a149aa544f96843ccd12eb0293af",
+    "title": "H1 FY27 news release: Singtel28 progress and FY2027 guidance",
+    "url": "https://cdn1.singteldigital.com/content/dam/singtel/investorRelations/financialResults/2027/H1FY27/Singtel%20Group%20NR%20-%201HFY27%20FINAL.pdf",
+    "publishedAt": "2026-11-13T04:00:00.000Z",
+    "source": "Singtel Investor Relations",
+    "snippet": "Digital InfraCo and NCS now account for some 18% of Group EBITDA. Singtel completed its STT GDC acquisition with KKR in August, RE:AI became the first in APAC to deploy NVIDIA DGX GB300, and OpCo EBIT growth guidance was raised to between mid and high single digits.",
+    "kind": "singtel-news",
+    "products": [
+      "SGT-REAI",
+      "SGT-NCS"
+    ],
+    "triggers": [
+      "AI compute or sovereign AI",
+      "RE:AI sovereign cloud named",
+      "NCS named"
+    ],
+    "score": 80,
+    "scoreBreakdown": [
+      {
+        "label": "Recency",
+        "points": 30
+      },
+      {
+        "label": "Trigger strength",
+        "points": 35
+      },
+      {
+        "label": "Product fit",
+        "points": 10
+      },
+      {
+        "label": "Singapore and India relevance",
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "65755a1128687db920e03ea0dcc07b1e4f0e1395",
+    "title": "Singtel and DART launch cybersecurity training programme to strengthen cyber defences across Singapore's enterprises, including Critical Information Infrastructure sectors",
+    "url": "https://www.singtel.com/about-us/media-centre/news-releases/singtel-and-dart-launch-cybersecurity-training-programme",
+    "publishedAt": "2026-11-04T04:00:00.000Z",
+    "source": "Singtel",
+    "snippet": "The Advanced Persistent Threat Detection and Response Programme trains cybersecurity professionals to detect, investigate and respond to APTs targeting IT and OT environments, including at Critical Information Infrastructure owners.",
+    "kind": "singtel-news",
+    "products": [
+      "SGT-CYBER",
+      "SGT-QSN"
+    ],
+    "triggers": [
+      "Cyber incident or regulation"
+    ],
+    "score": 61,
+    "scoreBreakdown": [
+      {
+        "label": "Recency",
+        "points": 16
+      },
+      {
+        "label": "Trigger strength",
+        "points": 25
+      },
+      {
+        "label": "Product fit",
+        "points": 10
+      },
+      {
+        "label": "Singapore and India relevance",
+        "points": 10
+      }
+    ]
+  },
+  {
+    "id": "545f4f8c99fb8d3295f9a4a8241050e637bf5a94",
+    "title": "NUHS, Singtel and Ericsson expand partnership to advance next-generation connected healthcare",
+    "url": "https://www.singtel.com/about-us/media-centre/news-releases/nuhs-singtel-and-ericsson-expand-partnership",
+    "publishedAt": "2026-11-03T04:00:00.000Z",
+    "source": "Singtel",
+    "snippet": "An MOU covers research on connected healthcare, 5G-Advanced and 6G. Singtel and Ericsson are founding partners of the National University XG AI Centre (NXAC) at NUHS.",
+    "kind": "singtel-news",
+    "products": [
+      "SGT-5G",
+      "SGT-CUBE",
+      "SGT-CYBER",
+      "SGT-MOB",
+      "SGT-REAI"
+    ],
+    "triggers": [
+      "Expansion or new office",
+      "AI compute or sovereign AI",
+      "5G or private network"
+    ],
+    "score": 66,
+    "scoreBreakdown": [
+      {
+        "label": "Recency",
+        "points": 16
+      },
+      {
+        "label": "Trigger strength",
+        "points": 35
+      },
+      {
+        "label": "Product fit",
+        "points": 15
+      },
+      {
+        "label": "Singapore and India relevance",
+        "points": 0
+      }
+    ]
+  },
+  {
+    "id": "712b6eeebbef3b0fa589dee9f35b8c0c149bb29c",
+    "title": "NCS launches AI Mission Centre",
+    "url": "https://www.crnasia.com/news/2026/artificial-intelligence/ncs-has-launched-the-ncs-ai-mission-centre",
+    "publishedAt": "2026-10-29T04:00:00.000Z",
+    "source": "CRN Asia",
+    "snippet": "NCS opened an AI Mission Centre to help public and private organisations move from AI experimentation to enterprise deployment, committed to more than 300 forward-deployed engineers within two years, and signed MOUs with Changi Airport Group, the Institute of Mental Health and Life3 Biotech.",
+    "kind": "singtel-news",
+    "products": [
+      "SGT-REAI",
+      "SGT-NCS"
+    ],
+    "triggers": [
+      "AI compute or sovereign AI",
+      "NCS named"
+    ],
+    "score": 51,
+    "scoreBreakdown": [
+      {
+        "label": "Recency",
+        "points": 16
+      },
+      {
+        "label": "Trigger strength",
+        "points": 25
+      },
+      {
+        "label": "Product fit",
+        "points": 10
+      },
+      {
+        "label": "Singapore and India relevance",
+        "points": 0
+      }
+    ]
+  },
+  {
+    "id": "dba43effd76d1e85af52ea212cedde8f8af3dbb9",
+    "title": "Singtel's RE:AI first in APAC to deploy NVIDIA DGX GB300 amid strong demand for advanced AI compute",
+    "url": "https://www.singtel.com/about-us/media-centre/news-releases/reai-first-in-apac-to-deploy-nvidiadgxgb300",
+    "publishedAt": "2026-10-28T04:00:00.000Z",
+    "source": "Singtel",
+    "snippet": "The initial DGX GB300 capacity, offered through RE:AI's GPU-as-a-Service in a sovereign cloud, was fully committed ahead of deployment. The sovereign environment addresses data security, integrity and residency requirements for regulated organisations.",
+    "kind": "singtel-news",
+    "products": [
+      "SGT-REAI"
+    ],
+    "triggers": [
+      "AI compute or sovereign AI",
+      "RE:AI sovereign cloud named"
+    ],
+    "score": 51,
+    "scoreBreakdown": [
+      {
+        "label": "Recency",
+        "points": 16
+      },
+      {
+        "label": "Trigger strength",
+        "points": 25
+      },
+      {
+        "label": "Product fit",
+        "points": 5
+      },
+      {
+        "label": "Singapore and India relevance",
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "b7191453ed1832ed18b8396d6f77aacb1ddfba41",
+    "title": "Sembcorp collaborates with Nxera to supply low-carbon energy to Nxera data centres",
+    "url": "https://www.singtel.com/about-us/media-centre/news-releases/sembcorp-collaborates-with-nxera0",
+    "publishedAt": "2026-10-26T04:00:00.000Z",
+    "source": "Singtel",
+    "snippet": "Sembcorp Utilities and Nxera signed an MOU to assess renewable and low-carbon energy for Nxera's Singapore data centres, including hydrogen-based and biomethane-based generation and imports from a floating solar project in Johor.",
+    "kind": "singtel-news",
+    "products": [
+      "SGT-CUBE",
+      "SGT-NXERA"
+    ],
+    "triggers": [
+      "Data centre or colocation",
+      "Nxera data centres named"
+    ],
+    "score": 71,
+    "scoreBreakdown": [
+      {
+        "label": "Recency",
+        "points": 16
+      },
+      {
+        "label": "Trigger strength",
+        "points": 35
+      },
+      {
+        "label": "Product fit",
+        "points": 10
+      },
+      {
+        "label": "Singapore and India relevance",
+        "points": 10
+      }
+    ]
+  },
+  {
+    "id": "4c35f968c11ea7d338019e516c50d1809f4349fa",
+    "title": "Singtel and Ericsson deepen partnership to scale 5G innovation and build AI-native networks for consumers and enterprises in Singapore",
+    "url": "https://www.singtel.com/about-us/media-centre/news-releases/singtel-and-ericsson-deepen-partnership",
+    "publishedAt": "2026-10-20T04:00:00.000Z",
+    "source": "Singtel",
+    "snippet": "A five-year strategic partnership focuses on scaling 5G Advanced and AI-powered network capabilities across industries. A live-network trial of AI-powered radio access network capabilities showed a 19% improvement in throughput.",
+    "kind": "singtel-news",
+    "products": [
+      "SGT-5G",
+      "SGT-REAI"
+    ],
+    "triggers": [
+      "AI compute or sovereign AI",
+      "5G or private network"
+    ],
+    "score": 66,
+    "scoreBreakdown": [
+      {
+        "label": "Recency",
+        "points": 16
+      },
+      {
+        "label": "Trigger strength",
+        "points": 30
+      },
+      {
+        "label": "Product fit",
+        "points": 10
+      },
+      {
+        "label": "Singapore and India relevance",
+        "points": 10
+      }
+    ]
+  },
+  {
+    "id": "c8cea9bb32b8304e154576d79a9db97d46e1b96c",
+    "title": "Singtel's RE:AI partners SIT x NVIDIA AI Technology Centre to accelerate enterprise AI adoption",
+    "url": "https://www.singtel.com/about-us/media-centre/news-releases/singtels-reai-partners-sit-x-nvidia-ai-technology-centre-to-accelerate-enterprise-ai-adoption",
+    "publishedAt": "2026-10-08T04:00:00.000Z",
+    "source": "Singtel",
+    "snippet": "Enterprises in Digital InfraCo's Centre of Excellence for Applied AI with NVIDIA will work with SIT students and researchers to move AI pilots into production on RE:AI's sovereign AI cloud.",
+    "kind": "singtel-news",
+    "products": [
+      "SGT-REAI"
+    ],
+    "triggers": [
+      "AI compute or sovereign AI",
+      "RE:AI sovereign cloud named"
+    ],
+    "score": 39,
+    "scoreBreakdown": [
+      {
+        "label": "Recency",
+        "points": 9
+      },
+      {
+        "label": "Trigger strength",
+        "points": 25
+      },
+      {
+        "label": "Product fit",
+        "points": 5
+      },
+      {
+        "label": "Singapore and India relevance",
+        "points": 0
+      }
+    ]
+  },
+  {
+    "id": "432332dabc43fa68109ebe90ef3275aea0ef259b",
+    "title": "Singtel's RE:AI launches AI Token-as-a-Service to accelerate enterprise AI adoption",
+    "url": "https://www.singtel.com/about-us/media-centre/news-releases/singtel-reai-launches-ai-token-as-a-service",
+    "publishedAt": "2026-10-01T04:00:00.000Z",
+    "source": "Singtel",
+    "snippet": "TaaS is a fully managed service giving enterprises access to AI models, infrastructure, orchestration and governance on a token-based consumption model, hosted on sovereign infrastructure in Singapore to address cost, model management and data sovereignty.",
+    "kind": "singtel-news",
+    "products": [
+      "SGT-REAI"
+    ],
+    "triggers": [
+      "AI compute or sovereign AI",
+      "RE:AI sovereign cloud named"
+    ],
+    "score": 49,
+    "scoreBreakdown": [
+      {
+        "label": "Recency",
+        "points": 9
+      },
+      {
+        "label": "Trigger strength",
+        "points": 25
+      },
+      {
+        "label": "Product fit",
+        "points": 5
+      },
+      {
+        "label": "Singapore and India relevance",
+        "points": 10
+      }
+    ]
+  },
+  {
+    "id": "acbba5d34a6c200615bdbbd71ce41a4778412e8f",
+    "title": "Gulf and Singtel Group form strategic partnership to enhance submarine cable connectivity between Thailand and Singapore",
+    "url": "https://www.singtel.com/about-us/media-centre/news-releases/gulf-and-singtel-group-form-strategic-partnership",
+    "publishedAt": "2026-09-10T04:00:00.000Z",
+    "source": "Singtel",
+    "snippet": "Gulf Development and Singtel will develop and invest in subsea cable assets between Thailand and Singapore to support demand for cloud, AI, data centre and digital services across the region.",
+    "kind": "singtel-news",
+    "products": [
+      "SGT-CUBE",
+      "SGT-REAI",
+      "SGT-NXERA"
+    ],
+    "triggers": [
+      "Data centre or colocation",
+      "AI compute or sovereign AI",
+      "Subsea cable or enterprise connectivity"
+    ],
+    "score": 69,
+    "scoreBreakdown": [
+      {
+        "label": "Recency",
+        "points": 9
+      },
+      {
+        "label": "Trigger strength",
+        "points": 35
+      },
+      {
+        "label": "Product fit",
+        "points": 15
+      },
+      {
+        "label": "Singapore and India relevance",
+        "points": 10
+      }
+    ]
+  },
+  {
+    "id": "eb03bb9db623f6895a6cc3aba351766d4ea525e7",
+    "title": "NEC to supply I-2SEA cable linking India's AI hubs with Singapore",
+    "url": "https://convergedigest.com/nec-to-supply-i-2sea-cable-linking-indias-ai-hubs-with-singapore/",
+    "publishedAt": "2026-07-03T04:00:00.000Z",
+    "source": "Converge Digest",
+    "snippet": "NEC signed a supply contract with a consortium of Lightstorm, Microsoft, Singtel and Tata Communications to build the India-Southeast Asia (I-2SEA) submarine cable system, about 3,600 km long.",
+    "kind": "singtel-news",
+    "products": [
+      "SGT-CUBE",
+      "SGT-REAI"
+    ],
+    "triggers": [
+      "AI compute or sovereign AI",
+      "Subsea cable or enterprise connectivity"
+    ],
+    "score": 61,
+    "scoreBreakdown": [
+      {
+        "label": "Recency",
+        "points": 4
+      },
+      {
+        "label": "Trigger strength",
+        "points": 30
+      },
+      {
+        "label": "Product fit",
+        "points": 10
+      },
+      {
+        "label": "Singapore and India relevance",
+        "points": 17
+      }
+    ]
+  },
+  {
+    "id": "fead8bde27fec6bce06ede4e8d749ac794dcd4e4",
+    "title": "Singtel Digital InfraCo's RE:AI and WEKA partner to deliver sovereign AI infrastructure across ASEAN",
+    "url": "https://www.singtel.com/about-us/media-centre/news-releases/singtel-digita-infraco-reai-and-weka",
+    "publishedAt": "2026-06-10T04:00:00.000Z",
+    "source": "Singtel",
+    "snippet": "The MOU combines RE:AI's sovereign AI cloud, the Paragon orchestration platform and managed services with WEKA's NeuralMesh storage for governments, enterprises and critical sectors in Singapore and ASEAN.",
+    "kind": "singtel-news",
+    "products": [
+      "SGT-REAI"
+    ],
+    "triggers": [
+      "AI compute or sovereign AI",
+      "RE:AI sovereign cloud named"
+    ],
+    "score": 44,
+    "scoreBreakdown": [
+      {
+        "label": "Recency",
+        "points": 4
+      },
+      {
+        "label": "Trigger strength",
+        "points": 25
+      },
+      {
+        "label": "Product fit",
+        "points": 5
+      },
+      {
+        "label": "Singapore and India relevance",
+        "points": 10
+      }
+    ]
+  },
+  {
+    "id": "4d24292c378a9087f70e49f94df6d4e31e52d33e",
+    "title": "Singtel posts FY26 net profit of S$5.61 billion; underlying profit up 12% to S$2.77 billion",
+    "url": "https://www.singtel.com/about-us/media-centre/news-releases/singtel-posts-fy26-net-profit",
+    "publishedAt": "2026-05-21T04:00:00.000Z",
+    "source": "Singtel",
+    "snippet": "Operating company EBIT rose 9% on robust performances from NCS, Digital InfraCo and Optus, in the second year of the Singtel28 growth plan.",
+    "kind": "singtel-news",
+    "products": [
+      "SGT-NCS"
+    ],
+    "triggers": [
+      "NCS named"
+    ],
+    "score": 19,
+    "scoreBreakdown": [
+      {
+        "label": "Recency",
+        "points": 4
+      },
+      {
+        "label": "Trigger strength",
+        "points": 10
+      },
+      {
+        "label": "Product fit",
+        "points": 5
+      },
+      {
+        "label": "Singapore and India relevance",
+        "points": 0
+      }
+    ]
+  },
+  {
+    "id": "3c750bdf1a8f69504c883a1b2ebcd10e1f7bb918",
+    "title": "Singtel Digital InfraCo's RE:AI and Mistral AI partner to strengthen Singapore's industry AI capabilities",
+    "url": "https://www.singtel.com/about-us/media-centre/news-releases/singtel-mistral-ai",
+    "publishedAt": "2026-04-27T04:00:00.000Z",
+    "source": "Singtel",
+    "snippet": "The partnership co-develops sector-specific AI for financial services, defence, government shared services and healthcare, deployable from Nxera's upcoming AI-ready data centres in Singapore, Johor and Batam.",
+    "kind": "singtel-news",
+    "products": [
+      "SGT-CUBE",
+      "SGT-REAI",
+      "SGT-NXERA"
+    ],
+    "triggers": [
+      "Data centre or colocation",
+      "AI compute or sovereign AI",
+      "Nxera data centres named",
+      "RE:AI sovereign cloud named"
+    ],
+    "score": 64,
+    "scoreBreakdown": [
+      {
+        "label": "Recency",
+        "points": 4
+      },
+      {
+        "label": "Trigger strength",
+        "points": 35
+      },
+      {
+        "label": "Product fit",
+        "points": 15
+      },
+      {
+        "label": "Singapore and India relevance",
+        "points": 10
+      }
+    ]
+  },
+  {
+    "id": "f8800c7387b233df6e0208bc663086a47f62dc7d",
+    "title": "Singtel's RE:AI partners with Cohesity to launch intelligent, sovereign AI data security and management service",
+    "url": "https://www.singtel.com/about-us/media-centre/news-releases/singtel-s-re-ai-partners-with-cohesity-to-launch-intelligent-sovereign-ai-data-security-and-management-service",
+    "publishedAt": "2026-03-12T04:00:00.000Z",
+    "source": "Singtel",
+    "snippet": "The service turns enterprise backup archives into a searchable knowledge base for AI while keeping sensitive information within Singapore.",
+    "kind": "singtel-news",
+    "products": [
+      "SGT-REAI"
+    ],
+    "triggers": [
+      "AI compute or sovereign AI",
+      "RE:AI sovereign cloud named"
+    ],
+    "score": 44,
+    "scoreBreakdown": [
+      {
+        "label": "Recency",
+        "points": 4
+      },
+      {
+        "label": "Trigger strength",
+        "points": 25
+      },
+      {
+        "label": "Product fit",
+        "points": 5
+      },
+      {
+        "label": "Singapore and India relevance",
+        "points": 10
+      }
+    ]
+  },
+  {
+    "id": "3c24e067e335f5b4156a6230b8086b90554e4da5",
+    "title": "Zscaler partners with Singtel Singapore to bring Zero Trust security to cellular IoT and OT across Southeast Asia",
+    "url": "https://www.zscaler.com/press/zscaler-partners-singtel-singapore-bring-zero-trust-security-cellular-iot-ot-across-southeast",
+    "publishedAt": "2026-03-03T04:00:00.000Z",
+    "source": "Zscaler",
+    "snippet": "Under an MOU signed at Mobile World Congress, Singtel Singapore will serve as Zscaler's Southeast Asian service provider for Zscaler Cellular, giving enterprises secure cellular IoT and OT connectivity.",
+    "kind": "singtel-news",
+    "products": [
+      "SGT-CUBE",
+      "SGT-CYBER",
+      "SGT-QSN"
+    ],
+    "triggers": [
+      "Cyber incident or regulation",
+      "Subsea cable or enterprise connectivity"
+    ],
+    "score": 64,
+    "scoreBreakdown": [
+      {
+        "label": "Recency",
+        "points": 4
+      },
+      {
+        "label": "Trigger strength",
+        "points": 35
+      },
+      {
+        "label": "Product fit",
+        "points": 15
+      },
+      {
+        "label": "Singapore and India relevance",
+        "points": 10
+      }
+    ]
+  },
+  {
+    "id": "31e3e7a311d7a086130cdf9ae88b005ca3e7d79d",
+    "title": "Nxera opens Singapore's highest power-density, most energy efficient and multi-tenanted data centre, accelerating AI innovations",
+    "url": "https://www.singtel.com/about-us/media-centre/news-releases/nxera-opens-data-centre",
+    "publishedAt": "2026-02-09T04:00:00.000Z",
+    "source": "Singtel",
+    "snippet": "DC Tuas adds 58MW of AI-ready capacity, taking Nxera's Singapore total to 120MW, with more than 90% committed before launch and Singapore's largest direct-to-chip liquid cooling deployment.",
+    "kind": "singtel-news",
+    "products": [
+      "SGT-CUBE",
+      "SGT-CYBER",
+      "SGT-MOB",
+      "SGT-REAI",
+      "SGT-NXERA"
+    ],
+    "triggers": [
+      "Expansion or new office",
+      "Data centre or colocation",
+      "AI compute or sovereign AI",
+      "Nxera data centres named"
+    ],
+    "score": 64,
+    "scoreBreakdown": [
+      {
+        "label": "Recency",
+        "points": 4
+      },
+      {
+        "label": "Trigger strength",
+        "points": 35
+      },
+      {
+        "label": "Product fit",
+        "points": 15
+      },
+      {
+        "label": "Singapore and India relevance",
+        "points": 10
+      }
+    ]
+  },
+  {
+    "id": "5d50e1184e7fbd0ef06a6014cd68af5c5ce18b25",
+    "title": "Singtel Singapore establishes Brazil sales office to accelerate digital transformation of multinational enterprises",
+    "url": "https://www.singtel.com/about-us/media-centre/news-releases/singtel-singapore-establishes-brazil-presence",
+    "publishedAt": "2026-02-05T04:00:00.000Z",
+    "source": "Singtel",
+    "snippet": "The office brings SD-WAN, orchestration and secure cloud-first architectures to multinational enterprises in Brazil. It is the eighth Singtel global office set up to support its enterprise customers.",
+    "kind": "singtel-news",
+    "products": [
+      "SGT-CUBE",
+      "SGT-CYBER",
+      "SGT-MOB",
+      "SGT-NCS"
+    ],
+    "triggers": [
+      "Expansion or new office",
+      "Subsea cable or enterprise connectivity",
+      "IT services or digital transformation"
+    ],
+    "score": 64,
+    "scoreBreakdown": [
+      {
+        "label": "Recency",
+        "points": 4
+      },
+      {
+        "label": "Trigger strength",
+        "points": 35
+      },
+      {
+        "label": "Product fit",
+        "points": 15
+      },
+      {
+        "label": "Singapore and India relevance",
+        "points": 10
+      }
+    ]
+  },
+  {
+    "id": "e4fdeb51976748dafca62fdeda0334cb0f858286",
+    "title": "HTX and Singtel Group deepen partnership to strengthen Singapore's public safety capabilities",
+    "url": "https://www.singtel.com/about-us/media-centre/news-releases/htx-and-singtel-group-deepen-partnership-to-strengthen-singapore",
+    "publishedAt": "2026-02-02T04:00:00.000Z",
+    "source": "Singtel",
+    "snippet": "A five-year agreement has Singtel Singapore and Digital InfraCo work with HTX on AI, communications technology, network services and cyber security; HTX co-developed network slicing with Singtel Singapore for Home Team officers.",
+    "kind": "singtel-news",
+    "products": [
+      "SGT-5G",
+      "SGT-CYBER",
+      "SGT-QSN",
+      "SGT-REAI"
+    ],
+    "triggers": [
+      "AI compute or sovereign AI",
+      "Cyber incident or regulation",
+      "5G or private network"
+    ],
+    "score": 64,
+    "scoreBreakdown": [
+      {
+        "label": "Recency",
+        "points": 4
+      },
+      {
+        "label": "Trigger strength",
+        "points": 35
+      },
+      {
+        "label": "Product fit",
+        "points": 15
+      },
+      {
+        "label": "Singapore and India relevance",
+        "points": 10
+      }
+    ]
+  },
+  {
+    "id": "12950dcb7a937b107e4f47e57821be0296d3deda",
+    "title": "Equinix opens SG6, its sixth data centre in Singapore",
+    "url": "https://www.edb.gov.sg/en/news-and-insights/equinix-opens-sg6-to-support-singapores-digital-future-and-strengthen-its-role-as-a-global-innovation-hub",
+    "publishedAt": "2026-11-06T04:00:00.000Z",
+    "source": "Singapore EDB",
+    "snippet": "SG6 is the first Equinix facility built under Singapore's Data Centre Call for Application process and is designed for AI and data-intensive workloads.",
+    "kind": "prospect-trigger",
+    "matchedCompany": "Equinix",
+    "products": [
+      "SGT-CUBE",
+      "SGT-CYBER",
+      "SGT-MOB",
+      "SGT-REAI",
+      "SGT-NXERA"
+    ],
+    "triggers": [
+      "Expansion or new office",
+      "Data centre or colocation",
+      "AI compute or sovereign AI"
+    ],
+    "score": 76,
+    "scoreBreakdown": [
+      {
+        "label": "Recency",
+        "points": 16
+      },
+      {
+        "label": "Trigger strength",
+        "points": 35
+      },
+      {
+        "label": "Product fit",
+        "points": 15
+      },
+      {
+        "label": "Singapore and India relevance",
+        "points": 10
+      }
+    ]
+  },
+  {
+    "id": "8de18e215d8596e8b4944495233502bc0c18a369",
+    "title": "Google unveils $15b data center investment in Malaysia",
+    "url": "https://www.thejakartapost.com/business/2026/11/04/google-unveils-15b-data-center-investment-in-malaysia",
+    "publishedAt": "2026-11-04T04:00:00.000Z",
+    "source": "The Jakarta Post",
+    "snippet": "Google plans a US$15 billion investment in Malaysia over 2027 and 2028, including data centre campuses in Selangor and Negeri Sembilan. Malaysia accounts for more than half of under-construction data centre capacity in Southeast Asia.",
+    "kind": "prospect-trigger",
+    "matchedCompany": "Google",
+    "products": [
+      "SGT-CUBE",
+      "SGT-NXERA"
+    ],
+    "triggers": [
+      "Data centre or colocation"
+    ],
+    "score": 56,
+    "scoreBreakdown": [
+      {
+        "label": "Recency",
+        "points": 16
+      },
+      {
+        "label": "Trigger strength",
+        "points": 25
+      },
+      {
+        "label": "Product fit",
+        "points": 10
+      },
+      {
+        "label": "Singapore and India relevance",
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "d83c1a8531226ea748b19c3582816c57fd5dda12",
+    "title": "CapitaLand Investment unveils new data center in Chennai",
+    "url": "https://w.media/capitaland-investments-unveils-new-data-center-in-chennai/",
+    "publishedAt": "2026-10-16T04:00:00.000Z",
+    "source": "W.Media",
+    "snippet": "CapitaLand Investment unveiled CapitaLand Data Center Chennai 01, the first data centre development in Tamil Nadu by its listed fund platform, CapitaLand India Trust.",
+    "kind": "prospect-trigger",
+    "matchedCompany": "CapitaLand India Trust",
+    "products": [
+      "SGT-CUBE",
+      "SGT-NXERA"
+    ],
+    "triggers": [
+      "Data centre or colocation"
+    ],
+    "score": 58,
+    "scoreBreakdown": [
+      {
+        "label": "Recency",
+        "points": 16
+      },
+      {
+        "label": "Trigger strength",
+        "points": 25
+      },
+      {
+        "label": "Product fit",
+        "points": 10
+      },
+      {
+        "label": "Singapore and India relevance",
+        "points": 7
+      }
+    ]
+  },
+  {
+    "id": "16d1ec82617ef6bebb5f0d779770138dde7c1d8a",
+    "title": "Aegis Logistics sets up Singapore subsidiary",
+    "url": "https://www.maritimegateway.com/aegis-logistics-singapore-subsidiary/",
+    "publishedAt": "2026-09-28T04:00:00.000Z",
+    "source": "Maritime Gateway",
+    "snippet": "India's Aegis Logistics set up a Singapore subsidiary for storage, terminal operations and logistics activities, with investments in related businesses.",
+    "kind": "prospect-trigger",
+    "matchedCompany": "Aegis Logistics",
+    "products": [
+      "SGT-5G",
+      "SGT-CUBE",
+      "SGT-CYBER",
+      "SGT-IOT",
+      "SGT-MOB"
+    ],
+    "triggers": [
+      "Expansion or new office",
+      "Port, warehouse or factory automation",
+      "Fleet, logistics or cold chain"
+    ],
+    "score": 76,
+    "scoreBreakdown": [
+      {
+        "label": "Recency",
+        "points": 9
+      },
+      {
+        "label": "Trigger strength",
+        "points": 35
+      },
+      {
+        "label": "Product fit",
+        "points": 15
+      },
+      {
+        "label": "Singapore and India relevance",
+        "points": 17
+      }
+    ]
+  },
+  {
+    "id": "888bbed982115d0234d34fd0bf38cbc3828ed19c",
+    "title": "BDx breaks ground on AI data center in West Java; first 120MW building to be ready by early 2027",
+    "url": "https://w.media/bdx-breaks-ground-on-ai-data-center-in-west-java-first-120mw-building-to-be-ready-by-early-2027/",
+    "publishedAt": "2026-09-23T04:00:00.000Z",
+    "source": "W.Media",
+    "snippet": "Asia Pacific data centre platform BDx Data Centers broke ground on an AI data centre campus scalable to 640MW in Jatiluhur, West Java, Indonesia.",
+    "kind": "prospect-trigger",
+    "matchedCompany": "BDx Data Centers",
+    "products": [
+      "SGT-CUBE",
+      "SGT-REAI",
+      "SGT-NXERA"
+    ],
+    "triggers": [
+      "Data centre or colocation",
+      "AI compute or sovereign AI"
+    ],
+    "score": 64,
+    "scoreBreakdown": [
+      {
+        "label": "Recency",
+        "points": 9
+      },
+      {
+        "label": "Trigger strength",
+        "points": 35
+      },
+      {
+        "label": "Product fit",
+        "points": 15
+      },
+      {
+        "label": "Singapore and India relevance",
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "46146c0e3eeea0ddbdec14f91c23a77024f2fc3f",
+    "title": "Ultraviolette Automotive to set up new 250,000-unit electric two-wheeler plant",
+    "url": "https://www.electrive.com/2026/09/16/india-ultraviolette-automotive-to-set-up-new-250000-unit-e-2w-plant/",
+    "publishedAt": "2026-09-16T04:00:00.000Z",
+    "source": "electrive",
+    "snippet": "The BIGGA factory in Hosur, Tamil Nadu, starts at 250,000 units a year with room to double, at an investment of 7.79 billion rupees. Ultraviolette's existing Bengaluru plant is being expanded from 30,000 to 50,000 units a year.",
+    "kind": "prospect-trigger",
+    "matchedCompany": "Ultraviolette Automotive",
+    "products": [
+      "SGT-5G",
+      "SGT-CUBE",
+      "SGT-CYBER",
+      "SGT-IOT",
+      "SGT-MOB"
+    ],
+    "triggers": [
+      "Expansion or new office",
+      "Port, warehouse or factory automation"
+    ],
+    "score": 69,
+    "scoreBreakdown": [
+      {
+        "label": "Recency",
+        "points": 9
+      },
+      {
+        "label": "Trigger strength",
+        "points": 35
+      },
+      {
+        "label": "Product fit",
+        "points": 15
+      },
+      {
+        "label": "Singapore and India relevance",
+        "points": 10
+      }
+    ]
+  },
+  {
+    "id": "4696242ed7915f1bbe19449a051d6a605f988c08",
+    "title": "Coal India incorporates Singapore subsidiary CIL Global to pursue overseas critical minerals assets",
+    "url": "https://psuwatch.com/newsupdates/coal-india-incorporates-singapore-subsidiary-cil-global-to-pursue-overseas-critical-minerals-assets",
+    "publishedAt": "2026-08-24T04:00:00.000Z",
+    "source": "PSU Watch",
+    "snippet": "Coal India incorporated CIL Global Pte Ltd in Singapore as a wholly owned unit to explore and develop overseas critical minerals acquisitions and manage overseas investments.",
+    "kind": "prospect-trigger",
+    "matchedCompany": "Coal India",
+    "products": [
+      "SGT-CUBE",
+      "SGT-CYBER",
+      "SGT-MOB"
+    ],
+    "triggers": [
+      "Expansion or new office"
+    ],
+    "score": 61,
+    "scoreBreakdown": [
+      {
+        "label": "Recency",
+        "points": 9
+      },
+      {
+        "label": "Trigger strength",
+        "points": 20
+      },
+      {
+        "label": "Product fit",
+        "points": 15
+      },
+      {
+        "label": "Singapore and India relevance",
+        "points": 17
+      }
+    ]
+  },
+  {
+    "id": "556f07caf435fd52bd02d75389d2955a7e478ef6",
+    "title": "DP World accelerates contract logistics expansion across Southeast Asia with new warehouse in Malaysia",
+    "url": "https://www.dpworld.com/en/news/dp-world-accelerates-contract-logistics--expansion-across-southeast-asia-with-new--warehouse-in-malaysia",
+    "publishedAt": "2026-08-20T04:00:00.000Z",
+    "source": "DP World",
+    "snippet": "DP World opened its latest warehouse in Johor, Malaysia, as its warehousing footprint grows across Southeast Asia for technology, fashion, automotive and industrial customers.",
+    "kind": "prospect-trigger",
+    "matchedCompany": "DP World",
+    "products": [
+      "SGT-5G",
+      "SGT-CUBE",
+      "SGT-CYBER",
+      "SGT-IOT",
+      "SGT-MOB"
+    ],
+    "triggers": [
+      "Expansion or new office",
+      "Port, warehouse or factory automation",
+      "Fleet, logistics or cold chain"
+    ],
+    "score": 64,
+    "scoreBreakdown": [
+      {
+        "label": "Recency",
+        "points": 9
+      },
+      {
+        "label": "Trigger strength",
+        "points": 35
+      },
+      {
+        "label": "Product fit",
+        "points": 15
+      },
+      {
+        "label": "Singapore and India relevance",
+        "points": 5
+      }
+    ]
+  },
+  {
+    "id": "a762fdd5279270fcea13750afe1dbd97cb67badc",
+    "title": "Tata Communications to spend US$152 million to expand India-Singapore subsea cable capacity",
+    "url": "https://www.techgoondu.com/2026/07/02/banking-on-ai-tata-communications-to-spend-us152-million-to-expand-india-singapore-subsea-cable-capacity/",
+    "publishedAt": "2026-07-02T04:00:00.000Z",
+    "source": "Techgoondu",
+    "snippet": "Tata Communications is spending US$152 million to expand the subsea cable links between India and Singapore.",
+    "kind": "prospect-trigger",
+    "matchedCompany": "Tata Communications",
+    "products": [
+      "SGT-CUBE",
+      "SGT-CYBER",
+      "SGT-MOB"
+    ],
+    "triggers": [
+      "Expansion or new office",
+      "Subsea cable or enterprise connectivity"
+    ],
+    "score": 71,
+    "scoreBreakdown": [
+      {
+        "label": "Recency",
+        "points": 4
+      },
+      {
+        "label": "Trigger strength",
+        "points": 35
+      },
+      {
+        "label": "Product fit",
+        "points": 15
+      },
+      {
+        "label": "Singapore and India relevance",
+        "points": 17
+      }
+    ]
+  },
+  {
+    "id": "1c33238d6184e878539256d4190f3f6ca3373a17",
+    "title": "monday.com establishes Singapore as Southeast Asia headquarters and appoints country manager",
+    "url": "https://techintelpro.com/pressreleases/mondaycom-establishes-singapore-as-southeast-asia-headquarters-and-appoints-chris-jordan-as-country-manager",
+    "publishedAt": "2026-06-17T04:00:00.000Z",
+    "source": "TechIntelPro",
+    "snippet": "monday.com made Singapore its second Asia-Pacific headquarters after Sydney, with a regional lead overseeing Southeast Asia and India operations.",
+    "kind": "prospect-trigger",
+    "matchedCompany": "monday.com",
+    "products": [
+      "SGT-CUBE",
+      "SGT-CYBER",
+      "SGT-MOB"
+    ],
+    "triggers": [
+      "Expansion or new office"
+    ],
+    "score": 56,
+    "scoreBreakdown": [
+      {
+        "label": "Recency",
+        "points": 4
+      },
+      {
+        "label": "Trigger strength",
+        "points": 20
+      },
+      {
+        "label": "Product fit",
+        "points": 15
+      },
+      {
+        "label": "Singapore and India relevance",
+        "points": 17
+      }
+    ]
+  },
+  {
+    "id": "0e0f70c02543ac63f0371e3f35f97488dec67cc1",
+    "title": "Polymatech establishes Asia-Pacific advanced manufacturing hub in Singapore",
+    "url": "https://www.prnewswire.com/apac/news-releases/polymatech-establishes-asia-pacific-advanced-manufacturing-hub-in-singapore-302795633.html",
+    "publishedAt": "2026-06-10T04:00:00.000Z",
+    "source": "PR Newswire",
+    "snippet": "AEIM Pte Ltd, a wholly owned subsidiary of Polymatech Electronics, opened an advanced electronics facility in Singapore for LED chip-on-board packaging and memory module assembly.",
+    "kind": "prospect-trigger",
+    "matchedCompany": "Polymatech Electronics",
+    "products": [
+      "SGT-5G",
+      "SGT-CUBE",
+      "SGT-CYBER",
+      "SGT-IOT",
+      "SGT-MOB"
+    ],
+    "triggers": [
+      "Expansion or new office",
+      "Port, warehouse or factory automation"
+    ],
+    "score": 64,
+    "scoreBreakdown": [
+      {
+        "label": "Recency",
+        "points": 4
+      },
+      {
+        "label": "Trigger strength",
+        "points": 35
+      },
+      {
+        "label": "Product fit",
+        "points": 15
+      },
+      {
+        "label": "Singapore and India relevance",
+        "points": 10
+      }
+    ]
+  },
+  {
+    "id": "c6c7a9b92a1a1ce62ef0154f081a867373028ca4",
+    "title": "YCH Group to invest 10 billion rupees in India logistics expansion",
+    "url": "https://www.itln.in/logistics/ych-group-to-invest-10-billion-in-india-logistics-expansion-1359362",
+    "publishedAt": "2026-06-03T04:00:00.000Z",
+    "source": "Indian Transport & Logistics",
+    "snippet": "Singapore-headquartered YCH Group plans to invest up to 10 billion rupees in India over three to five years, with technology-led logistics parks planned in Chennai, Bengaluru and Mumbai.",
+    "kind": "prospect-trigger",
+    "matchedCompany": "YCH Group",
+    "products": [
+      "SGT-CUBE",
+      "SGT-CYBER",
+      "SGT-IOT",
+      "SGT-MOB"
+    ],
+    "triggers": [
+      "Expansion or new office",
+      "Fleet, logistics or cold chain"
+    ],
+    "score": 74,
+    "scoreBreakdown": [
+      {
+        "label": "Recency",
+        "points": 4
+      },
+      {
+        "label": "Trigger strength",
+        "points": 35
+      },
+      {
+        "label": "Product fit",
+        "points": 15
+      },
+      {
+        "label": "Singapore and India relevance",
+        "points": 20
+      }
+    ]
+  }
+]

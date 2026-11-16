@@ -1,0 +1,28 @@
+{
+  "name": "singtech-ai",
+  "version": "0.1.0",
+  "private": true,
+  "description": "SingTech AI - AI sales copilot for Singtel enterprise sales",
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=20.19"
+  },
+  "scripts": {
+    "dev": "concurrently -k -n web,server -c red,blue \"npm:dev:web\" \"npm:dev:server\"",
+    "dev:web": "npm run dev -w @singtech/web",
+    "dev:server": "npm run dev -w @singtech/server",
+    "build": "npm run build --workspaces --if-present",
+    "start": "npm run start -w @singtech/server",
+    "test": "node --test \"apps/server/**/*.test.js\" \"packages/shared/**/*.test.js\"",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0",
+    "prettier": "^3.6.0"
+  }
+}

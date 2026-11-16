@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Next.js and build outputs
+.next/
+*/.next/
+out/
+*/out/
+build/
+*/build/
+dist/
+*/dist/
+
+# Python virtualenvs and caches
+.venv/
+*/.venv/
+__pycache__/
+*/__pycache__/
+*.pyc
+
+# OS and temporary files
+.DS_Store
+*/.DS_Store
+*.log
+
+# Sensitive environment configs
+.env*.local
+singtech-rag/gateway/.env
+
+# Large model binaries (>100 MB cannot be pushed to GitHub)
+*.bin
+singtech-rag/models/model/openvino_model.bin

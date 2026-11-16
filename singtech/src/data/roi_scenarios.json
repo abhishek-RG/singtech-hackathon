@@ -1,0 +1,155 @@
+[
+  {
+    "companyId": "acct-lionrock-sg",
+    "bottleneck": {
+      "label": "Market-open route jitter",
+      "value": 4.2,
+      "unit": "ms"
+    },
+    "target": {
+      "label": "Modelled jitter on an upgraded CUBΣ route",
+      "value": 1.1,
+      "unit": "ms"
+    },
+    "slider": {
+      "kind": "bandwidth-gbps",
+      "min": 10,
+      "max": 100,
+      "step": 10,
+      "default": 40
+    },
+    "baselineAnnualCostSgd": 520000,
+    "frameworks": [
+      "SG_MAS_TRM",
+      "MAS_QUANTUM_ADVISORY",
+      "SG_CYBERSECURITY_ACT_CII"
+    ]
+  },
+  {
+    "companyId": "acct-straits-maritime-sg",
+    "bottleneck": {
+      "label": "Tuas berth automation slice load",
+      "value": 94.2,
+      "unit": "%"
+    },
+    "target": {
+      "label": "Modelled load with an expanded 5G+ slice",
+      "value": 45,
+      "unit": "%"
+    },
+    "slider": {
+      "kind": "bandwidth-gbps",
+      "min": 1,
+      "max": 10,
+      "step": 1,
+      "default": 3
+    },
+    "baselineAnnualCostSgd": 410000,
+    "frameworks": [
+      "SG_CYBERSECURITY_ACT_CII",
+      "IMO_MARITIME_CYBER",
+      "SG_PDPA"
+    ]
+  },
+  {
+    "companyId": "acct-aeropulse-sg",
+    "bottleneck": {
+      "label": "Engine log offload time per turnaround",
+      "value": 28,
+      "unit": "min"
+    },
+    "target": {
+      "label": "Modelled offload on a Paragon 5G+ apron slice",
+      "value": 4,
+      "unit": "min"
+    },
+    "slider": {
+      "kind": "bandwidth-gbps",
+      "min": 1,
+      "max": 20,
+      "step": 1,
+      "default": 5
+    },
+    "baselineAnnualCostSgd": 360000,
+    "frameworks": [
+      "SG_CYBERSECURITY_ACT_CII",
+      "SG_PDPA",
+      "MY_PDPA"
+    ]
+  },
+  {
+    "companyId": "acct-orchidbay-sg",
+    "bottleneck": {
+      "label": "Peak ward network load",
+      "value": 89,
+      "unit": "%"
+    },
+    "target": {
+      "label": "Modelled load on a 5G-Advanced ward slice",
+      "value": 38,
+      "unit": "%"
+    },
+    "slider": {
+      "kind": "tokens-m",
+      "min": 5,
+      "max": 100,
+      "step": 5,
+      "default": 20
+    },
+    "baselineAnnualCostSgd": 310000,
+    "frameworks": [
+      "SG_PDPA",
+      "SG_CYBERSECURITY_ACT_CII"
+    ]
+  },
+  {
+    "companyId": "acct-helixveda-sg",
+    "bottleneck": {
+      "label": "GPU queue wait per training job",
+      "value": 6.5,
+      "unit": "h"
+    },
+    "target": {
+      "label": "Modelled wait on reserved RE:AI DGX GB300",
+      "value": 0.2,
+      "unit": "h"
+    },
+    "slider": {
+      "kind": "gpu-h100",
+      "min": 8,
+      "max": 64,
+      "step": 8,
+      "default": 16
+    },
+    "baselineAnnualCostSgd": 540000,
+    "frameworks": [
+      "SG_PDPA",
+      "INDIA_DPDP_ACT_2023"
+    ]
+  },
+  {
+    "companyId": "acct-harbourline-sg",
+    "bottleneck": {
+      "label": "Nightly Singapore-Johor inventory sync",
+      "value": 6,
+      "unit": "h"
+    },
+    "target": {
+      "label": "Modelled sync with ERP hosted in Nxera DC Tuas and Johor",
+      "value": 0.3,
+      "unit": "h"
+    },
+    "slider": {
+      "kind": "bandwidth-gbps",
+      "min": 1,
+      "max": 10,
+      "step": 1,
+      "default": 2
+    },
+    "baselineAnnualCostSgd": 380000,
+    "frameworks": [
+      "SG_PDPA",
+      "MY_PDPA"
+    ]
+  }
+]

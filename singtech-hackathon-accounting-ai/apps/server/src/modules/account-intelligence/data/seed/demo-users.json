@@ -1,0 +1,18 @@
+[
+  {
+    "id": "user-admin",
+    "email": "admin@singtech.example",
+    "name": "Demo Admin",
+    "role": "admin",
+    "title": "Sales Operations Admin",
+    "password_hash": "scrypt$008610ac6ec8c595735e45f9d322e4a7$ca7062f313439fc3e13e5beafda71ee244a5c0302345bc4763358c54fe367995"
+  },
+  {
+    "id": "user-aisha",
+    "email": "aisha.rahman@singtech.example",
+    "name": "Aisha Rahman",
+    "role": "account_manager",
+    "title": "Account Manager",
+    "password_hash": "scrypt$357d5150eace226abb9eae8a7c41bfc1$a29ce7723109f8ed7fe70f43a2501109aad5279082c082ae46952dfd6b87b23c"
+  }
+]

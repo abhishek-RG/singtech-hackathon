@@ -1,0 +1,47 @@
+{
+  "name": "singtech",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "astryx": "astryx",
+    "test": "vitest run --passWithNoTests",
+    "typecheck": "next typegen && tsc --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.8.0",
+    "@astryxdesign/core": "0.7.15",
+    "@astryxdesign/theme-neutral": "0.7.15",
+    "@stylexjs/stylex": "0.19.2",
+    "chart.js": "4.4.9",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^1.72.0",
+    "next": "16.4.6",
+    "qrcode": "1.5.4",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-leaflet": "^5.0.0",
+    "read-excel-file": "^9.3.17",
+    "undici": "^6.29.1",
+    "unpdf": "^2.2.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@astryxdesign/cli": "0.7.15",
+    "@tailwindcss/turbopack": "4.3.3",
+    "@types/leaflet": "^1.9.22",
+    "@types/node": "^24.19.2",
+    "@types/qrcode": "1.5.5",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.6",
+    "tailwindcss": "4.3.3",
+    "typescript": "^5",
+    "vitest": "^5.1.0"
+  },
+  "packageManager": "pnpm@12.18.0"
+}

@@ -1,0 +1,11 @@
+[Unit]
+Description=jev decision model for SingTech (CPU)
+
+[Service]
+ExecStart=%h/singtech-rag/bin/jev/jev serve --host 127.0.0.1 --port 8017 --model-dir %h/singtech-rag/models/model --threads 8
+# 8 of 12 cores measured fastest; the rest stay free for Ollama, uvicorn and the web app.
+Environment=OMP_NUM_THREADS=8
+Restart=on-failure
+
+[Install]
+WantedBy=default.target

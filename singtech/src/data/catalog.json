@@ -1,0 +1,110 @@
+[
+  {
+    "id": "SGT-5G",
+    "name": "Singtel 5G+",
+    "shortName": "5G+",
+    "division": "Connectivity",
+    "desk": "connectivity",
+    "tier": "core",
+    "targetBuyer": "COO / Head of Operations",
+    "indicativeArrSgd": 140000,
+    "capabilities": "Enterprise 5G with network slicing for flexible capacity, multi-access edge computing for low-latency applications, and Paragon as one platform to orchestrate 5G, edge, and cloud services.",
+    "source": { "title": "Singtel 5G+", "url": "https://www.singtel.com/business/products-services/5g", "publisher": "Singtel", "kind": "company" }
+  },
+  {
+    "id": "SGT-CUBE",
+    "name": "Singtel CUBΣ",
+    "shortName": "CUBΣ",
+    "division": "Connectivity",
+    "desk": "connectivity",
+    "tier": "core",
+    "targetBuyer": "CIO / VP Infrastructure",
+    "indicativeArrSgd": 120000,
+    "capabilities": "One platform combining enterprise networking (including SD-WAN), network management, security, data, and AI, with visibility and control over the customer's digital infrastructure.",
+    "source": { "title": "Singtel CUBΣ", "url": "https://www.singtel.com/business/products-services/connectivity/cube", "publisher": "Singtel", "kind": "company" }
+  },
+  {
+    "id": "SGT-CYBER",
+    "name": "Singtel Cyber Security",
+    "shortName": "Cyber Security",
+    "division": "Cyber",
+    "desk": "cyber",
+    "tier": "core",
+    "targetBuyer": "CISO / Head of Risk",
+    "indicativeArrSgd": 110000,
+    "capabilities": "Network and security services in one: Unified SASE convergence for edge-to-cloud connectivity and Managed Security Services that integrate IT and security workflows behind a single pane of glass.",
+    "source": { "title": "Singtel Cyber Security for business", "url": "https://www.singtel.com/business/products-services/cybersecurity", "publisher": "Singtel", "kind": "company" }
+  },
+  {
+    "id": "SGT-IOT",
+    "name": "Singtel Internet of Things",
+    "shortName": "IoT",
+    "division": "Connectivity",
+    "desk": "connectivity",
+    "tier": "core",
+    "targetBuyer": "VP Operations / Supply Chain",
+    "indicativeArrSgd": 65000,
+    "capabilities": "Secure, scalable IoT connectivity with local, regional, and global coverage for any device, managed through a cloud-based orchestration platform, plus plug-and-play IoT applications.",
+    "source": { "title": "Singtel Internet of Things (IoT)", "url": "https://www.singtel.com/business/products-services/iot", "publisher": "Singtel", "kind": "company" }
+  },
+  {
+    "id": "SGT-MOB",
+    "name": "Singtel Mobility",
+    "shortName": "Mobility",
+    "division": "Connectivity",
+    "desk": "connectivity",
+    "tier": "core",
+    "targetBuyer": "Head of IT / HR Operations",
+    "indicativeArrSgd": 48000,
+    "capabilities": "Workforce mobility: mobile device management for deploying apps, employee device ownership plans, and business mobile plans with voice, roaming, and productivity add-ons.",
+    "source": { "title": "Singtel Mobility for business", "url": "https://www.singtel.com/business/products-services/mobility", "publisher": "Singtel", "kind": "company" }
+  },
+  {
+    "id": "SGT-QSN",
+    "name": "Singtel Quantum-Safe Network",
+    "shortName": "Quantum-Safe Network",
+    "division": "Cyber",
+    "desk": "cyber",
+    "tier": "core",
+    "targetBuyer": "CISO / Head of Network",
+    "indicativeArrSgd": 175000,
+    "capabilities": "Quantum-resilient connectivity across borders, clouds, and multiple sites, delivered over Singtel's National Quantum-Safe Network Plus (NQSN+).",
+    "source": { "title": "Singtel Quantum-Safe Network (QSN)", "url": "https://www.singtel.com/business/products-services/quantumsafenetwork", "publisher": "Singtel", "kind": "company" }
+  },
+  {
+    "id": "SGT-REAI",
+    "name": "RE:AI sovereign AI cloud",
+    "shortName": "RE:AI",
+    "division": "Digital InfraCo",
+    "desk": "infraco",
+    "tier": "extra",
+    "targetBuyer": "Head of AI / CTO",
+    "indicativeArrSgd": 280000,
+    "capabilities": "Sovereign AI cloud from Singtel Digital InfraCo: GPU-as-a-Service on NVIDIA DGX GB300 (which Singtel says is a first deployment in Asia Pacific) and token-based AI services hosted in Singapore.",
+    "source": { "title": "Singtel's RE:AI first in APAC to deploy NVIDIA DGX GB300 amid strong demand for advanced AI compute", "url": "https://www.re-ai.ai/about-us/newsroom/singtel-re-ai-first-in-APAC-to-deploy-nvidia-dgx-gb300", "publisher": "RE:AI (Singtel Digital InfraCo)", "publishedAt": "2026-10-28", "kind": "company" }
+  },
+  {
+    "id": "SGT-NXERA",
+    "name": "Nxera data centres",
+    "shortName": "Nxera",
+    "division": "Digital InfraCo",
+    "desk": "infraco",
+    "tier": "extra",
+    "targetBuyer": "CTO / VP Cloud",
+    "indicativeArrSgd": 220000,
+    "capabilities": "AI-ready colocation at the 58MW DC Tuas facility with direct-to-chip liquid cooling, and the TM Nxera campus in Johor.",
+    "source": { "title": "Singtel's Nxera opens 58MW data centre in Singapore", "url": "https://www.itnews.asia/news/singtels-nxera-opens-58mw-data-centre-in-singapore-623491", "publisher": "iTnews Asia", "publishedAt": "2026-02-10", "kind": "press" }
+  },
+  {
+    "id": "SGT-NCS",
+    "name": "NCS technology services",
+    "shortName": "NCS",
+    "division": "NCS (Singtel Group)",
+    "desk": "infraco",
+    "tier": "extra",
+    "targetBuyer": "Chief Digital Officer",
+    "indicativeArrSgd": 150000,
+    "capabilities": "Cloud migration, application modernisation, and data engineering from NCS, Singtel Group's technology services arm, which reported record FY26 bookings of S$3.8 billion.",
+    "source": { "title": "Singtel posts FY26 net profit of S$5.61bn; underlying profit up 12% to S$2.77bn", "url": "https://www.telecomtv.com/content/digital-platforms-services/singtel-posts-fy26-net-profit-of-s-5-61bn-underlying-profit-up-12-to-s-2-77bn-55535/", "publisher": "TelecomTV", "publishedAt": "2026-05-21", "kind": "press" }
+  }
+]

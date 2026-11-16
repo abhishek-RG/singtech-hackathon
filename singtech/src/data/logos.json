@@ -1,0 +1,103 @@
+{
+  "companies": {
+    "lead-juspay-in": {
+      "domain": "juspay.io",
+      "file": "/logos/juspay.io.png"
+    },
+    "lead-tazapay-sg": {
+      "domain": "tazapay.com",
+      "file": "/logos/tazapay.com.png"
+    },
+    "lead-sarvam-in": {
+      "domain": "sarvam.ai",
+      "file": "/logos/sarvam.ai.png"
+    },
+    "lead-tata-elec-in": {
+      "domain": "tataelectronics.com",
+      "file": "/logos/tataelectronics.com.png"
+    },
+    "lead-capitaland-sg": {
+      "domain": "clint.com.sg",
+      "file": "/logos/clint.com.sg.png"
+    },
+    "lead-optimum-sg": {
+      "domain": "theoptimum.net",
+      "file": "/logos/theoptimum.net.png"
+    }
+  },
+  "partners": {
+    "NCS": {
+      "domain": "ncs.co",
+      "file": "/logos/ncs.co.png"
+    },
+    "Ericsson": {
+      "domain": "ericsson.com",
+      "file": "/logos/ericsson.com.png"
+    },
+    "Zscaler": {
+      "domain": "zscaler.com",
+      "file": "/logos/zscaler.com.png"
+    },
+    "Cosmiqo": {
+      "domain": "cosmiqo.com",
+      "file": "/logos/cosmiqo.com.png"
+    },
+    "DataMesh": {
+      "domain": "datamesh.com",
+      "file": "/logos/datamesh.com.png"
+    },
+    "Axis Communications": {
+      "domain": "axis.com",
+      "file": "/logos/axis.com.png"
+    },
+    "Garuda Robotics": {
+      "domain": "garuda.io",
+      "file": "/logos/garuda.io.png"
+    }
+  },
+  "samples": {
+    "acct-lionrock-sg": {
+      "monogram": "LR",
+      "glyph": "diamond",
+      "from": "#0E2A47",
+      "to": "#1F4E79"
+    },
+    "acct-straits-maritime-sg": {
+      "monogram": "SV",
+      "glyph": "wave",
+      "from": "#063B4F",
+      "to": "#0F6E8C"
+    },
+    "acct-aeropulse-sg": {
+      "monogram": "AP",
+      "glyph": "chevron",
+      "from": "#6B4100",
+      "to": "#B87A08"
+    },
+    "acct-orchidbay-sg": {
+      "monogram": "OB",
+      "glyph": "ring",
+      "from": "#0B4F4A",
+      "to": "#13857C"
+    },
+    "acct-helixveda-sg": {
+      "monogram": "HV",
+      "glyph": "hex",
+      "from": "#14532D",
+      "to": "#22863A"
+    },
+    "acct-harbourline-sg": {
+      "monogram": "HL",
+      "glyph": "bars",
+      "from": "#7C2D12",
+      "to": "#C2581C"
+    },
+    "acct-meridian-sg": {
+      "monogram": "MA",
+      "glyph": "arc",
+      "from": "#1F2937",
+      "to": "#4B5563"
+    }
+  },
+  "_samplesNote": "Fictional sample accounts get a designed monogram mark, never a real company's logo."
+}

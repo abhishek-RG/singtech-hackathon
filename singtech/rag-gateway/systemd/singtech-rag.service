@@ -1,0 +1,13 @@
+[Unit]
+Description=SingTech RAG gateway (127.0.0.1:8088)
+After=ollama.service jev.service
+Wants=ollama.service jev.service
+
+[Service]
+WorkingDirectory=%h/singtech-rag/gateway
+EnvironmentFile=%h/singtech-rag/gateway/.env
+ExecStart=%h/.local/bin/uv run --project %h/singtech-rag/gateway uvicorn app:app --host 127.0.0.1 --port 8088
+Restart=on-failure
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,88 @@
+[
+  {
+    "id": "turn-1",
+    "timestamp": "00:12",
+    "speaker": "Customer (Vikram Mehta, COO, AeroPulse Aviation & Cargo)",
+    "text": "Thanks for running the QBR, Sarah. The CUBΣ links to head office have been solid this quarter, but operations at Changi are changing fast and I want to talk about what comes next.",
+    "triggerKeywords": [
+      "operations at Changi",
+      "what comes next"
+    ],
+    "detectedSignal": null
+  },
+  {
+    "id": "turn-2",
+    "timestamp": "00:34",
+    "speaker": "Customer (Vikram Mehta, COO, AeroPulse Aviation & Cargo)",
+    "text": "Our biggest headache is the apron. We only have 25 minutes on the tarmac, and offloading engine telemetry over congested apron Wi-Fi takes 28 minutes, so turnarounds slip.",
+    "triggerKeywords": [
+      "25 minutes",
+      "engine telemetry",
+      "apron Wi-Fi",
+      "turnarounds slip"
+    ],
+    "detectedSignal": {
+      "badge": "CHANGI 5G+ APRON SLICE",
+      "trigger": "Engine data offload takes 28 minutes inside a 25-minute turnaround",
+      "recommendedProducts": [
+        "Singtel 5G+ apron slicing (Paragon)"
+      ],
+      "complianceAlert": "A dedicated slice supports the network isolation expected for aviation CII under Singapore's Cybersecurity Act.",
+      "estimatedUpliftSgd": 140000,
+      "suggestedTalkTrack": "Propose a dedicated Paragon 5G+ apron slice; the model shows offload falling from 28 minutes to about 4 minutes."
+    }
+  },
+  {
+    "id": "turn-3",
+    "timestamp": "01:08",
+    "speaker": "Singtel Client Partner (Sarah Tan)",
+    "text": "That fits what we see in CUBΣ. On the hangar side, our signals also flagged blocked remote sessions on your MRO systems. How is the security team handling OT access today?",
+    "triggerKeywords": [],
+    "detectedSignal": null
+  },
+  {
+    "id": "turn-4",
+    "timestamp": "01:29",
+    "speaker": "Customer (Vikram Mehta, COO, AeroPulse Aviation & Cargo)",
+    "text": "Honestly, the board is worried. CSA keeps raising APT activity against critical infrastructure, and my OT team has never run a proper incident response drill on the hangar systems.",
+    "triggerKeywords": [
+      "board is worried",
+      "APT activity",
+      "critical infrastructure",
+      "incident response drill"
+    ],
+    "detectedSignal": {
+      "badge": "AVIATION CII CYBER ATTACH",
+      "trigger": "Board concern on APT risk with no OT incident response practice",
+      "recommendedProducts": [
+        "Singtel Cyber Security (managed OT security)",
+        "Singtel Quantum-Safe Network"
+      ],
+      "complianceAlert": "Aviation is a designated CII sector; Singtel managed security covers IT and OT incident response.",
+      "estimatedUpliftSgd": 285000,
+      "suggestedTalkTrack": "Propose managed security for the hangar OT systems, then position Quantum-Safe Network on the MRO links."
+    }
+  },
+  {
+    "id": "turn-5",
+    "timestamp": "02:02",
+    "speaker": "Customer (Vikram Mehta, COO, AeroPulse Aviation & Cargo)",
+    "text": "We are also opening a bonded cargo hub in the Johor SEZ next quarter. If you can fix the apron, cover the OT team, and bring Johor onto the same network in one contract, send me the architecture and pricing model today.",
+    "triggerKeywords": [
+      "Johor SEZ",
+      "one contract",
+      "architecture and pricing model"
+    ],
+    "detectedSignal": {
+      "badge": "BUYING SIGNAL: GENERATE PROPOSAL",
+      "trigger": "Customer requested one architecture covering Changi 5G+, OT cyber, and a Johor SEZ SD-WAN leg",
+      "recommendedProducts": [
+        "Singtel CUBΣ extension to the Johor SEZ",
+        "Singtel Mobility for the Johor cargo team"
+      ],
+      "complianceAlert": "Attach the Singapore CII and Malaysia PDPA summary to the customer co-engineering proposal.",
+      "estimatedUpliftSgd": 48000,
+      "suggestedTalkTrack": "Generate the customer co-engineering proposal and dispatch the deal so the customer receives the interactive architecture today."
+    }
+  }
+]

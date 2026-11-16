@@ -1,0 +1,448 @@
+/* Layer order from `astryx docs styling-overview` (Tailwind path); singtech-theme sits above astryx-theme so our tokens win. */
+@layer reset, theme, base, astryx-base, astryx-theme, singtech-theme, components, utilities, singtech-overrides;
+
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "@astryxdesign/core/reset.css";
+@import "@astryxdesign/core/astryx.css";
+@import "@astryxdesign/theme-neutral/theme.css";
+@import "@astryxdesign/core/tailwind-theme.css";
+@import "tailwindcss/utilities.css" layer(utilities);
+
+@theme inline {
+  --color-st-red: #e60012;
+  --color-st-red-hover: #c8000f;
+  --color-st-red-fill: rgba(230, 0, 18, 0.08);
+  --color-st-red-line: rgba(230, 0, 18, 0.35);
+  --color-st-red-ink: #c8000f;
+  --color-st-accent: var(--color-text-accent);
+  --color-st-verified: #047857;
+  --color-st-verified-fill: #ecfdf5;
+  --color-st-warning: #b45309;
+  --color-st-warning-fill: #fffbeb;
+  --color-st-corridor: #2563eb;
+  --color-st-corridor-fill: #eff6ff;
+  --color-st-ink: #0a0a0c;
+  --color-st-muted: #525866;
+  --color-st-line: #d5d9e0;
+  --color-st-hover: #f3f4f6;
+  --color-st-selected: #eef0f3;
+  --font-mono: var(--font-family-code);
+  --font-display: var(--font-family-heading);
+  /* Borders, not shadows: panels get a hairline ring (CLAUDE.md section 2). */
+  --shadow-card: 0 0 0 1px #d5d9e0;
+  --radius-xl: 8px;
+  --ease-st: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@layer singtech-theme {
+  :root {
+    /* Daylight enterprise palette (CLAUDE.md section 2). */
+    --st-red: #e60012;
+    --st-red-hover: #c8000f;
+    /* Canvas is one clear step darker than white panels, so every window reads as a window. */
+    --st-canvas: #f4f6fa;
+    --st-white: #ffffff;
+    --st-border: #d5d9e0;
+    --st-border-strong: #b9bec8;
+    --st-field: #8a8f9c;
+    --st-ink: #0a0a0c;
+    --st-secondary: #2b2f38;
+    --st-muted: #525866;
+    --st-duration: 180ms;
+    /* Executive chrome: one dark slate for sidebar, top bar and page headers; crimson is the accent, never a second surface. */
+    --st-slate-950: #0b0f15;
+    --st-slate-900: #10151d;
+    --st-slate-850: #151b25;
+    --st-slate-800: #1b2230;
+    --st-slate-line: rgba(255, 255, 255, 0.09);
+    --st-crimson-glow: rgba(230, 0, 18, 0.16);
+  }
+
+  /* Tokens are set directly (not light-dark()) because the whole app is daylight-only. */
+  [data-astryx-theme="neutral"] {
+    color-scheme: light;
+    --font-family-body: var(--font-plex-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --font-family-heading: var(--font-jakarta), var(--font-plex-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --font-family-code: var(--font-plex-mono), ui-monospace, "SF Mono", Menlo, monospace;
+
+    --color-background-body: var(--st-canvas);
+    --color-background-surface: var(--st-white);
+    --color-background-card: var(--st-white);
+    --color-background-popover: var(--st-white);
+    --color-background-muted: var(--st-canvas);
+    --color-background-red: rgba(230, 0, 18, 0.08);
+    --color-background-green: #ecfdf5;
+    --color-background-blue: #eff6ff;
+    --color-background-yellow: #fffbeb;
+    --color-border: var(--st-border);
+    --color-border-emphasized: var(--st-border-strong);
+    --color-border-red: rgba(230, 0, 18, 0.35);
+    --color-neutral: #eef0f3;
+
+    --color-accent: var(--st-red);
+    --color-accent-muted: rgba(230, 0, 18, 0.08);
+    --color-on-accent: var(--st-white);
+    --color-icon-accent: var(--st-red);
+    /* Links are ink; red is reserved for the primary action and critical states. */
+    --color-text-accent: var(--st-ink);
+
+    --color-text-primary: var(--st-ink);
+    --color-text-secondary: var(--st-muted);
+    --color-text-disabled: #8a8f9c;
+    --color-icon-primary: var(--st-ink);
+    --color-icon-secondary: var(--st-muted);
+
+    --color-error: var(--st-red);
+    --color-success: #047857;
+    --color-warning: #b45309;
+    --color-info: #2563eb;
+
+    --radius-inner: 4px;
+    --radius-element: 6px;
+    --radius-container: 8px;
+  }
+
+  body {
+    background: var(--color-background-body);
+    color: var(--color-text-primary);
+    font-family: var(--font-family-body);
+    font-size: 14px;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-family-heading);
+    letter-spacing: -0.01em;
+  }
+
+  main {
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Tabular figures for money and metrics; monospace is only for identifiers (.font-id). */
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+
+  .font-id {
+    font-family: var(--font-family-code);
+    font-size: 12px;
+  }
+
+  /* Selected side-nav item: the only red in the chrome is its icon. */
+  .astryx-side-nav-item[data-selected="selected"] svg {
+    color: var(--st-red);
+  }
+
+  /* Red is reserved for the primary action and critical states, so the selected tab rule is ink. */
+  .astryx-tab-indicator[data-selected="selected"] {
+    background-color: var(--st-ink);
+  }
+
+  /* Dense tables: 13px cells read at a 1.4 line height; numbers stay tabular. */
+  .astryx-table td {
+    line-height: 1.4;
+  }
+
+  /* Light header rows (shadcn/Horizon style): a quiet tint and a clear bottom rule instead of a black bar. */
+  .astryx-table-header,
+  .astryx-table-header-cell {
+    background: #f8fafc;
+    color: #344054;
+    font-weight: 600;
+  }
+  .astryx-table-header {
+    box-shadow: inset 0 -1px 0 #e4e7ec;
+  }
+
+  /* Dark surfaces that remain (presentation HUD, login, customer document header) re-point Astryx tokens. */
+  .st-dark {
+    --color-text-primary: #ffffff;
+    --color-text-secondary: rgba(255, 255, 255, 0.74);
+    --color-text-accent: #ffffff;
+    --color-text-disabled: rgba(255, 255, 255, 0.45);
+    --color-icon-primary: #ffffff;
+    --color-icon-secondary: rgba(255, 255, 255, 0.74);
+    --color-neutral: rgba(255, 255, 255, 0.12);
+    --color-overlay-hover: rgba(255, 255, 255, 0.1);
+    --color-background-muted: rgba(255, 255, 255, 0.06);
+    --color-border: rgba(255, 255, 255, 0.16);
+    --color-border-emphasized: rgba(255, 255, 255, 0.28);
+    color: #ffffff;
+  }
+  /* Light chrome (next-shadcn-admin-dashboard / Horizon UI): white rail and bar on a soft canvas; red marks only the
+     current page and the primary action. */
+  .astryx-side-nav {
+    background: #ffffff;
+    box-shadow: inset -1px 0 0 #e4e7ec;
+  }
+  .astryx-top-nav {
+    background: rgba(255, 255, 255, 0.92);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    box-shadow: inset 0 -1px 0 #e4e7ec;
+  }
+  .astryx-side-nav-item[data-selected="selected"] {
+    background: rgba(230, 0, 18, 0.07);
+    color: #b8000e;
+    font-weight: 600;
+  }
+
+  /* Page headers continue the slate chrome; one crimson glow in the corner is the only colour. */
+  .st-hero {
+    position: relative;
+    isolation: isolate;
+    background:
+      radial-gradient(70% 140% at 100% 0%, var(--st-crimson-glow), transparent 62%),
+      linear-gradient(180deg, var(--st-slate-850) 0%, var(--st-slate-900) 100%);
+    border-bottom: 1px solid var(--st-slate-line);
+  }
+  .st-hero[data-tone="red"] {
+    background:
+      radial-gradient(80% 160% at 100% 0%, rgba(230, 0, 18, 0.28), transparent 60%),
+      linear-gradient(180deg, var(--st-slate-850) 0%, var(--st-slate-900) 100%);
+  }
+  .st-hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: radial-gradient(60% 90% at 15% -30%, rgba(255, 255, 255, 0.07), transparent 70%);
+    pointer-events: none;
+  }
+  .st-hero::after {
+    content: "";
+    position: absolute;
+    inset: 0 0 auto 0;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.22);
+    pointer-events: none;
+  }
+
+  .st-dark .astryx-tab-indicator[data-selected="selected"] {
+    background-color: #ffffff;
+  }
+  /* Soft card surface for panels and KPI tiles (Horizon): white, 14px radius, a faint border and a low shadow. */
+  .st-card {
+    background: #ffffff;
+    border: 1px solid #e4e7ec;
+    border-radius: 14px;
+    box-shadow:
+      0 1px 2px rgba(16, 24, 40, 0.04),
+      0 6px 18px rgba(16, 24, 40, 0.04);
+  }
+
+  /* Glass tiles sit only on dark surfaces, never on the light canvas. */
+  .st-glass {
+    background: rgba(255, 255, 255, 0.05);
+    -webkit-backdrop-filter: blur(14px) saturate(140%);
+    backdrop-filter: blur(14px) saturate(140%);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+  }
+
+  /* Overlays opened from dark chrome (bell, user menu, search, a push dialog on a header) stay in that DOM subtree and
+     would inherit its white text over their white surface. Every overlay surface gets the daylight tokens back. */
+  :is(dialog, [popover], [role="dialog"], [role="alertdialog"], [role="menu"], [role="listbox"]) {
+    --color-text-primary: #0a0a0c;
+    --color-text-secondary: #525866;
+    --color-text-accent: #0a0a0c;
+    --color-text-disabled: #8a8f9c;
+    --color-icon-primary: #0a0a0c;
+    --color-icon-secondary: #525866;
+    --color-neutral: #eef0f3;
+    --color-overlay-hover: rgba(10, 10, 12, 0.05);
+    --color-background-surface: #ffffff;
+    --color-background-body: #ffffff;
+    --color-background-muted: #f3f4f6;
+    --color-border: #d5d9e0;
+    --color-border-emphasized: #b9bec8;
+    --color-accent: #e60012;
+    --color-on-accent: #ffffff;
+    color: #0a0a0c;
+  }
+
+  /* Streaming answers end in a thin crimson caret until the last word lands. */
+  .st-caret {
+    display: inline-block;
+    width: 2px;
+    height: 1em;
+    margin-left: 2px;
+    vertical-align: -0.15em;
+    background: #e60012;
+    animation: st-blink 1s steps(2, start) infinite;
+  }
+  @keyframes st-blink {
+    to {
+      visibility: hidden;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      transition-duration: 0ms !important;
+      animation-duration: 0ms !important;
+    }
+  }
+}
+
+/* Utilities win over theme layers, so dark-band overrides of utility colours sit in a layer after utilities. */
+@layer singtech-overrides {
+  /* Status inks are tuned for white panels; on dark bands they switch to lighter tints that keep AA contrast (not inside overlays). */
+  .st-dark .text-st-verified:not(:is(dialog, [popover], [role="dialog"], [role="alertdialog"], [role="menu"]) *) {
+    color: #6ee7b7;
+  }
+  .st-dark .text-st-warning:not(:is(dialog, [popover], [role="dialog"], [role="alertdialog"], [role="menu"]) *) {
+    color: #fcd34d;
+  }
+  .st-dark .text-st-red-ink:not(:is(dialog, [popover], [role="dialog"], [role="alertdialog"], [role="menu"]) *) {
+    color: #ff8a92;
+  }
+  /* A white island inside a dark band (logo tiles) gets the daylight tokens back. */
+  .st-light {
+    --color-text-primary: #0a0a0c;
+    --color-text-secondary: #525866;
+    --color-icon-primary: #0a0a0c;
+    --color-neutral: #eef0f3;
+    --color-background-surface: #ffffff;
+    color: #0a0a0c;
+  }
+}
+
+/* SingTech AI cursor, spotlight and news bar. Motion follows the system ease; reduced motion zeroes it (rule above). */
+@layer singtech-theme {
+  .st-agent-layer {
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100dvh;
+    max-width: none;
+    max-height: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    overflow: visible;
+    pointer-events: none;
+  }
+  .st-agent-cursor {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    transition:
+      transform 700ms cubic-bezier(0.16, 1, 0.3, 1),
+      opacity 180ms cubic-bezier(0.16, 1, 0.3, 1);
+    will-change: transform;
+  }
+  .st-agent-cursor > svg {
+    filter: drop-shadow(0 0 10px rgba(230, 0, 18, 0.55)) drop-shadow(0 2px 4px rgba(0, 0, 0, 0.35));
+  }
+  .st-agent-ripple {
+    position: absolute;
+    left: -12px;
+    top: -12px;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 2px solid #e60012;
+    opacity: 0;
+  }
+  .st-agent-cursor[data-clicking="true"] .st-agent-ripple {
+    animation: st-ripple 420ms cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  @keyframes st-ripple {
+    from {
+      transform: scale(0.3);
+      opacity: 0.9;
+    }
+    to {
+      transform: scale(1.9);
+      opacity: 0;
+    }
+  }
+  .st-agent-pill {
+    position: absolute;
+    top: 24px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    max-width: min(440px, 78vw);
+    padding: 5px 6px 5px 10px;
+    border-radius: 999px;
+    background: rgba(16, 21, 29, 0.94);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    box-shadow:
+      0 8px 28px rgba(0, 0, 0, 0.3),
+      inset 0 1px 0 rgba(255, 255, 255, 0.12);
+    color: #ffffff;
+    font-size: 12px;
+    white-space: nowrap;
+    pointer-events: auto;
+  }
+  .st-agent-pill[data-side="right"] {
+    left: 20px;
+  }
+  .st-agent-pill[data-side="left"] {
+    right: 6px;
+  }
+  .st-pulse {
+    animation: st-pulse 1.2s ease-in-out infinite;
+  }
+  @keyframes st-pulse {
+    50% {
+      opacity: 0.35;
+    }
+  }
+  .st-agent-spot {
+    position: fixed;
+    border-radius: 12px;
+    border: 2px solid #e60012;
+    box-shadow:
+      0 0 0 4px rgba(230, 0, 18, 0.16),
+      0 0 0 9999px rgba(11, 15, 21, 0.24);
+    transition: all 280ms cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .st-agent-note {
+    position: absolute;
+    left: 0;
+    width: max-content;
+    max-width: min(380px, 86vw);
+    padding: 10px 12px;
+    border: 1px solid #d5d9e0;
+    border-radius: 10px;
+    background: #ffffff;
+    color: #0a0a0c;
+    font-size: 13px;
+    line-height: 1.45;
+    box-shadow: 0 12px 32px rgba(11, 15, 21, 0.2);
+  }
+
+  /* News bar: pills scroll as one loop; hover or focus pauses it. */
+  .st-ticker-track {
+    display: flex;
+    width: max-content;
+    animation: st-marquee var(--st-ticker-duration, 90s) linear infinite;
+  }
+  .st-ticker:hover .st-ticker-track,
+  .st-ticker:focus-within .st-ticker-track,
+  .st-ticker[data-paused="true"] .st-ticker-track {
+    animation-play-state: paused;
+  }
+  @keyframes st-marquee {
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .st-ticker-track {
+      animation: none;
+    }
+    .st-ticker {
+      overflow-x: auto;
+    }
+  }
+}

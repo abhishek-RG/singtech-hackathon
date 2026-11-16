@@ -1,0 +1,81 @@
+{
+  "version": "2026-11-16.1",
+  "bands": { "healthy": 70, "watch": 40 },
+  "windows": {
+    "change_days": 180,
+    "case_days": 90,
+    "renewal_days": 120,
+    "stale_meeting_days": 90,
+    "recent_qbr_days": 60,
+    "new_site_days": 180
+  },
+  "spend": { "trend_months": 3, "decline_pct": 15, "growth_pct": 5 },
+  "penalties": {
+    "severe_case": 12,
+    "low_satisfaction": 5,
+    "low_satisfaction_max_csat": 2,
+    "competitor_mention": 15,
+    "complaint": 10,
+    "off_net_site": 12,
+    "off_net_site_case": 8,
+    "service_removed": 20,
+    "service_downgraded": 10,
+    "spend_decline": 20,
+    "champion_left": 20,
+    "no_recent_meeting": 15,
+    "renewal_without_opportunity": 15
+  },
+  "caps": {
+    "severe_case": 48,
+    "low_satisfaction": 15,
+    "competitor_mention": 30,
+    "complaint": 20,
+    "off_net_site": 24,
+    "off_net_site_case": 16,
+    "champion_left": 30
+  },
+  "credits": { "recent_qbr": 5, "spend_growth": 5, "service_growth": 5, "service_growth_cap": 10 },
+  "case_keywords": {
+    "price_perception": ["cheaper", "pricing", "price", "cost", "rates"],
+    "partial_move": ["rfp", "tender", "moved to", "switching to"]
+  },
+  "whitespace": {
+    "weights": {
+      "site_fit": 1,
+      "outage_fit": 2,
+      "off_net": 3,
+      "recently_removed": 3,
+      "industry_fit": 1,
+      "workforce_fit": 1,
+      "stated_interest": 2
+    },
+    "operational_site_types": ["plant", "warehouse"],
+    "regulated_industries": ["Financial services", "Healthcare"],
+    "quantum_safe_industries": ["Financial services"],
+    "interest_keywords": {
+      "5G_PLUS": ["5g"],
+      "CUBE": ["one network", "network as a service", "cube"],
+      "CYBER": ["cyber", "security operations", "threat"],
+      "IOT": ["iot", "sensor"],
+      "MOBILITY": ["mobile lines", "mobile devices"],
+      "QSN": ["quantum-safe", "quantum safe"]
+    }
+  },
+  "decision_tree": {
+    "risk_actions": {
+      "service_issues": "service_recovery",
+      "price_perception": "renewal_value_case",
+      "partial_move": "renewal_value_case",
+      "relationship": "stakeholder_remap",
+      "coverage_gap": "cross_sell"
+    },
+    "fallback_risk_action": "executive_meeting"
+  },
+  "revenue_at_stake": {
+    "note": "Annual recurring revenue weighted by health band. Used to sort the Account book.",
+    "band_weight": { "at_risk": 1, "watch": 0.5, "healthy": 0.1 }
+  },
+  "industry_overrides": {
+    "Financial services": { "windows": { "stale_meeting_days": 60 } }
+  }
+}

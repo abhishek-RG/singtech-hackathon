@@ -1,0 +1,2889 @@
+[
+  {
+    "accountId": "acct-lionrock-sg",
+    "accountName": "LionRock Quantitative Bank",
+    "route": "singtel-enterprise",
+    "ncsLobs": [],
+    "repId": "rep-weiling",
+    "contractEndDate": "2027-01-16",
+    "sites": [
+      {
+        "siteId": "lr-mbfc",
+        "name": "Marina Bay trading floor",
+        "address": "Marina Boulevard, Downtown Core, Singapore",
+        "lat": 1.2806,
+        "lng": 103.854,
+        "fiber": "on-net",
+        "fiveG": "on-net",
+        "seats": 420,
+        "strain": "CUBΣ shows 4.2 ms micro-bursts on the Hong Kong and Mumbai trading link at market open against a 1.5 ms SLA."
+      },
+      {
+        "siteId": "lr-dr",
+        "name": "Disaster recovery site",
+        "address": "Tai Seng Street, Paya Lebar, Singapore",
+        "lat": 1.3355,
+        "lng": 103.888,
+        "fiber": "on-net",
+        "fiveG": "on-net",
+        "seats": 60,
+        "strain": "Replication runs on a single path; the Q3 failover test took 11 minutes against a 5-minute target."
+      },
+      {
+        "siteId": "lr-ops",
+        "name": "Operations and settlements centre",
+        "address": "Changi Business Park Crescent, Singapore",
+        "lat": 1.3343,
+        "lng": 103.9636,
+        "fiber": "on-net",
+        "fiveG": "near-net",
+        "seats": 310
+      },
+      {
+        "siteId": "lr-mumbai",
+        "name": "Mumbai liaison office",
+        "address": "Bandra Kurla Complex, Mumbai, India",
+        "lat": 19.066,
+        "lng": 72.8691,
+        "fiber": "off-net",
+        "fiveG": "off-net",
+        "seats": 35,
+        "strain": "Served over a partner tail circuit; 14 SIM-swap attempts on executive roaming lines blocked this month."
+      }
+    ],
+    "meddpicc": [
+      {
+        "key": "metrics",
+        "score": 2,
+        "evidence": "Desk head quantified the cost of 4.2 ms micro-bursts at market open on the Hong Kong book; the target is a sustained 1.5 ms SLA."
+      },
+      {
+        "key": "economicBuyer",
+        "score": 1,
+        "evidence": "MD Trading Infrastructure owns the budget line but has attended one session; CFO sign-off is needed above SGD 300,000 TCV.",
+        "gap": "Book a 30-minute session with the CFO's office before the renewal paper goes to committee."
+      },
+      {
+        "key": "decisionCriteria",
+        "score": 2,
+        "evidence": "Written criteria: latency SLA, MAS TRM alignment, a quantum-risk roadmap under the MAS advisory, and one deal room across Connectivity and Cyber."
+      },
+      {
+        "key": "decisionProcess",
+        "score": 1,
+        "evidence": "Technology Risk Committee reviews the renewal in January 2027; steps after committee are not mapped.",
+        "gap": "Map committee approval to contract signature with the champion."
+      },
+      {
+        "key": "paperProcess",
+        "score": 0,
+        "evidence": "No view yet of legal review time or the MSA amendment route.",
+        "gap": "Ask procurement for the MSA amendment template and the usual redline turnaround."
+      },
+      {
+        "key": "identifyPain",
+        "score": 2,
+        "evidence": "Market-open jitter on the trading link, the MAS quantum advisory, and 14 blocked SIM-swap attempts on executive roaming lines."
+      },
+      {
+        "key": "champion",
+        "score": 2,
+        "evidence": "Head of Network Engineering shares telemetry internally and asked for the Quantum-Safe Network pilot design."
+      },
+      {
+        "key": "competition",
+        "score": 1,
+        "evidence": "NTT has pitched a managed low-latency network to the Hong Kong desk; its status in the evaluation is unknown.",
+        "gap": "Confirm whether NTT is in the formal evaluation and for which scope."
+      }
+    ],
+    "billing": {
+      "system": "SAP",
+      "frictionNotes": [
+        "Clean three-way match in SAP; every 2026 invoice was paid within terms.",
+        "Treasury asks for trading link and analytics charges on separate lines so cost can be allocated to the Hong Kong and Mumbai desks."
+      ]
+    },
+    "invoices": [
+      {
+        "id": "SGT-INV-2026-1107",
+        "issuedOn": "2026-01-05",
+        "dueOn": "2026-02-04",
+        "amountSgd": 60000,
+        "status": "paid",
+        "billingSystem": "SAP",
+        "lines": [
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ managed SD-WAN and trading link, 4 sites, Q1 2026",
+            "amountSgd": 46000
+          },
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ network management and analytics, Q1 2026",
+            "amountSgd": 14000
+          }
+        ]
+      },
+      {
+        "id": "SGT-INV-2026-2214",
+        "issuedOn": "2026-04-03",
+        "dueOn": "2026-05-03",
+        "amountSgd": 57600,
+        "status": "paid",
+        "billingSystem": "SAP",
+        "lines": [
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ managed SD-WAN and trading link, 4 sites, Q2 2026",
+            "amountSgd": 46000
+          },
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ network management and analytics, Q2 2026",
+            "amountSgd": 14000
+          },
+          {
+            "productId": "SGT-CUBE",
+            "description": "Service credit, INC-2026-0318",
+            "amountSgd": -2400
+          }
+        ],
+        "note": "Service credit for INC-2026-0318 netted off."
+      },
+      {
+        "id": "SGT-INV-2026-3321",
+        "issuedOn": "2026-07-03",
+        "dueOn": "2026-08-02",
+        "amountSgd": 60000,
+        "status": "paid",
+        "billingSystem": "SAP",
+        "lines": [
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ managed SD-WAN and trading link, 4 sites, Q3 2026",
+            "amountSgd": 46000
+          },
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ network management and analytics, Q3 2026",
+            "amountSgd": 14000
+          }
+        ]
+      },
+      {
+        "id": "SGT-INV-2026-3390",
+        "issuedOn": "2026-08-14",
+        "dueOn": "2026-09-13",
+        "amountSgd": 18500,
+        "status": "paid",
+        "billingSystem": "SAP",
+        "lines": [
+          {
+            "productId": "SGT-CUBE",
+            "description": "Latency assessment, Hong Kong and Mumbai trading link (professional services)",
+            "amountSgd": 18500
+          }
+        ]
+      },
+      {
+        "id": "SGT-INV-2026-4428",
+        "issuedOn": "2026-10-02",
+        "dueOn": "2026-11-01",
+        "amountSgd": 60000,
+        "status": "paid",
+        "billingSystem": "SAP",
+        "lines": [
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ managed SD-WAN and trading link, 4 sites, Q4 2026",
+            "amountSgd": 46000
+          },
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ network management and analytics, Q4 2026",
+            "amountSgd": 14000
+          }
+        ]
+      }
+    ],
+    "meetings": [
+      {
+        "id": "MTG-LR-2026-01",
+        "date": "2026-03-12",
+        "title": "Quarterly business review, Q1",
+        "attendees": [
+          "Singtel Client Partner",
+          "Singtel Solution Architect, Connectivity",
+          "Customer MD Trading Infrastructure",
+          "Customer Head of Network Engineering"
+        ],
+        "decisions": [
+          "Keep CUBΣ as the trading network platform through renewal.",
+          "Run a latency assessment on the Hong Kong and Mumbai link in Q3."
+        ],
+        "actions": [
+          {
+            "owner": "Singtel Solution Architect, Connectivity",
+            "action": "Scope the latency assessment and send the statement of work",
+            "due": "2026-04-10"
+          }
+        ]
+      },
+      {
+        "id": "MTG-LR-2026-02",
+        "date": "2026-06-18",
+        "title": "Technology risk review: quantum readiness",
+        "attendees": [
+          "Singtel Client Partner",
+          "Singtel Cyber Specialist, Quantum-Safe Network",
+          "Customer CISO",
+          "Customer Head of Network Engineering"
+        ],
+        "decisions": [
+          "Customer will add a quantum-risk inventory to its MAS TRM roadmap.",
+          "A Quantum-Safe Network pilot will be designed for the Marina Bay to disaster recovery link first."
+        ],
+        "actions": [
+          {
+            "owner": "Singtel Cyber Specialist, Quantum-Safe Network",
+            "action": "Send a pilot design for the Marina Bay to disaster recovery link",
+            "due": "2026-07-17"
+          },
+          {
+            "owner": "Customer CISO",
+            "action": "Share the quantum-risk inventory template",
+            "due": "2026-07-31"
+          }
+        ]
+      },
+      {
+        "id": "MTG-LR-2026-03",
+        "date": "2026-09-08",
+        "title": "Latency assessment readout",
+        "attendees": [
+          "Singtel Client Partner",
+          "Singtel Solution Architect, Connectivity",
+          "Customer MD Trading Infrastructure",
+          "Customer Head of Network Engineering"
+        ],
+        "decisions": [
+          "Customer accepts that micro-bursts at market open exceed the 1.5 ms SLA.",
+          "Renewal paper will include the Quantum-Safe Network pilot and Mobility for executive roaming as options."
+        ],
+        "actions": [
+          {
+            "owner": "Singtel Client Partner",
+            "action": "Draft the renewal options paper with the Quantum-Safe Trading Network bundle",
+            "due": "2026-10-15"
+          },
+          {
+            "owner": "Customer Head of Network Engineering",
+            "action": "Share the scope of the NTT proposal, if permitted",
+            "due": "2026-10-01"
+          }
+        ]
+      },
+      {
+        "id": "MTG-LR-2026-04",
+        "date": "2026-11-04",
+        "title": "Renewal pre-read with procurement",
+        "attendees": [
+          "Singtel Client Partner",
+          "Customer Procurement Lead",
+          "Customer MD Trading Infrastructure"
+        ],
+        "decisions": [
+          "Procurement needs the MSA amendment route confirmed before the Technology Risk Committee."
+        ],
+        "actions": [
+          {
+            "owner": "Singtel Client Partner",
+            "action": "Obtain the MSA amendment template from procurement",
+            "due": "2026-11-20"
+          },
+          {
+            "owner": "Singtel Client Partner",
+            "action": "Book a session with the CFO's office",
+            "due": "2026-11-28"
+          }
+        ]
+      }
+    ],
+    "slaIncidents": [
+      {
+        "id": "INC-2026-0318",
+        "date": "2026-03-09",
+        "severity": "P2",
+        "summary": "Packet loss on the Hong Kong leg of the trading link for 41 minutes at market open.",
+        "resolutionHours": 3.5,
+        "creditSgd": 2400
+      },
+      {
+        "id": "INC-2026-0907",
+        "date": "2026-09-02",
+        "severity": "P3",
+        "summary": "Jitter alarm on the trading link at market open; no packet loss.",
+        "resolutionHours": 6,
+        "creditSgd": 0
+      }
+    ],
+    "cases": [
+      {
+        "id": "CASE-2026-0902",
+        "openedOn": "2026-09-02",
+        "category": "performance",
+        "severity": "medium",
+        "subject": "Jitter alarm on the trading link at market open; customer asked for the latency report.",
+        "status": "resolved",
+        "csat": 4,
+        "siteId": "lr-mbfc"
+      },
+      {
+        "id": "CASE-2026-1015",
+        "openedOn": "2026-10-15",
+        "category": "request",
+        "severity": "low",
+        "subject": "Quantum-Safe Network pilot design requested for the Hong Kong leg.",
+        "status": "open"
+      }
+    ],
+    "contacts": [
+      {
+        "id": "CON-LR-01",
+        "title": "Head of Network Engineering",
+        "role": "champion",
+        "sentiment": "positive",
+        "lastContactOn": "2026-11-04"
+      },
+      {
+        "id": "CON-LR-02",
+        "title": "MD Trading Infrastructure",
+        "role": "economic_buyer",
+        "sentiment": "neutral",
+        "lastContactOn": "2026-11-04"
+      },
+      {
+        "id": "CON-LR-03",
+        "title": "Procurement Lead",
+        "role": "influencer",
+        "sentiment": "neutral",
+        "lastContactOn": "2026-11-04"
+      },
+      {
+        "id": "CON-LR-04",
+        "title": "CFO's office",
+        "role": "approver",
+        "sentiment": "unengaged",
+        "lastContactOn": "2026-03-12"
+      }
+    ],
+    "competitors": [
+      {
+        "name": "NTT",
+        "threat": "Pitched a managed low-latency network to the Hong Kong desk; the customer has not confirmed whether it is in the formal evaluation."
+      },
+      {
+        "name": "StarHub",
+        "threat": "Quoted executive mobile plans to procurement in Q2; price-led, with no security controls in scope."
+      },
+      {
+        "name": "Hyperscaler reseller",
+        "threat": "Proposed a cloud-delivered security stack bundled with cloud credits; the risk team prefers network-level controls."
+      }
+    ],
+    "productMix": [
+      {
+        "bundle": "Unified SASE & SD-WAN + 5G",
+        "gap": "Executive roaming and branch access sit outside one security policy; 14 SIM-swap attempts were blocked this month and the disaster recovery path has no diversity."
+      }
+    ]
+  },
+  {
+    "accountId": "acct-straits-maritime-sg",
+    "accountName": "Straits Vanguard Maritime Lines",
+    "route": "singtel-enterprise",
+    "ncsLobs": [],
+    "repId": "rep-arjun",
+    "contractEndDate": "2026-12-30",
+    "sites": [
+      {
+        "siteId": "sv-tuas",
+        "name": "Tuas berth operations centre",
+        "address": "Tuas South Avenue, Singapore",
+        "lat": 1.24,
+        "lng": 103.62,
+        "fiber": "on-net",
+        "fiveG": "on-net",
+        "seats": 140,
+        "strain": "Paragon shows the berth automation slice at 94% sustained load."
+      },
+      {
+        "siteId": "sv-hq",
+        "name": "Head office",
+        "address": "HarbourFront Avenue, Singapore",
+        "lat": 1.265,
+        "lng": 103.82,
+        "fiber": "on-net",
+        "fiveG": "on-net",
+        "seats": 260
+      },
+      {
+        "siteId": "sv-jurong",
+        "name": "Jurong Port crew training centre",
+        "address": "Jurong Port Road, Singapore",
+        "lat": 1.307,
+        "lng": 103.721,
+        "fiber": "near-net",
+        "fiveG": "on-net",
+        "seats": 45,
+        "strain": "Training simulators share a 200 Mbps link with vessel data uploads; sessions slip when uploads run."
+      },
+      {
+        "siteId": "sv-chennai",
+        "name": "Chennai liaison office",
+        "address": "Rajaji Salai, Chennai, India",
+        "lat": 13.095,
+        "lng": 80.292,
+        "fiber": "off-net",
+        "fiveG": "off-net",
+        "seats": 25,
+        "strain": "12 vessels on the Chennai route run above 90% VSAT load with 18% packet drop."
+      }
+    ],
+    "meddpicc": [
+      {
+        "key": "metrics",
+        "score": 2,
+        "evidence": "VP Fleet Operations set targets: berth slice load below 70%, and packet drop on the Chennai route from 18% to under 2%."
+      },
+      {
+        "key": "economicBuyer",
+        "score": 2,
+        "evidence": "VP Fleet Operations and Maritime IT holds the fleet IT budget and chaired the October renewal planning session."
+      },
+      {
+        "key": "decisionCriteria",
+        "score": 1,
+        "evidence": "IMO cyber controls and berth uptime are stated; commercial weighting against M1 and StarHub is not shared.",
+        "gap": "Get the evaluation weighting from procurement before the competitive check."
+      },
+      {
+        "key": "decisionProcess",
+        "score": 1,
+        "evidence": "Renewal decision targeted for mid December 2026; the approval route above the VP is unclear.",
+        "gap": "Confirm whether the CFO or the board signs a multi-year renewal."
+      },
+      {
+        "key": "paperProcess",
+        "score": 1,
+        "evidence": "Oracle PO process is known; the revised PO for the overdue Q4 invoice is still outstanding.",
+        "gap": "Clear SGT-INV-2026-4471 before the renewal contract is issued."
+      },
+      {
+        "key": "identifyPain",
+        "score": 2,
+        "evidence": "Tuas berth slice at 94% sustained load, 18% packet drop on 12 vessels, and the August P1 failover at Tuas."
+      },
+      {
+        "key": "champion",
+        "score": 1,
+        "evidence": "Fleet IT Manager shares data but has limited influence on procurement.",
+        "gap": "Develop the Port Operations Manager as a second champion."
+      },
+      {
+        "key": "competition",
+        "score": 0,
+        "evidence": "Customer will run a competitive check with M1 and StarHub; scope and pricing are not shared.",
+        "gap": "Learn which lots M1 and StarHub are bidding."
+      }
+    ],
+    "billing": {
+      "system": "Oracle",
+      "frictionNotes": [
+        "Oracle accounts payable needs the PO number in the invoice header; the FY27 PO was issued late after the fleet IT cost centre changed.",
+        "Q4 invoice SGT-INV-2026-4471 is overdue since 31 Oct 2026 while the customer reissues the PO."
+      ]
+    },
+    "invoices": [
+      {
+        "id": "SGT-INV-2026-1123",
+        "issuedOn": "2026-01-02",
+        "dueOn": "2026-02-01",
+        "amountSgd": 45000,
+        "status": "paid",
+        "billingSystem": "Oracle",
+        "lines": [
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ managed SD-WAN, head office, Tuas, and Jurong Port sites, Q1 2026",
+            "amountSgd": 33000
+          },
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ network management and vessel data analytics, Q1 2026",
+            "amountSgd": 12000
+          }
+        ]
+      },
+      {
+        "id": "SGT-INV-2026-2230",
+        "issuedOn": "2026-04-01",
+        "dueOn": "2026-05-01",
+        "amountSgd": 45000,
+        "status": "paid",
+        "billingSystem": "Oracle",
+        "lines": [
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ managed SD-WAN, head office, Tuas, and Jurong Port sites, Q2 2026",
+            "amountSgd": 33000
+          },
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ network management and vessel data analytics, Q2 2026",
+            "amountSgd": 12000
+          }
+        ]
+      },
+      {
+        "id": "SGT-INV-2026-3337",
+        "issuedOn": "2026-07-01",
+        "dueOn": "2026-07-31",
+        "amountSgd": 45000,
+        "status": "paid",
+        "billingSystem": "Oracle",
+        "lines": [
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ managed SD-WAN, head office, Tuas, and Jurong Port sites, Q3 2026",
+            "amountSgd": 33000
+          },
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ network management and vessel data analytics, Q3 2026",
+            "amountSgd": 12000
+          }
+        ]
+      },
+      {
+        "id": "SGT-INV-2026-4471",
+        "issuedOn": "2026-10-01",
+        "dueOn": "2026-10-31",
+        "amountSgd": 40500,
+        "status": "overdue",
+        "billingSystem": "Oracle",
+        "lines": [
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ managed SD-WAN, head office, Tuas, and Jurong Port sites, Q4 2026",
+            "amountSgd": 33000
+          },
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ network management and vessel data analytics, Q4 2026",
+            "amountSgd": 12000
+          },
+          {
+            "productId": "SGT-CUBE",
+            "description": "Service credit, INC-2026-0821",
+            "amountSgd": -4500
+          }
+        ],
+        "note": "On hold in customer accounts payable pending a revised PO after the fleet IT budget moved cost centres."
+      }
+    ],
+    "meetings": [
+      {
+        "id": "MTG-SV-2026-01",
+        "date": "2026-02-17",
+        "title": "Account review: fleet connectivity",
+        "attendees": [
+          "Singtel Client Partner",
+          "Singtel Solution Architect, Connectivity",
+          "Customer VP Fleet Operations and Maritime IT",
+          "Customer Fleet IT Manager"
+        ],
+        "decisions": [
+          "Prioritise Tuas berth automation capacity ahead of fleet VSAT changes.",
+          "Customer will share the vessel data upload schedule."
+        ],
+        "actions": [
+          {
+            "owner": "Customer Fleet IT Manager",
+            "action": "Share the vessel data upload schedule for the Chennai route",
+            "due": "2026-03-06"
+          }
+        ]
+      },
+      {
+        "id": "MTG-SV-2026-02",
+        "date": "2026-05-26",
+        "title": "Port operations workshop: berth automation",
+        "attendees": [
+          "Singtel Client Partner",
+          "Singtel 5G+ Specialist",
+          "Customer VP Fleet Operations and Maritime IT",
+          "Customer Port Operations Manager"
+        ],
+        "decisions": [
+          "A private 5G option for berth cranes will be costed against Wi-Fi expansion.",
+          "IMO cyber controls must be part of any proposal."
+        ],
+        "actions": [
+          {
+            "owner": "Singtel 5G+ Specialist",
+            "action": "Cost a private 5G slice for berth cranes with on-site edge processing",
+            "due": "2026-06-30"
+          }
+        ]
+      },
+      {
+        "id": "MTG-SV-2026-03",
+        "date": "2026-08-28",
+        "title": "P1 incident review: Tuas failover",
+        "attendees": [
+          "Singtel Service Manager",
+          "Singtel Client Partner",
+          "Customer Fleet IT Manager",
+          "Customer Head of Cyber Security"
+        ],
+        "decisions": [
+          "Service credit of SGD 4,500 agreed for INC-2026-0821.",
+          "A dual-path design for the Tuas operations centre will be included in the renewal."
+        ],
+        "actions": [
+          {
+            "owner": "Singtel Service Manager",
+            "action": "Issue the root cause report for INC-2026-0821",
+            "due": "2026-09-04"
+          },
+          {
+            "owner": "Singtel Client Partner",
+            "action": "Net the service credit on the Q4 invoice",
+            "due": "2026-10-01"
+          }
+        ]
+      },
+      {
+        "id": "MTG-SV-2026-04",
+        "date": "2026-10-29",
+        "title": "Renewal planning",
+        "attendees": [
+          "Singtel Client Partner",
+          "Customer VP Fleet Operations and Maritime IT",
+          "Customer Procurement Lead"
+        ],
+        "decisions": [
+          "Customer will run a competitive check with M1 and StarHub before renewal.",
+          "Renewal decision targeted for mid December 2026."
+        ],
+        "actions": [
+          {
+            "owner": "Singtel Client Partner",
+            "action": "Submit the renewal proposal with Private 5G + Edge and SASE options",
+            "due": "2026-11-20"
+          },
+          {
+            "owner": "Customer Procurement Lead",
+            "action": "Issue the revised PO for the Q4 invoice",
+            "due": "2026-11-14"
+          }
+        ]
+      }
+    ],
+    "slaIncidents": [
+      {
+        "id": "INC-2026-0821",
+        "date": "2026-08-21",
+        "severity": "P1",
+        "summary": "CUBΣ SD-WAN failover at the Tuas berth operations centre took 52 minutes during a vessel changeover.",
+        "resolutionHours": 1.5,
+        "creditSgd": 4500
+      },
+      {
+        "id": "INC-2026-1009",
+        "date": "2026-10-09",
+        "severity": "P3",
+        "summary": "Intermittent latency to the Chennai liaison office over the partner tail circuit; outside the Singtel SLA as an off-net tail.",
+        "resolutionHours": 7,
+        "creditSgd": 0
+      }
+    ],
+    "cases": [
+      {
+        "id": "CASE-2026-0822",
+        "openedOn": "2026-08-22",
+        "category": "complaint",
+        "severity": "high",
+        "subject": "Failover at Tuas took 52 minutes during a vessel call; operations asked for a root cause and a service credit.",
+        "status": "resolved",
+        "csat": 2,
+        "siteId": "sv-tuas"
+      },
+      {
+        "id": "CASE-2026-1010",
+        "openedOn": "2026-10-10",
+        "category": "performance",
+        "severity": "low",
+        "subject": "Latency to the Chennai liaison office over the partner tail circuit.",
+        "status": "resolved",
+        "csat": 3,
+        "siteId": "sv-chennai"
+      },
+      {
+        "id": "CASE-2026-1021",
+        "openedOn": "2026-10-21",
+        "category": "request",
+        "severity": "medium",
+        "subject": "Procurement asked about a 5G port slice trial; M1 has offered one at a lower monthly fee.",
+        "status": "open",
+        "competitor": "M1"
+      }
+    ],
+    "contacts": [
+      {
+        "id": "CON-SV-01",
+        "title": "VP Fleet Operations and Maritime IT",
+        "role": "economic_buyer",
+        "sentiment": "neutral",
+        "lastContactOn": "2026-10-29"
+      },
+      {
+        "id": "CON-SV-02",
+        "title": "Fleet IT Manager",
+        "role": "champion",
+        "sentiment": "positive",
+        "lastContactOn": "2026-10-29"
+      },
+      {
+        "id": "CON-SV-03",
+        "title": "Port Operations Manager",
+        "role": "influencer",
+        "sentiment": "neutral",
+        "lastContactOn": "2026-08-28"
+      },
+      {
+        "id": "CON-SV-04",
+        "title": "Former Head of Maritime IT",
+        "role": "champion",
+        "sentiment": "positive",
+        "lastContactOn": "2026-08-28",
+        "leftOn": "2026-09-15"
+      }
+    ],
+    "competitors": [
+      {
+        "name": "M1",
+        "threat": "Proposed a 5G port slice trial at a lower monthly fee; the proposal has no IMO cyber controls."
+      },
+      {
+        "name": "StarHub",
+        "threat": "Holds two crew mobile contracts and may bid the fleet IoT lot at renewal."
+      }
+    ],
+    "productMix": [
+      {
+        "bundle": "Private 5G + Edge",
+        "gap": "Berth automation slice at 94% sustained load; crane telemetry for the port's CII systems should be processed on site."
+      },
+      {
+        "bundle": "Unified SASE & SD-WAN + 5G",
+        "gap": "No single security policy across head office, Tuas, Jurong Port, and the Chennai liaison office; IMO cyber controls are required."
+      }
+    ]
+  },
+  {
+    "accountId": "acct-aeropulse-sg",
+    "accountName": "AeroPulse Aviation & Cargo",
+    "route": "ncs-multi-lob",
+    "ncsLobs": [
+      "Transport and Aviation",
+      "Cyber Security Services"
+    ],
+    "repId": "rep-farah",
+    "contractEndDate": "2027-03-15",
+    "sites": [
+      {
+        "siteId": "ap-hangar",
+        "name": "MRO hangar",
+        "address": "Changi North Crescent, Singapore",
+        "lat": 1.357,
+        "lng": 103.987,
+        "fiber": "on-net",
+        "fiveG": "near-net",
+        "seats": 380,
+        "strain": "Engine log offload takes 28 minutes per turnaround on congested apron Wi-Fi; 3 unrecognised OT remote sessions were blocked this week."
+      },
+      {
+        "siteId": "ap-cargo",
+        "name": "Air cargo operations office",
+        "address": "Airline Road, Changi, Singapore",
+        "lat": 1.3725,
+        "lng": 103.989,
+        "fiber": "on-net",
+        "fiveG": "on-net",
+        "seats": 210
+      },
+      {
+        "siteId": "ap-seletar",
+        "name": "Seletar component workshop",
+        "address": "Seletar Aerospace Drive, Singapore",
+        "lat": 1.415,
+        "lng": 103.868,
+        "fiber": "near-net",
+        "fiveG": "on-net",
+        "seats": 95,
+        "strain": "Single 500 Mbps link without path diversity."
+      },
+      {
+        "siteId": "ap-johor",
+        "name": "Johor component store",
+        "address": "Senai, Johor, Malaysia",
+        "lat": 1.6,
+        "lng": 103.655,
+        "fiber": "off-net",
+        "fiveG": "off-net",
+        "seats": 40,
+        "strain": "Currently a partner tail; the Johor leg is planned via TM Nxera and CUBΣ SD-WAN."
+      }
+    ],
+    "meddpicc": [
+      {
+        "key": "metrics",
+        "score": 2,
+        "evidence": "COO target: cut engine log offload from 28 minutes to under 5 minutes per turnaround."
+      },
+      {
+        "key": "economicBuyer",
+        "score": 2,
+        "evidence": "COO sponsors the apron proposal and owns the MRO technology budget."
+      },
+      {
+        "key": "decisionCriteria",
+        "score": 2,
+        "evidence": "Written criteria: CII obligations, OT segmentation, offload time, and aviation data kept in Singapore."
+      },
+      {
+        "key": "decisionProcess",
+        "score": 1,
+        "evidence": "COO approves, but the CII programme office review step is not scheduled.",
+        "gap": "Ask the NCS Transport and Aviation lead to schedule the CII programme office review."
+      },
+      {
+        "key": "paperProcess",
+        "score": 1,
+        "evidence": "SAP PO process is known; the Q3 invoice dispute on device count is still open.",
+        "gap": "Close the device-count dispute on SGT-INV-2026-3345 before the renewal paper."
+      },
+      {
+        "key": "identifyPain",
+        "score": 2,
+        "evidence": "28-minute engine log offload, 3 blocked OT remote sessions, and a P2 tracker delay at the cargo terminal."
+      },
+      {
+        "key": "champion",
+        "score": 2,
+        "evidence": "Head of MRO Technology presented the apron business case to the COO."
+      },
+      {
+        "key": "competition",
+        "score": 1,
+        "evidence": "NTT is bidding an OT security assessment for the hangar through a systems integrator.",
+        "gap": "Confirm whether the NTT assessment overlaps the NCS OT scope."
+      }
+    ],
+    "billing": {
+      "system": "SAP",
+      "frictionNotes": [
+        "SAP three-way match works, but IoT device counts are reconciled by hand against the customer's asset register each quarter.",
+        "Q3 invoice SGT-INV-2026-3345 is disputed on device count: 640 billed, 588 active in the customer register."
+      ]
+    },
+    "invoices": [
+      {
+        "id": "SGT-INV-2026-1131",
+        "issuedOn": "2026-01-06",
+        "dueOn": "2026-02-05",
+        "amountSgd": 37500,
+        "status": "paid",
+        "billingSystem": "SAP",
+        "lines": [
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ managed SD-WAN and apron network management, Q1 2026",
+            "amountSgd": 25000
+          },
+          {
+            "productId": "SGT-IOT",
+            "description": "IoT connectivity and orchestration, 640 tool and cargo-dolly trackers, Q1 2026",
+            "amountSgd": 12500
+          }
+        ]
+      },
+      {
+        "id": "SGT-INV-2026-2238",
+        "issuedOn": "2026-04-02",
+        "dueOn": "2026-05-02",
+        "amountSgd": 37500,
+        "status": "paid",
+        "billingSystem": "SAP",
+        "lines": [
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ managed SD-WAN and apron network management, Q2 2026",
+            "amountSgd": 25000
+          },
+          {
+            "productId": "SGT-IOT",
+            "description": "IoT connectivity and orchestration, 640 tool and cargo-dolly trackers, Q2 2026",
+            "amountSgd": 12500
+          }
+        ]
+      },
+      {
+        "id": "SGT-INV-2026-2290",
+        "issuedOn": "2026-05-18",
+        "dueOn": "2026-06-17",
+        "amountSgd": 6000,
+        "status": "paid",
+        "billingSystem": "SAP",
+        "lines": [
+          {
+            "productId": "SGT-IOT",
+            "description": "Tracker activation, 120 additional devices (one-time)",
+            "amountSgd": 6000
+          }
+        ]
+      },
+      {
+        "id": "SGT-INV-2026-3345",
+        "issuedOn": "2026-07-02",
+        "dueOn": "2026-08-01",
+        "amountSgd": 36000,
+        "status": "disputed",
+        "billingSystem": "SAP",
+        "lines": [
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ managed SD-WAN and apron network management, Q3 2026",
+            "amountSgd": 25000
+          },
+          {
+            "productId": "SGT-IOT",
+            "description": "IoT connectivity and orchestration, 640 tool and cargo-dolly trackers, Q3 2026",
+            "amountSgd": 12500
+          },
+          {
+            "productId": "SGT-IOT",
+            "description": "Service credit, INC-2026-0503",
+            "amountSgd": -1500
+          }
+        ],
+        "note": "Customer disputes the IoT line: 640 trackers billed, 588 active in its asset register."
+      },
+      {
+        "id": "SGT-INV-2026-4452",
+        "issuedOn": "2026-10-02",
+        "dueOn": "2026-11-01",
+        "amountSgd": 36500,
+        "status": "paid",
+        "billingSystem": "SAP",
+        "lines": [
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ managed SD-WAN and apron network management, Q4 2026",
+            "amountSgd": 25000
+          },
+          {
+            "productId": "SGT-IOT",
+            "description": "IoT connectivity and orchestration, 588 tool and cargo-dolly trackers, Q4 2026",
+            "amountSgd": 11500
+          }
+        ],
+        "note": "Billed at the reconciled count of 588 trackers."
+      }
+    ],
+    "meetings": [
+      {
+        "id": "MTG-AP-2026-01",
+        "date": "2026-02-24",
+        "title": "Quarterly business review, Q1",
+        "attendees": [
+          "Singtel Client Partner",
+          "Customer Head of MRO Technology",
+          "Customer Cargo Operations Manager"
+        ],
+        "decisions": [
+          "Apron connectivity for engine log offload is added to the FY27 plan."
+        ],
+        "actions": [
+          {
+            "owner": "Singtel Client Partner",
+            "action": "Bring a 5G+ specialist to the next session",
+            "due": "2026-03-31"
+          }
+        ]
+      },
+      {
+        "id": "MTG-AP-2026-02",
+        "date": "2026-05-12",
+        "title": "OT security workshop with NCS",
+        "attendees": [
+          "Singtel Client Partner",
+          "NCS Cyber Security Services Lead",
+          "Customer Head of MRO Technology",
+          "Customer CISO"
+        ],
+        "decisions": [
+          "NCS will lead the OT security assessment for the hangar under the CII programme.",
+          "Singtel will cost apron 5G with on-site edge processing for log offload."
+        ],
+        "actions": [
+          {
+            "owner": "NCS Cyber Security Services Lead",
+            "action": "Send the OT assessment scope",
+            "due": "2026-06-05"
+          },
+          {
+            "owner": "Singtel 5G+ Specialist",
+            "action": "Cost apron 5G with multi-access edge computing",
+            "due": "2026-06-26"
+          }
+        ]
+      },
+      {
+        "id": "MTG-AP-2026-03",
+        "date": "2026-08-06",
+        "title": "IoT billing reconciliation",
+        "attendees": [
+          "Singtel Billing Specialist",
+          "Singtel Client Partner",
+          "Customer Finance Manager"
+        ],
+        "decisions": [
+          "Device counts will be reconciled against the customer asset register before each quarterly invoice."
+        ],
+        "actions": [
+          {
+            "owner": "Singtel Billing Specialist",
+            "action": "Issue a corrected view of SGT-INV-2026-3345 at 588 devices",
+            "due": "2026-08-31"
+          }
+        ]
+      },
+      {
+        "id": "MTG-AP-2026-04",
+        "date": "2026-10-21",
+        "title": "Steering committee: Changi apron 5G+",
+        "attendees": [
+          "Singtel Client Partner",
+          "Singtel 5G+ Specialist",
+          "NCS Transport and Aviation Lead",
+          "Customer COO",
+          "Customer Head of MRO Technology"
+        ],
+        "decisions": [
+          "COO sponsors a proposal for apron 5G with edge processing.",
+          "Proposal is due before the renewal paper in January 2027."
+        ],
+        "actions": [
+          {
+            "owner": "Singtel Client Partner",
+            "action": "Submit the Changi apron proposal with indicative pricing derived from catalogue ARR",
+            "due": "2026-12-04"
+          }
+        ]
+      }
+    ],
+    "slaIncidents": [
+      {
+        "id": "INC-2026-0503",
+        "date": "2026-05-03",
+        "severity": "P2",
+        "summary": "IoT orchestration delay; tracker positions at the cargo terminal lagged by up to 20 minutes.",
+        "resolutionHours": 4,
+        "creditSgd": 1500
+      },
+      {
+        "id": "INC-2026-0915",
+        "date": "2026-09-15",
+        "severity": "P3",
+        "summary": "Seletar workshop link flapped during a firmware upgrade window.",
+        "resolutionHours": 2,
+        "creditSgd": 0
+      }
+    ],
+    "cases": [
+      {
+        "id": "CASE-2026-0807",
+        "openedOn": "2026-08-07",
+        "category": "billing",
+        "severity": "medium",
+        "subject": "IoT SIM charges on SGT-INV-2026-3345 do not match the activated tracker count.",
+        "status": "open",
+        "csat": 3
+      },
+      {
+        "id": "CASE-2026-0916",
+        "openedOn": "2026-09-16",
+        "category": "performance",
+        "severity": "low",
+        "subject": "Seletar workshop link flapped during a firmware upgrade window.",
+        "status": "resolved",
+        "csat": 4,
+        "siteId": "ap-seletar"
+      }
+    ],
+    "contacts": [
+      {
+        "id": "CON-AP-01",
+        "title": "COO",
+        "role": "economic_buyer",
+        "sentiment": "positive",
+        "lastContactOn": "2026-10-21"
+      },
+      {
+        "id": "CON-AP-02",
+        "title": "Head of MRO Technology",
+        "role": "champion",
+        "sentiment": "positive",
+        "lastContactOn": "2026-10-21"
+      },
+      {
+        "id": "CON-AP-03",
+        "title": "Finance Manager",
+        "role": "influencer",
+        "sentiment": "negative",
+        "lastContactOn": "2026-08-06"
+      }
+    ],
+    "competitors": [
+      {
+        "name": "NTT",
+        "threat": "Bidding an OT security assessment for the hangar through a systems integrator."
+      },
+      {
+        "name": "Hyperscaler reseller",
+        "threat": "Offering cloud IoT analytics for tracker data with bundled credits; does not cover apron connectivity."
+      }
+    ],
+    "productMix": [
+      {
+        "bundle": "Private 5G + Edge",
+        "gap": "28-minute engine log offload on congested apron Wi-Fi; aviation CII data must stay in Singapore."
+      },
+      {
+        "bundle": "Unified SASE & SD-WAN + 5G",
+        "gap": "3 unrecognised OT remote sessions blocked on hangar systems; the Johor component store joins over a partner tail."
+      }
+    ]
+  },
+  {
+    "accountId": "acct-orchidbay-sg",
+    "accountName": "Orchid Bay Medical Group",
+    "route": "singtel-enterprise",
+    "ncsLobs": [],
+    "repId": "rep-daniel",
+    "contractEndDate": "2027-04-14",
+    "sites": [
+      {
+        "siteId": "ob-novena",
+        "name": "Novena hospital campus",
+        "address": "Irrawaddy Road, Novena, Singapore",
+        "lat": 1.3204,
+        "lng": 103.8436,
+        "fiber": "on-net",
+        "fiveG": "on-net",
+        "seats": 1150,
+        "strain": "Ward device traffic at 89% of campus Wi-Fi capacity across 4 inpatient wards."
+      },
+      {
+        "siteId": "ob-orchard",
+        "name": "Orchard specialist centre",
+        "address": "Paterson Road, Singapore",
+        "lat": 1.304,
+        "lng": 103.832,
+        "fiber": "on-net",
+        "fiveG": "on-net",
+        "seats": 240
+      },
+      {
+        "siteId": "ob-tampines",
+        "name": "Tampines day surgery clinic",
+        "address": "Tampines Central, Singapore",
+        "lat": 1.353,
+        "lng": 103.945,
+        "fiber": "near-net",
+        "fiveG": "on-net",
+        "seats": 85
+      },
+      {
+        "siteId": "ob-imaging",
+        "name": "Bukit Timah imaging centre",
+        "address": "Bukit Timah Road, Singapore",
+        "lat": 1.329,
+        "lng": 103.807,
+        "fiber": "near-net",
+        "fiveG": "near-net",
+        "seats": 60,
+        "strain": "Image uploads to the central archive slow at peak hours over a 1 Gbps link."
+      }
+    ],
+    "meddpicc": [
+      {
+        "key": "metrics",
+        "score": 1,
+        "evidence": "Ward network load is measured, but there is no agreed target or clinical outcome metric.",
+        "gap": "Agree a target with the CMIO, such as ward device load below 70% at peak."
+      },
+      {
+        "key": "economicBuyer",
+        "score": 0,
+        "evidence": "Group CEO and CFO are not engaged; the CMIO has no budget authority above pilots.",
+        "gap": "Ask the CMIO to sponsor a session with the Group CFO."
+      },
+      {
+        "key": "decisionCriteria",
+        "score": 1,
+        "evidence": "Data residency for clinical AI is a stated criterion; network criteria are not written down.",
+        "gap": "Draft decision criteria with the Group CIO and confirm in writing."
+      },
+      {
+        "key": "decisionProcess",
+        "score": 0,
+        "evidence": "Approval path for an investment above the pilot budget is unknown.",
+        "gap": "Map the approval path with the Group CIO before the April 2027 renewal."
+      },
+      {
+        "key": "paperProcess",
+        "score": 1,
+        "evidence": "Oracle payment runs are known; the Q4 invoice is overdue but payment is confirmed.",
+        "gap": "Confirm the contract amendment route with procurement."
+      },
+      {
+        "key": "identifyPain",
+        "score": 2,
+        "evidence": "Ward device traffic at 89% of campus Wi-Fi capacity, and three clinical AI pilots calling overseas model endpoints."
+      },
+      {
+        "key": "champion",
+        "score": 2,
+        "evidence": "CMIO raised the data residency concern internally and asked for an in-country inference option."
+      },
+      {
+        "key": "competition",
+        "score": 1,
+        "evidence": "StarHub quoted a campus Wi-Fi refresh to the facilities team.",
+        "gap": "Learn whether the StarHub quote includes clinical device security."
+      }
+    ],
+    "billing": {
+      "system": "Oracle",
+      "frictionNotes": [
+        "Oracle accounts payable pays in two runs per month; invoices that miss the cut-off wait up to 15 days.",
+        "Q4 invoice SGT-INV-2026-4480 is overdue since 4 Nov 2026; payment is confirmed for the 20 November run."
+      ]
+    },
+    "invoices": [
+      {
+        "id": "SGT-INV-2026-1149",
+        "issuedOn": "2026-01-05",
+        "dueOn": "2026-02-04",
+        "amountSgd": 32500,
+        "status": "paid",
+        "billingSystem": "Oracle",
+        "lines": [
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ managed campus network, Novena and Orchard, Q1 2026",
+            "amountSgd": 24000
+          },
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ network security monitoring, Q1 2026",
+            "amountSgd": 8500
+          }
+        ]
+      },
+      {
+        "id": "SGT-INV-2026-2256",
+        "issuedOn": "2026-04-06",
+        "dueOn": "2026-05-06",
+        "amountSgd": 32500,
+        "status": "paid",
+        "billingSystem": "Oracle",
+        "lines": [
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ managed campus network, Novena and Orchard, Q2 2026",
+            "amountSgd": 24000
+          },
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ network security monitoring, Q2 2026",
+            "amountSgd": 8500
+          }
+        ]
+      },
+      {
+        "id": "SGT-INV-2026-3363",
+        "issuedOn": "2026-07-03",
+        "dueOn": "2026-08-02",
+        "amountSgd": 30700,
+        "status": "paid",
+        "billingSystem": "Oracle",
+        "lines": [
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ managed campus network, Novena and Orchard, Q3 2026",
+            "amountSgd": 24000
+          },
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ network security monitoring, Q3 2026",
+            "amountSgd": 8500
+          },
+          {
+            "productId": "SGT-CUBE",
+            "description": "Service credit, INC-2026-0614",
+            "amountSgd": -1800
+          }
+        ],
+        "note": "Service credit for INC-2026-0614 netted off."
+      },
+      {
+        "id": "SGT-INV-2026-4480",
+        "issuedOn": "2026-10-05",
+        "dueOn": "2026-11-04",
+        "amountSgd": 32500,
+        "status": "overdue",
+        "billingSystem": "Oracle",
+        "lines": [
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ managed campus network, Novena and Orchard, Q4 2026",
+            "amountSgd": 24000
+          },
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ network security monitoring, Q4 2026",
+            "amountSgd": 8500
+          }
+        ],
+        "note": "Missed the Oracle month-end payment run; customer accounts payable confirmed payment in the 20 November run."
+      }
+    ],
+    "meetings": [
+      {
+        "id": "MTG-OB-2026-01",
+        "date": "2026-03-03",
+        "title": "Annual account review",
+        "attendees": [
+          "Singtel Client Partner",
+          "Customer Group CIO",
+          "Customer CMIO"
+        ],
+        "decisions": [
+          "A capacity review of ward networks will run in Q3."
+        ],
+        "actions": [
+          {
+            "owner": "Singtel Client Partner",
+            "action": "Schedule the ward capacity review",
+            "due": "2026-06-30"
+          }
+        ]
+      },
+      {
+        "id": "MTG-OB-2026-02",
+        "date": "2026-07-15",
+        "title": "Ward capacity review",
+        "attendees": [
+          "Singtel Client Partner",
+          "Singtel 5G+ Specialist",
+          "Customer Group CIO",
+          "Customer CMIO"
+        ],
+        "decisions": [
+          "Ward device traffic at 89% of campus Wi-Fi capacity is accepted as a risk.",
+          "Customer raises concern about clinical AI pilots calling overseas model endpoints."
+        ],
+        "actions": [
+          {
+            "owner": "Singtel 5G+ Specialist",
+            "action": "Outline a 5G+ option for ward devices",
+            "due": "2026-08-28"
+          },
+          {
+            "owner": "Customer CMIO",
+            "action": "List the clinical AI pilots and where each one sends data",
+            "due": "2026-08-14"
+          }
+        ]
+      },
+      {
+        "id": "MTG-OB-2026-03",
+        "date": "2026-10-14",
+        "title": "Clinical AI data residency session",
+        "attendees": [
+          "Singtel Client Partner",
+          "Singtel RE:AI Specialist",
+          "Customer CMIO",
+          "Customer Data Protection Officer"
+        ],
+        "decisions": [
+          "Customer will evaluate in-country inference for the three pilot tools.",
+          "A business case will be built before the April 2027 renewal."
+        ],
+        "actions": [
+          {
+            "owner": "Singtel RE:AI Specialist",
+            "action": "Send a sizing for in-country inference of the three pilot tools",
+            "due": "2026-11-18"
+          },
+          {
+            "owner": "Singtel Client Partner",
+            "action": "Request a session with the Group CFO through the CMIO",
+            "due": "2026-11-30"
+          }
+        ]
+      }
+    ],
+    "slaIncidents": [
+      {
+        "id": "INC-2026-0614",
+        "date": "2026-06-14",
+        "severity": "P2",
+        "summary": "Campus Wi-Fi controller failover at Novena; ward devices reconnected after 25 minutes.",
+        "resolutionHours": 1,
+        "creditSgd": 1800
+      },
+      {
+        "id": "INC-2026-1102",
+        "date": "2026-11-02",
+        "severity": "P3",
+        "summary": "Image upload slowdown at the Bukit Timah imaging centre during peak hours.",
+        "resolutionHours": 5,
+        "creditSgd": 0
+      }
+    ],
+    "cases": [
+      {
+        "id": "CASE-2026-0615",
+        "openedOn": "2026-06-15",
+        "category": "complaint",
+        "severity": "medium",
+        "subject": "Ward devices reconnected after 25 minutes during the Wi-Fi controller failover at Novena.",
+        "status": "resolved",
+        "csat": 3,
+        "siteId": "ob-novena"
+      },
+      {
+        "id": "CASE-2026-0929",
+        "openedOn": "2026-09-29",
+        "category": "request",
+        "severity": "low",
+        "subject": "Facilities asked whether we can match StarHub's lower monthly fee for the campus Wi-Fi refresh.",
+        "status": "open",
+        "competitor": "StarHub"
+      },
+      {
+        "id": "CASE-2026-1103",
+        "openedOn": "2026-11-03",
+        "category": "performance",
+        "severity": "medium",
+        "subject": "Image uploads slow at the Bukit Timah imaging centre during peak hours.",
+        "status": "open",
+        "csat": 3,
+        "siteId": "ob-imaging"
+      }
+    ],
+    "contacts": [
+      {
+        "id": "CON-OB-01",
+        "title": "CMIO",
+        "role": "champion",
+        "sentiment": "positive",
+        "lastContactOn": "2026-10-14"
+      },
+      {
+        "id": "CON-OB-02",
+        "title": "Group CIO",
+        "role": "influencer",
+        "sentiment": "neutral",
+        "lastContactOn": "2026-07-15"
+      },
+      {
+        "id": "CON-OB-03",
+        "title": "Group CFO",
+        "role": "economic_buyer",
+        "sentiment": "unengaged"
+      },
+      {
+        "id": "CON-OB-04",
+        "title": "Data Protection Officer",
+        "role": "influencer",
+        "sentiment": "negative",
+        "lastContactOn": "2026-10-14"
+      }
+    ],
+    "competitors": [
+      {
+        "name": "StarHub",
+        "threat": "Quoted a campus Wi-Fi refresh to the facilities team at a lower monthly fee."
+      },
+      {
+        "name": "Hyperscaler reseller",
+        "threat": "Clinical AI pilots run on overseas model endpoints bought through a cloud reseller; the Data Protection Officer has raised data residency concerns."
+      }
+    ],
+    "productMix": [
+      {
+        "bundle": "RE:AI sovereign AI + hyperscaler orchestration",
+        "gap": "Three clinical AI pilots call overseas model endpoints; the Data Protection Officer wants inference kept in Singapore."
+      },
+      {
+        "bundle": "Unified SASE & SD-WAN + 5G",
+        "gap": "Ward device traffic at 89% of campus Wi-Fi capacity across 4 inpatient wards, with no single policy for clinical devices."
+      }
+    ]
+  },
+  {
+    "accountId": "acct-helixveda-sg",
+    "accountName": "HelixVeda Bio-AI",
+    "route": "singtel-enterprise",
+    "ncsLobs": [],
+    "repId": "rep-daniel",
+    "contractEndDate": "2027-06-03",
+    "sites": [
+      {
+        "siteId": "hv-biopolis",
+        "name": "Biopolis research lab",
+        "address": "Biopolis Way, one-north, Singapore",
+        "lat": 1.304,
+        "lng": 103.793,
+        "fiber": "on-net",
+        "fiveG": "on-net",
+        "seats": 180,
+        "strain": "Training jobs wait 6.5 hours for public cloud GPUs."
+      },
+      {
+        "siteId": "hv-datahall",
+        "name": "one-north data hall (colocation)",
+        "address": "Fusionopolis Way, one-north, Singapore",
+        "lat": 1.299,
+        "lng": 103.788,
+        "fiber": "on-net",
+        "fiveG": "on-net",
+        "seats": 12
+      },
+      {
+        "siteId": "hv-blr",
+        "name": "Bengaluru research arm",
+        "address": "Whitefield, Bengaluru, India",
+        "lat": 12.9698,
+        "lng": 77.75,
+        "fiber": "off-net",
+        "fiveG": "off-net",
+        "seats": 70,
+        "strain": "Weekly checkpoint sync from Biopolis takes 14 hours over a partner tail."
+      }
+    ],
+    "meddpicc": [
+      {
+        "key": "metrics",
+        "score": 2,
+        "evidence": "CSO targets: GPU queue wait from 6.5 hours to under 30 minutes, and weekly checkpoint sync from 14 hours to under 2 hours."
+      },
+      {
+        "key": "economicBuyer",
+        "score": 2,
+        "evidence": "CSO holds the compute budget and attended the benchmark readout."
+      },
+      {
+        "key": "decisionCriteria",
+        "score": 2,
+        "evidence": "Written criteria: GPU availability, checkpoint data kept in Singapore, DPDP Act handling for Bengaluru staff data, and cost per training run."
+      },
+      {
+        "key": "decisionProcess",
+        "score": 2,
+        "evidence": "CSO takes the proposal to the investment committee in January 2027; committee dates are confirmed."
+      },
+      {
+        "key": "paperProcess",
+        "score": 1,
+        "evidence": "Grant-funded spend needs a grant code on each invoice line; the contract template has not been reviewed.",
+        "gap": "Send the contract template to the customer's legal team before the investment committee."
+      },
+      {
+        "key": "identifyPain",
+        "score": 2,
+        "evidence": "6.5-hour GPU queue per training job and a 14-hour weekly checkpoint sync to Bengaluru."
+      },
+      {
+        "key": "champion",
+        "score": 2,
+        "evidence": "Head of AI Platform ran the RE:AI benchmark and presented the results to the CSO."
+      },
+      {
+        "key": "competition",
+        "score": 1,
+        "evidence": "Hyperscaler reseller is the incumbent for GPU capacity; an NTT data centre offer is under discussion.",
+        "gap": "Confirm whether NTT is in the formal evaluation."
+      }
+    ],
+    "billing": {
+      "system": "SAP",
+      "frictionNotes": [
+        "Research grants fund part of the network spend; finance needs a grant code on each invoice line.",
+        "Every 2026 invoice was paid within terms."
+      ]
+    },
+    "invoices": [
+      {
+        "id": "SGT-INV-2026-1158",
+        "issuedOn": "2026-01-02",
+        "dueOn": "2026-02-01",
+        "amountSgd": 40000,
+        "status": "paid",
+        "billingSystem": "SAP",
+        "lines": [
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ managed SD-WAN, Biopolis and one-north data hall, Q1 2026",
+            "amountSgd": 30000
+          },
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ Bengaluru research link management, Q1 2026",
+            "amountSgd": 10000
+          }
+        ]
+      },
+      {
+        "id": "SGT-INV-2026-2265",
+        "issuedOn": "2026-04-01",
+        "dueOn": "2026-05-01",
+        "amountSgd": 40000,
+        "status": "paid",
+        "billingSystem": "SAP",
+        "lines": [
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ managed SD-WAN, Biopolis and one-north data hall, Q2 2026",
+            "amountSgd": 30000
+          },
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ Bengaluru research link management, Q2 2026",
+            "amountSgd": 10000
+          }
+        ]
+      },
+      {
+        "id": "SGT-INV-2026-2298",
+        "issuedOn": "2026-06-10",
+        "dueOn": "2026-07-10",
+        "amountSgd": 9500,
+        "status": "paid",
+        "billingSystem": "SAP",
+        "lines": [
+          {
+            "productId": "SGT-CUBE",
+            "description": "Network design workshop for checkpoint sync (professional services)",
+            "amountSgd": 9500
+          }
+        ]
+      },
+      {
+        "id": "SGT-INV-2026-3372",
+        "issuedOn": "2026-07-01",
+        "dueOn": "2026-07-31",
+        "amountSgd": 40000,
+        "status": "paid",
+        "billingSystem": "SAP",
+        "lines": [
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ managed SD-WAN, Biopolis and one-north data hall, Q3 2026",
+            "amountSgd": 30000
+          },
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ Bengaluru research link management, Q3 2026",
+            "amountSgd": 10000
+          }
+        ]
+      },
+      {
+        "id": "SGT-INV-2026-4489",
+        "issuedOn": "2026-10-01",
+        "dueOn": "2026-10-31",
+        "amountSgd": 40000,
+        "status": "paid",
+        "billingSystem": "SAP",
+        "lines": [
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ managed SD-WAN, Biopolis and one-north data hall, Q4 2026",
+            "amountSgd": 30000
+          },
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ Bengaluru research link management, Q4 2026",
+            "amountSgd": 10000
+          }
+        ]
+      }
+    ],
+    "meetings": [
+      {
+        "id": "MTG-HV-2026-01",
+        "date": "2026-01-27",
+        "title": "Research platform planning",
+        "attendees": [
+          "Singtel Client Partner",
+          "Customer CSO",
+          "Customer Head of AI Platform"
+        ],
+        "decisions": [
+          "GPU capacity and checkpoint sync are the two priorities for 2026."
+        ],
+        "actions": [
+          {
+            "owner": "Singtel Client Partner",
+            "action": "Arrange a network design workshop for checkpoint sync",
+            "due": "2026-03-31"
+          }
+        ]
+      },
+      {
+        "id": "MTG-HV-2026-02",
+        "date": "2026-04-15",
+        "title": "GPU capacity review",
+        "attendees": [
+          "Singtel Client Partner",
+          "Singtel Digital InfraCo Specialist",
+          "Customer Head of AI Platform"
+        ],
+        "decisions": [
+          "GPU queue wait of 6.5 hours per training job is accepted as the main blocker."
+        ],
+        "actions": [
+          {
+            "owner": "Singtel Digital InfraCo Specialist",
+            "action": "Prepare a RE:AI GPU-as-a-Service benchmark plan",
+            "due": "2026-05-29"
+          }
+        ]
+      },
+      {
+        "id": "MTG-HV-2026-03",
+        "date": "2026-07-29",
+        "title": "RE:AI and Nxera architecture session",
+        "attendees": [
+          "Singtel Client Partner",
+          "Singtel Digital InfraCo Specialist",
+          "Customer CSO",
+          "Customer Head of AI Platform"
+        ],
+        "decisions": [
+          "Customer will run a benchmark on RE:AI GPU-as-a-Service.",
+          "Checkpoint data stays in Singapore; Bengaluru reaches it over managed links."
+        ],
+        "actions": [
+          {
+            "owner": "Customer Head of AI Platform",
+            "action": "Run the benchmark on two training workloads",
+            "due": "2026-10-09"
+          }
+        ]
+      },
+      {
+        "id": "MTG-HV-2026-04",
+        "date": "2026-10-27",
+        "title": "Benchmark readout",
+        "attendees": [
+          "Singtel Client Partner",
+          "Singtel Digital InfraCo Specialist",
+          "Customer CSO",
+          "Customer Head of AI Platform"
+        ],
+        "decisions": [
+          "Benchmark results accepted.",
+          "CSO will take a commercial proposal to the investment committee in January 2027."
+        ],
+        "actions": [
+          {
+            "owner": "Singtel Client Partner",
+            "action": "Send the Sovereign Bio-AI Compute proposal with indicative pricing derived from catalogue ARR",
+            "due": "2026-12-11"
+          }
+        ]
+      }
+    ],
+    "slaIncidents": [
+      {
+        "id": "INC-2026-0722",
+        "date": "2026-07-22",
+        "severity": "P3",
+        "summary": "Checkpoint sync to Bengaluru stalled for 6 hours after partner tail maintenance; outside the Singtel SLA as an off-net tail.",
+        "resolutionHours": 6,
+        "creditSgd": 0
+      }
+    ],
+    "cases": [
+      {
+        "id": "CASE-2026-0723",
+        "openedOn": "2026-07-23",
+        "category": "performance",
+        "severity": "medium",
+        "subject": "Checkpoint sync to Bengaluru stalled for 6 hours after partner tail maintenance.",
+        "status": "resolved",
+        "csat": 3,
+        "siteId": "hv-blr"
+      },
+      {
+        "id": "CASE-2026-1028",
+        "openedOn": "2026-10-28",
+        "category": "request",
+        "severity": "low",
+        "subject": "Quote requested for additional GPU capacity after the benchmark readout.",
+        "status": "open"
+      }
+    ],
+    "contacts": [
+      {
+        "id": "CON-HV-01",
+        "title": "CSO",
+        "role": "economic_buyer",
+        "sentiment": "positive",
+        "lastContactOn": "2026-10-27"
+      },
+      {
+        "id": "CON-HV-02",
+        "title": "Head of AI Platform",
+        "role": "champion",
+        "sentiment": "positive",
+        "lastContactOn": "2026-10-27"
+      },
+      {
+        "id": "CON-HV-03",
+        "title": "Head of Research Computing",
+        "role": "user",
+        "sentiment": "neutral",
+        "lastContactOn": "2026-07-29"
+      }
+    ],
+    "competitors": [
+      {
+        "name": "Hyperscaler reseller",
+        "threat": "Incumbent for public cloud GPU capacity through a reseller; queue waits average 6.5 hours per training job."
+      },
+      {
+        "name": "NTT",
+        "threat": "Data centre capacity offer in Singapore under discussion with the CSO's team."
+      }
+    ],
+    "productMix": [
+      {
+        "bundle": "RE:AI sovereign AI + hyperscaler orchestration",
+        "gap": "Training jobs wait 6.5 hours for public cloud GPUs, and the weekly checkpoint sync to Bengaluru takes 14 hours."
+      }
+    ]
+  },
+  {
+    "accountId": "acct-harbourline-sg",
+    "accountName": "Harbourline Logistics Group",
+    "route": "ncs-multi-lob",
+    "ncsLobs": [
+      "Enterprise Applications (ERP modernisation)",
+      "Cloud and Infrastructure Services"
+    ],
+    "repId": "rep-arjun",
+    "contractEndDate": "2027-02-18",
+    "sites": [
+      {
+        "siteId": "hl-pp",
+        "name": "Pasir Panjang distribution centre",
+        "address": "Pasir Panjang Road, Singapore",
+        "lat": 1.278,
+        "lng": 103.765,
+        "fiber": "on-net",
+        "fiveG": "on-net",
+        "seats": 220,
+        "strain": "CUBΣ shows a 6-hour nightly inventory sync to the Johor warehouse."
+      },
+      {
+        "siteId": "hl-johor",
+        "name": "Johor SEZ warehouse",
+        "address": "Iskandar Puteri, Johor, Malaysia",
+        "lat": 1.418,
+        "lng": 103.646,
+        "fiber": "off-net",
+        "fiveG": "off-net",
+        "seats": 90,
+        "strain": "Served by a partner tail circuit outside the Singtel SLA."
+      },
+      {
+        "siteId": "hl-changi",
+        "name": "Changi cold-chain annex",
+        "address": "Changi South Lane, Singapore",
+        "lat": 1.324,
+        "lng": 103.959,
+        "fiber": "near-net",
+        "fiveG": "on-net",
+        "seats": 60
+      },
+      {
+        "siteId": "hl-jurong",
+        "name": "Jurong regional office",
+        "address": "Jurong Gateway Road, Singapore",
+        "lat": 1.333,
+        "lng": 103.743,
+        "fiber": "on-net",
+        "fiveG": "on-net",
+        "seats": 110
+      }
+    ],
+    "meddpicc": [
+      {
+        "key": "metrics",
+        "score": 1,
+        "evidence": "The 6-hour nightly sync is measured; no target is agreed.",
+        "gap": "Agree a sync target with the Head of Regional Operations."
+      },
+      {
+        "key": "economicBuyer",
+        "score": 1,
+        "evidence": "Group CIO is engaged through the NCS steering committee; budget sits with the CFO.",
+        "gap": "Ask the NCS programme director to bring the CFO to the next steering committee."
+      },
+      {
+        "key": "decisionCriteria",
+        "score": 1,
+        "evidence": "Criteria cover ERP cutover readiness; network and security criteria are not written.",
+        "gap": "Add network and security criteria to the ERP programme charter."
+      },
+      {
+        "key": "decisionProcess",
+        "score": 2,
+        "evidence": "Decisions run through the NCS programme steering committee on fixed monthly dates."
+      },
+      {
+        "key": "paperProcess",
+        "score": 0,
+        "evidence": "Oracle PO structure is changing and SGT-INV-2026-4498 is disputed.",
+        "gap": "Resubmit SGT-INV-2026-4498 once the PO is reissued with one line per site."
+      },
+      {
+        "key": "identifyPain",
+        "score": 2,
+        "evidence": "6-hour nightly inventory sync, a 4-hour outage on the Johor partner tail, and the ERP cutover deadline."
+      },
+      {
+        "key": "champion",
+        "score": 1,
+        "evidence": "Head of Regional Operations wants a managed Johor link but has not been tested as a champion.",
+        "gap": "Ask the Head of Regional Operations to present the Johor case at the steering committee."
+      },
+      {
+        "key": "competition",
+        "score": 1,
+        "evidence": "StarHub offered a cross-border Singapore-Johor link to the regional operations team.",
+        "gap": "Confirm the scope and SLA of the StarHub offer."
+      }
+    ],
+    "billing": {
+      "system": "SAP-to-Oracle",
+      "frictionNotes": [
+        "NCS is modernising the warehouse ERP; accounts payable moved from SAP to Oracle in October 2026.",
+        "Oracle needs one PO line per site; SAP accepted one PO per contract.",
+        "SGT-INV-2026-4498 was rejected at three-way match; resubmission waits for the reissued PO."
+      ]
+    },
+    "invoices": [
+      {
+        "id": "SGT-INV-2026-1166",
+        "issuedOn": "2026-01-05",
+        "dueOn": "2026-02-04",
+        "amountSgd": 27500,
+        "status": "paid",
+        "billingSystem": "SAP",
+        "lines": [
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ managed SD-WAN, Pasir Panjang, Changi, and Jurong sites, Q1 2026",
+            "amountSgd": 21000
+          },
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ Johor link management, Q1 2026",
+            "amountSgd": 6500
+          }
+        ]
+      },
+      {
+        "id": "SGT-INV-2026-2273",
+        "issuedOn": "2026-04-02",
+        "dueOn": "2026-05-02",
+        "amountSgd": 27500,
+        "status": "paid",
+        "billingSystem": "SAP",
+        "lines": [
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ managed SD-WAN, Pasir Panjang, Changi, and Jurong sites, Q2 2026",
+            "amountSgd": 21000
+          },
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ Johor link management, Q2 2026",
+            "amountSgd": 6500
+          }
+        ]
+      },
+      {
+        "id": "SGT-INV-2026-3380",
+        "issuedOn": "2026-07-02",
+        "dueOn": "2026-08-01",
+        "amountSgd": 26600,
+        "status": "paid",
+        "billingSystem": "SAP",
+        "lines": [
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ managed SD-WAN, Pasir Panjang, Changi, and Jurong sites, Q3 2026",
+            "amountSgd": 21000
+          },
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ Johor link management, Q3 2026",
+            "amountSgd": 6500
+          },
+          {
+            "productId": "SGT-CUBE",
+            "description": "Service credit, INC-2026-0418",
+            "amountSgd": -900
+          }
+        ],
+        "note": "Service credit for INC-2026-0418 netted off."
+      },
+      {
+        "id": "SGT-INV-2026-4498",
+        "issuedOn": "2026-10-01",
+        "dueOn": "2026-10-31",
+        "amountSgd": 27500,
+        "status": "disputed",
+        "billingSystem": "Oracle",
+        "lines": [
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ managed SD-WAN, Pasir Panjang, Changi, and Jurong sites, Q4 2026",
+            "amountSgd": 21000
+          },
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ Johor link management, Q4 2026",
+            "amountSgd": 6500
+          }
+        ],
+        "note": "First invoice lodged in Oracle after the ERP cutover; rejected at three-way match because the PO was raised per contract, not per site."
+      }
+    ],
+    "meetings": [
+      {
+        "id": "MTG-HL-2026-01",
+        "date": "2026-03-19",
+        "title": "NCS programme steering committee",
+        "attendees": [
+          "NCS Programme Director",
+          "Singtel Client Partner",
+          "Customer Group CIO",
+          "Customer Head of Regional Operations"
+        ],
+        "decisions": [
+          "Network readiness for the Johor SEZ warehouse is added to the ERP programme plan."
+        ],
+        "actions": [
+          {
+            "owner": "Singtel Client Partner",
+            "action": "Run feasibility for the Johor SEZ warehouse",
+            "due": "2026-04-30"
+          }
+        ]
+      },
+      {
+        "id": "MTG-HL-2026-02",
+        "date": "2026-06-25",
+        "title": "Johor warehouse connectivity design",
+        "attendees": [
+          "Singtel Client Partner",
+          "Singtel Solution Architect, Connectivity",
+          "NCS Cloud Practice Lead",
+          "Customer Head of Regional Operations"
+        ],
+        "decisions": [
+          "The Johor site is off-net; a partner tail stays in place until a managed cross-border option is agreed."
+        ],
+        "actions": [
+          {
+            "owner": "Singtel Solution Architect, Connectivity",
+            "action": "Design a managed Singapore-Johor option with CUBΣ SD-WAN",
+            "due": "2026-08-14"
+          }
+        ]
+      },
+      {
+        "id": "MTG-HL-2026-03",
+        "date": "2026-10-23",
+        "title": "Billing cutover review",
+        "attendees": [
+          "Singtel Billing Specialist",
+          "Singtel Client Partner",
+          "NCS ERP Programme Manager",
+          "Customer Accounts Payable Lead"
+        ],
+        "decisions": [
+          "Customer will reissue the PO with one line per site.",
+          "Singtel will resubmit SGT-INV-2026-4498 after the PO is reissued."
+        ],
+        "actions": [
+          {
+            "owner": "Customer Accounts Payable Lead",
+            "action": "Reissue the PO with one line per site",
+            "due": "2026-11-13"
+          },
+          {
+            "owner": "Singtel Billing Specialist",
+            "action": "Resubmit SGT-INV-2026-4498 in Oracle",
+            "due": "2026-11-20"
+          }
+        ]
+      }
+    ],
+    "slaIncidents": [
+      {
+        "id": "INC-2026-0418",
+        "date": "2026-04-18",
+        "severity": "P2",
+        "summary": "SD-WAN edge device failure at Pasir Panjang; traffic ran on backup LTE for 3 hours.",
+        "resolutionHours": 3,
+        "creditSgd": 900
+      },
+      {
+        "id": "INC-2026-0905",
+        "date": "2026-09-05",
+        "severity": "P2",
+        "summary": "Partner tail circuit to the Johor SEZ warehouse down for 4 hours; outside the Singtel SLA as an off-net tail.",
+        "resolutionHours": 4,
+        "creditSgd": 0
+      }
+    ],
+    "cases": [
+      {
+        "id": "CASE-2026-0906",
+        "openedOn": "2026-09-06",
+        "category": "outage",
+        "severity": "high",
+        "subject": "Johor SEZ warehouse link down for 4 hours on the partner tail circuit.",
+        "status": "resolved",
+        "csat": 2,
+        "siteId": "hl-johor"
+      },
+      {
+        "id": "CASE-2026-1012",
+        "openedOn": "2026-10-12",
+        "category": "request",
+        "severity": "medium",
+        "subject": "Regional operations asked for a managed Johor link; StarHub has offered a cross-border link.",
+        "status": "open",
+        "siteId": "hl-johor",
+        "competitor": "StarHub"
+      },
+      {
+        "id": "CASE-2026-1024",
+        "openedOn": "2026-10-24",
+        "category": "billing",
+        "severity": "medium",
+        "subject": "Charges on SGT-INV-2026-4498 disputed after the billing cutover.",
+        "status": "open"
+      }
+    ],
+    "contacts": [
+      {
+        "id": "CON-HL-01",
+        "title": "Group CIO",
+        "role": "influencer",
+        "sentiment": "neutral",
+        "lastContactOn": "2026-10-23"
+      },
+      {
+        "id": "CON-HL-02",
+        "title": "Head of Regional Operations",
+        "role": "champion",
+        "sentiment": "neutral",
+        "lastContactOn": "2026-06-25"
+      },
+      {
+        "id": "CON-HL-03",
+        "title": "CFO",
+        "role": "economic_buyer",
+        "sentiment": "unengaged"
+      }
+    ],
+    "competitors": [
+      {
+        "name": "StarHub",
+        "threat": "Offered a cross-border Singapore-Johor link to the regional operations team at a lower monthly fee."
+      },
+      {
+        "name": "M1",
+        "threat": "Quoted 5G fixed wireless backup for the Changi cold-chain annex."
+      }
+    ],
+    "productMix": [
+      {
+        "bundle": "Unified SASE & SD-WAN + 5G",
+        "gap": "Johor SEZ warehouse runs on a partner tail with a 6-hour nightly inventory sync; no single security policy across 4 sites."
+      }
+    ]
+  },
+  {
+    "accountId": "acct-meridian-sg",
+    "accountName": "Meridian Arcwell Group",
+    "route": "ncs-multi-lob",
+    "ncsLobs": [
+      "Government and Public Sector",
+      "Critical Infrastructure (Transport and Utilities)",
+      "Cloud and Infrastructure Services",
+      "Cyber Security Services"
+    ],
+    "repId": "rep-priya",
+    "contractEndDate": "2028-04-30",
+    "profile": {
+      "industryLabel": "Engineering and Industrial Services",
+      "hqLabel": "Singapore (Downtown Core)",
+      "coordinates": [
+        1.279,
+        103.849
+      ],
+      "currentArrSgd": 396000,
+      "ownedProducts": [
+        "SGT-CUBE",
+        "SGT-MOB",
+        "SGT-IOT",
+        "SGT-CYBER",
+        "SGT-NCS"
+      ],
+      "summary": "Singapore-headquartered regional engineering group: maintenance and monitoring for government utility and rail contracts, precision manufacturing in Tuas, Johor, and Bengaluru, and a regional sales office in Jakarta."
+    },
+    "sites": [
+      {
+        "siteId": "ma-hq",
+        "name": "Group headquarters",
+        "address": "Robinson Road, Downtown Core, Singapore",
+        "lat": 1.279,
+        "lng": 103.849,
+        "fiber": "on-net",
+        "fiveG": "on-net",
+        "seats": 650
+      },
+      {
+        "siteId": "ma-ops",
+        "name": "Critical infrastructure operations centre",
+        "address": "Ang Mo Kio Industrial Park 2, Singapore",
+        "lat": 1.377,
+        "lng": 103.865,
+        "fiber": "on-net",
+        "fiveG": "near-net",
+        "seats": 180,
+        "strain": "Monitors government utility and rail maintenance contracts; control-plane data must stay in Singapore, and indoor 5G is weak in the basement control room."
+      },
+      {
+        "siteId": "ma-tuas",
+        "name": "Tuas precision plant",
+        "address": "Tuas West Road, Singapore",
+        "lat": 1.33,
+        "lng": 103.637,
+        "fiber": "near-net",
+        "fiveG": "on-net",
+        "seats": 420,
+        "strain": "1,800 IoT sensors on machining lines; AGV Wi-Fi drops at shift change; the nearest Singtel fibre needs a short lateral build."
+      },
+      {
+        "siteId": "ma-changi",
+        "name": "Changi logistics hub",
+        "address": "Changi South Avenue, Singapore",
+        "lat": 1.327,
+        "lng": 103.948,
+        "fiber": "on-net",
+        "fiveG": "on-net",
+        "seats": 150
+      },
+      {
+        "siteId": "ma-johor",
+        "name": "Johor precision plant",
+        "address": "Iskandar Puteri, Johor, Malaysia",
+        "lat": 1.425,
+        "lng": 103.632,
+        "fiber": "off-net",
+        "fiveG": "off-net",
+        "seats": 520,
+        "strain": "Served by a third-party tail; quality and inventory data take 5 hours to sync to Singapore each night."
+      },
+      {
+        "siteId": "ma-blr",
+        "name": "Bengaluru engineering and manufacturing centre",
+        "address": "Electronics City, Bengaluru, India",
+        "lat": 12.8452,
+        "lng": 77.6602,
+        "fiber": "off-net",
+        "fiveG": "off-net",
+        "seats": 610,
+        "strain": "Engineers pull design and simulation data from Singapore over unmanaged internet breakout; internal audit flagged it in Q2."
+      },
+      {
+        "siteId": "ma-jkt",
+        "name": "Jakarta regional sales office",
+        "address": "Jalan Jenderal Sudirman, Jakarta, Indonesia",
+        "lat": -6.225,
+        "lng": 106.802,
+        "fiber": "off-net",
+        "fiveG": "off-net",
+        "seats": 45,
+        "strain": "Local internet breakout with no central security policy."
+      }
+    ],
+    "meddpicc": [
+      {
+        "key": "metrics",
+        "score": 2,
+        "evidence": "Group COO set targets: cut the Johor to Singapore sync from 5 hours to under 30 minutes, and remove unmanaged internet breakout at 3 overseas sites by Q3 FY27."
+      },
+      {
+        "key": "economicBuyer",
+        "score": 2,
+        "evidence": "Group CFO confirmed a budget envelope for the network and security refresh at the September steering committee."
+      },
+      {
+        "key": "decisionCriteria",
+        "score": 1,
+        "evidence": "Criteria cover security, data residency, and cost; the weighting is not shared.",
+        "gap": "Ask the Group CIO for the evaluation scorecard and weights."
+      },
+      {
+        "key": "decisionProcess",
+        "score": 2,
+        "evidence": "Steering committee (Group COO, CFO, CIO, and CISO) decides; the NCS programme board reviews the government contract scope."
+      },
+      {
+        "key": "paperProcess",
+        "score": 0,
+        "evidence": "Oracle supplier onboarding for the new legal entity is incomplete, so no contract can be issued; disputed SGT-INV-2026-8841 is costing goodwill with finance.",
+        "gap": "Resolve SGT-INV-2026-8841 and complete Oracle supplier onboarding before the proposal goes to legal."
+      },
+      {
+        "key": "identifyPain",
+        "score": 2,
+        "evidence": "August P1 outage at the CII operations centre, the 5-hour Johor sync, and unmanaged internet breakout in Bengaluru flagged by internal audit."
+      },
+      {
+        "key": "champion",
+        "score": 1,
+        "evidence": "Group CIO supports the bundle but has not yet sold it to the CISO.",
+        "gap": "Run a joint session with the CISO to test the Group CIO's influence."
+      },
+      {
+        "key": "competition",
+        "score": 0,
+        "evidence": "StarHub, NTT, M1, and a hyperscaler reseller are active; the customer has not shared its shortlist.",
+        "gap": "Confirm the shortlist and each competitor's scope at the next steering committee."
+      }
+    ],
+    "billing": {
+      "system": "SAP-to-Oracle",
+      "frictionNotes": [
+        "Group finance moved accounts payable from SAP to Oracle in July 2026; invoices from Q3 onward are lodged in Oracle.",
+        "Oracle needs a supplier site code and one PO line per site; SAP accepted one PO per contract.",
+        "Service credits were separate credit notes in SAP; Oracle needs them as negative lines on the invoice. SGT-INV-2026-8841 is disputed because the INC-2026-0814 credit was not netted off.",
+        "SGT-INV-2026-8842 is held in Oracle because its PO has one line per contract."
+      ]
+    },
+    "invoices": [
+      {
+        "id": "SGT-INV-2026-8836",
+        "issuedOn": "2026-01-02",
+        "dueOn": "2026-02-01",
+        "amountSgd": 99000,
+        "status": "paid",
+        "billingSystem": "SAP",
+        "lines": [
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ managed SD-WAN and network management, 4 Singapore sites, Q1 2026",
+            "amountSgd": 36000
+          },
+          {
+            "productId": "SGT-MOB",
+            "description": "Mobility: 420 business mobile lines with device management, Q1 2026",
+            "amountSgd": 15000
+          },
+          {
+            "productId": "SGT-IOT",
+            "description": "IoT connectivity and orchestration, 1,800 plant sensors, Q1 2026",
+            "amountSgd": 18000
+          },
+          {
+            "productId": "SGT-CYBER",
+            "description": "Managed Security Services, group headquarters and operations centre, Q1 2026",
+            "amountSgd": 30000
+          }
+        ]
+      },
+      {
+        "id": "SGT-INV-2026-8837",
+        "issuedOn": "2026-03-16",
+        "dueOn": "2026-04-15",
+        "amountSgd": 85000,
+        "status": "paid",
+        "billingSystem": "SAP",
+        "lines": [
+          {
+            "productId": "SGT-NCS",
+            "description": "NCS milestone 1: discovery and design, government contract scope",
+            "amountSgd": 85000
+          }
+        ]
+      },
+      {
+        "id": "SGT-INV-2026-8838",
+        "issuedOn": "2026-04-01",
+        "dueOn": "2026-05-01",
+        "amountSgd": 99000,
+        "status": "paid",
+        "billingSystem": "SAP",
+        "lines": [
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ managed SD-WAN and network management, 4 Singapore sites, Q2 2026",
+            "amountSgd": 36000
+          },
+          {
+            "productId": "SGT-MOB",
+            "description": "Mobility: 420 business mobile lines with device management, Q2 2026",
+            "amountSgd": 15000
+          },
+          {
+            "productId": "SGT-IOT",
+            "description": "IoT connectivity and orchestration, 1,800 plant sensors, Q2 2026",
+            "amountSgd": 18000
+          },
+          {
+            "productId": "SGT-CYBER",
+            "description": "Managed Security Services, group headquarters and operations centre, Q2 2026",
+            "amountSgd": 30000
+          }
+        ]
+      },
+      {
+        "id": "SGT-INV-2026-8839",
+        "issuedOn": "2026-05-20",
+        "dueOn": "2026-06-19",
+        "amountSgd": 20500,
+        "status": "paid",
+        "billingSystem": "SAP",
+        "lines": [
+          {
+            "productId": "SGT-IOT",
+            "description": "IoT activation and gateway set-up, Tuas precision plant (one-time)",
+            "amountSgd": 14500
+          },
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ site survey for the Tuas lateral fibre build (one-time)",
+            "amountSgd": 6000
+          }
+        ]
+      },
+      {
+        "id": "SGT-INV-2026-8840",
+        "issuedOn": "2026-07-01",
+        "dueOn": "2026-07-31",
+        "amountSgd": 97800,
+        "status": "paid",
+        "billingSystem": "Oracle",
+        "lines": [
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ managed SD-WAN and network management, 4 Singapore sites, Q3 2026",
+            "amountSgd": 36000
+          },
+          {
+            "productId": "SGT-MOB",
+            "description": "Mobility: 420 business mobile lines with device management, Q3 2026",
+            "amountSgd": 15000
+          },
+          {
+            "productId": "SGT-IOT",
+            "description": "IoT connectivity and orchestration, 1,800 plant sensors, Q3 2026",
+            "amountSgd": 18000
+          },
+          {
+            "productId": "SGT-CYBER",
+            "description": "Managed Security Services, group headquarters and operations centre, Q3 2026",
+            "amountSgd": 30000
+          },
+          {
+            "productId": "SGT-IOT",
+            "description": "Service credit, INC-2026-0611",
+            "amountSgd": -1200
+          }
+        ],
+        "note": "First invoice lodged in Oracle; paid 19 days late after a manual supplier match."
+      },
+      {
+        "id": "SGT-INV-2026-8841",
+        "issuedOn": "2026-10-01",
+        "dueOn": "2026-10-31",
+        "amountSgd": 99000,
+        "status": "disputed",
+        "billingSystem": "Oracle",
+        "lines": [
+          {
+            "productId": "SGT-CUBE",
+            "description": "CUBΣ managed SD-WAN and network management, 4 Singapore sites, Q4 2026",
+            "amountSgd": 36000
+          },
+          {
+            "productId": "SGT-MOB",
+            "description": "Mobility: 420 business mobile lines with device management, Q4 2026",
+            "amountSgd": 15000
+          },
+          {
+            "productId": "SGT-IOT",
+            "description": "IoT connectivity and orchestration, 1,800 plant sensors, Q4 2026",
+            "amountSgd": 18000
+          },
+          {
+            "productId": "SGT-CYBER",
+            "description": "Managed Security Services, group headquarters and operations centre, Q4 2026",
+            "amountSgd": 30000
+          }
+        ],
+        "note": "Disputed: the SGD 9,900 service credit for INC-2026-0814 was not netted off, and Oracle rejected the invoice at three-way match for a missing supplier site code."
+      },
+      {
+        "id": "SGT-INV-2026-8842",
+        "issuedOn": "2026-10-15",
+        "dueOn": "2026-11-14",
+        "amountSgd": 85000,
+        "status": "overdue",
+        "billingSystem": "Oracle",
+        "lines": [
+          {
+            "productId": "SGT-NCS",
+            "description": "NCS milestone 2: data residency architecture, operations centre",
+            "amountSgd": 85000
+          }
+        ],
+        "note": "Held in Oracle: the PO has one line per contract, and Oracle needs one line per site."
+      }
+    ],
+    "meetings": [
+      {
+        "id": "MTG-MA-2026-01",
+        "date": "2026-02-10",
+        "title": "Account planning workshop",
+        "attendees": [
+          "Singtel Strategic Account Director",
+          "Singtel Solution Architect, Connectivity",
+          "NCS Client Director",
+          "Customer Group CIO",
+          "Customer Head of Regional IT"
+        ],
+        "decisions": [
+          "The account plan covers 7 sites in Singapore, Johor, Bengaluru, and Jakarta.",
+          "Government and CII contract scope will be routed through NCS."
+        ],
+        "actions": [
+          {
+            "owner": "Singtel Solution Architect, Connectivity",
+            "action": "Run fibre and 5G feasibility on all 7 sites",
+            "due": "2026-03-06"
+          },
+          {
+            "owner": "NCS Client Director",
+            "action": "Map NCS lines of business to the government utility and rail contracts",
+            "due": "2026-03-13"
+          }
+        ]
+      },
+      {
+        "id": "MTG-MA-2026-02",
+        "date": "2026-04-22",
+        "title": "NCS programme board: government contract scope",
+        "attendees": [
+          "NCS Client Director",
+          "NCS Government and Public Sector Lead",
+          "Singtel Strategic Account Director",
+          "Customer Group CIO",
+          "Customer Head of Contracts"
+        ],
+        "decisions": [
+          "Operations centre control-plane data must stay in Singapore under the government contract terms.",
+          "NCS leads the CII scope; Singtel leads connectivity, 5G+, and Cyber Security."
+        ],
+        "actions": [
+          {
+            "owner": "NCS Government and Public Sector Lead",
+            "action": "Confirm data residency clauses with the customer's contracts team",
+            "due": "2026-05-15"
+          }
+        ]
+      },
+      {
+        "id": "MTG-MA-2026-03",
+        "date": "2026-06-30",
+        "title": "Steering committee: network and security refresh",
+        "attendees": [
+          "Singtel Strategic Account Director",
+          "NCS Client Director",
+          "Customer Group COO",
+          "Customer Group CIO",
+          "Customer CISO"
+        ],
+        "decisions": [
+          "Committee asks for one proposal covering SASE, private 5G, and sovereign AI options.",
+          "CISO wants an independent view of the Bengaluru internet breakout."
+        ],
+        "actions": [
+          {
+            "owner": "Singtel Strategic Account Director",
+            "action": "Prepare an outcome-based proposal with three bundles",
+            "due": "2026-08-29"
+          },
+          {
+            "owner": "Singtel Cyber Specialist",
+            "action": "Assess internet breakout at the Bengaluru and Jakarta sites",
+            "due": "2026-07-31"
+          }
+        ]
+      },
+      {
+        "id": "MTG-MA-2026-04",
+        "date": "2026-08-19",
+        "title": "P1 incident review: operations centre",
+        "attendees": [
+          "Singtel Service Manager",
+          "Singtel Strategic Account Director",
+          "Customer CISO",
+          "Customer Head of Operations Centre"
+        ],
+        "decisions": [
+          "Service credit of SGD 9,900 agreed for INC-2026-0814.",
+          "Diverse duct routing for the operations centre is added to the proposal."
+        ],
+        "actions": [
+          {
+            "owner": "Singtel Service Manager",
+            "action": "Issue the root cause report for INC-2026-0814",
+            "due": "2026-08-26"
+          },
+          {
+            "owner": "Singtel Strategic Account Director",
+            "action": "Net the SGD 9,900 credit on the Q4 invoice",
+            "due": "2026-10-01"
+          }
+        ]
+      },
+      {
+        "id": "MTG-MA-2026-05",
+        "date": "2026-09-24",
+        "title": "Steering committee: budget envelope",
+        "attendees": [
+          "Singtel Strategic Account Director",
+          "NCS Client Director",
+          "Customer Group CFO",
+          "Customer Group COO",
+          "Customer Group CIO"
+        ],
+        "decisions": [
+          "Group CFO confirms a budget envelope for the refresh in FY27.",
+          "The proposal goes to the steering committee in January 2027, ahead of the April 2028 contract end."
+        ],
+        "actions": [
+          {
+            "owner": "Singtel Strategic Account Director",
+            "action": "Submit the proposal with indicative pricing derived from catalogue ARR",
+            "due": "2026-12-11"
+          },
+          {
+            "owner": "Customer Group CIO",
+            "action": "Share the evaluation scorecard and weights",
+            "due": "2026-10-31"
+          }
+        ]
+      },
+      {
+        "id": "MTG-MA-2026-06",
+        "date": "2026-11-06",
+        "title": "Finance review: SAP-to-Oracle billing",
+        "attendees": [
+          "Singtel Billing Specialist",
+          "Singtel Strategic Account Director",
+          "Customer Group Financial Controller",
+          "Customer Accounts Payable Lead"
+        ],
+        "decisions": [
+          "SGT-INV-2026-8841 is disputed: the INC-2026-0814 credit was not netted, and Oracle rejected it for a missing supplier site code.",
+          "Singtel will reissue SGT-INV-2026-8841 with the credit as a negative line once the supplier site code exists."
+        ],
+        "actions": [
+          {
+            "owner": "Customer Accounts Payable Lead",
+            "action": "Create the Oracle supplier site code for the new legal entity",
+            "due": "2026-11-20"
+          },
+          {
+            "owner": "Singtel Billing Specialist",
+            "action": "Reissue SGT-INV-2026-8841 with the SGD 9,900 credit netted off",
+            "due": "2026-11-27"
+          },
+          {
+            "owner": "Singtel Strategic Account Director",
+            "action": "Agree a PO line per site for NCS milestone 2 (SGT-INV-2026-8842)",
+            "due": "2026-11-27"
+          }
+        ]
+      }
+    ],
+    "slaIncidents": [
+      {
+        "id": "INC-2026-0611",
+        "date": "2026-06-11",
+        "severity": "P2",
+        "summary": "IoT gateway firmware fault at the Tuas precision plant; 1,800 sensors stopped reporting for 3 hours.",
+        "resolutionHours": 3,
+        "creditSgd": 1200
+      },
+      {
+        "id": "INC-2026-0814",
+        "date": "2026-08-14",
+        "severity": "P1",
+        "summary": "Primary and backup links to the operations centre lost for 2 hours 40 minutes after a fibre cut in a shared duct.",
+        "resolutionHours": 2.7,
+        "creditSgd": 9900
+      },
+      {
+        "id": "INC-2026-0927",
+        "date": "2026-09-27",
+        "severity": "P3",
+        "summary": "Partner tail circuit to the Johor precision plant degraded; outside the Singtel SLA as an off-net tail.",
+        "resolutionHours": 9,
+        "creditSgd": 0
+      }
+    ],
+    "cases": [
+      {
+        "id": "CASE-2026-0815",
+        "openedOn": "2026-08-15",
+        "category": "complaint",
+        "severity": "critical",
+        "subject": "Both links to the operations centre lost for 2 hours 40 minutes after a fibre cut; the COO asked for a written recovery plan.",
+        "status": "resolved",
+        "csat": 1,
+        "siteId": "ma-ops"
+      },
+      {
+        "id": "CASE-2026-1002",
+        "openedOn": "2026-10-02",
+        "category": "request",
+        "severity": "medium",
+        "subject": "Procurement shared that StarHub bid the Singapore SD-WAN lot below our pricing.",
+        "status": "open",
+        "competitor": "StarHub"
+      },
+      {
+        "id": "CASE-2026-1016",
+        "openedOn": "2026-10-16",
+        "category": "request",
+        "severity": "medium",
+        "subject": "Customer issued an RFP for the Bengaluru and Jakarta sites; NTT is invited.",
+        "status": "open",
+        "competitor": "NTT"
+      },
+      {
+        "id": "CASE-2026-1107",
+        "openedOn": "2026-11-07",
+        "category": "billing",
+        "severity": "high",
+        "subject": "SGT-INV-2026-8841 disputed after the SAP-to-Oracle migration.",
+        "status": "open"
+      }
+    ],
+    "contacts": [
+      {
+        "id": "CON-MA-01",
+        "title": "Group CFO",
+        "role": "economic_buyer",
+        "sentiment": "positive",
+        "lastContactOn": "2026-09-24"
+      },
+      {
+        "id": "CON-MA-02",
+        "title": "Group CIO",
+        "role": "champion",
+        "sentiment": "positive",
+        "lastContactOn": "2026-09-24"
+      },
+      {
+        "id": "CON-MA-03",
+        "title": "CISO",
+        "role": "influencer",
+        "sentiment": "unengaged"
+      },
+      {
+        "id": "CON-MA-04",
+        "title": "Group Financial Controller",
+        "role": "influencer",
+        "sentiment": "negative",
+        "lastContactOn": "2026-11-06"
+      }
+    ],
+    "competitors": [
+      {
+        "name": "StarHub",
+        "threat": "Bid the Singapore site SD-WAN lot below our indicative pricing; no managed security or India coverage in its scope."
+      },
+      {
+        "name": "NTT",
+        "threat": "Positioned for the Bengaluru and Jakarta sites on its regional network; strong ties with the Group CIO's previous team."
+      },
+      {
+        "name": "M1",
+        "threat": "Offered 5G fixed wireless backup for the Tuas precision plant."
+      },
+      {
+        "name": "Hyperscaler reseller",
+        "threat": "Proposing a cloud-delivered SASE service with cloud credits; it does not address the CII data residency requirement for the operations centre."
+      }
+    ],
+    "productMix": [
+      {
+        "bundle": "Unified SASE & SD-WAN + 5G",
+        "gap": "Unmanaged internet breakout in Bengaluru and Jakarta, a 5-hour Johor sync, and no single security policy across 7 sites."
+      },
+      {
+        "bundle": "Private 5G + Edge",
+        "gap": "The operations centre for government utility and rail contracts must keep control-plane data in Singapore; AGV Wi-Fi drops at Tuas shift change."
+      },
+      {
+        "bundle": "RE:AI sovereign AI + hyperscaler orchestration",
+        "gap": "Predictive maintenance models for rail assets run in a public cloud region outside Singapore; government contract terms require in-country processing."
+      }
+    ]
+  }
+]

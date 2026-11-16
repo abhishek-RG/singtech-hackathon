@@ -1,0 +1,1582 @@
+[
+  {
+    "mode": "farming",
+    "isDemoAccount": true,
+    "recommendedUpgrades": [
+      "SGT-QSN",
+      "SGT-CYBER",
+      "SGT-MOB"
+    ],
+    "id": "acct-lionrock-sg",
+    "play": "banking",
+    "ring": "ring1",
+    "trigger": "bandwidth",
+    "companyName": "LionRock Quantitative Bank",
+    "hqCity": "Singapore (Marina Bay)",
+    "hubLabel": "Marina Bay Financial District",
+    "relationshipLabel": "Existing Singtel Customer · 6 Yrs",
+    "corridor": "bom-pnq-sg",
+    "corridorLabel": "Marina Bay <-> Hong Kong <-> Mumbai",
+    "industry": "fintech",
+    "industryLabel": "Capital Markets & Trading",
+    "coordinates": [
+      1.2806,
+      103.854
+    ],
+    "priorityScore": 98,
+    "currentArrSgd": 240000,
+    "contractRenewalDays": 62,
+    "ownedProducts": [
+      "SGT-CUBE"
+    ],
+    "telemetryAlerts": [
+      {
+        "id": "tel-01",
+        "metric": "Marina Bay trading link jitter (CUBΣ)",
+        "currentValue": "4.2 ms micro-bursts at market open",
+        "threshold": "< 1.5 ms SLA",
+        "severity": "critical",
+        "minutesAgo": 14,
+        "desk": "connectivity",
+        "simulated": true
+      },
+      {
+        "id": "tel-02",
+        "metric": "Executive roaming SIM-swap attempts",
+        "currentValue": "14 blocked anomalies in Mumbai and Hong Kong",
+        "threshold": "Zero tolerance",
+        "severity": "high",
+        "minutesAgo": 120,
+        "desk": "cyber",
+        "simulated": true
+      }
+    ],
+    "scoreBreakdown": [
+      {
+        "label": "CUBΣ SLA breach risk at market open",
+        "points": 42
+      },
+      {
+        "label": "Contract renewal in 62 days",
+        "points": 30
+      },
+      {
+        "label": "MAS quantum risk advisory",
+        "points": 26
+      }
+    ],
+    "whyNow": "CUBΣ shows 4.2 ms micro-bursts on the Marina Bay to Hong Kong and Mumbai trading link at market open against a 1.5 ms SLA, with renewal due in 62 days and MAS guidance on quantum risk in force.",
+    "signals": [
+      {
+        "claim": "CUBΣ usage signal: 4.2 ms jitter micro-bursts on the Marina Bay trading link at market open, against a 1.5 ms SLA.",
+        "source": {
+          "title": "CUBΣ & Paragon Usage Signal. Reference product: Singtel CUBΣ",
+          "url": "https://www.singtel.com/business/products-services/connectivity/cube",
+          "publisher": "Singtel CUBΣ & Paragon",
+          "kind": "simulated-telemetry"
+        }
+      },
+      {
+        "claim": "MAS has issued an advisory on cyber security risks associated with quantum computing, with mitigating measures for financial institutions.",
+        "source": {
+          "title": "MAS/TCRS/2024/01: Advisory on Addressing the Cybersecurity Risks Associated with Quantum",
+          "url": "https://www.mas.gov.sg/regulation/circulars/advisory-on-addressing-the-cybersecurity-risks-associated-with-quantum",
+          "publisher": "Monetary Authority of Singapore",
+          "kind": "regulator",
+          "publishedAt": "2024-02-20"
+        }
+      }
+    ],
+    "hypothesis": "Latency breaches at market open put a 6-year relationship at risk ahead of renewal, and MAS quantum guidance gives the CISO a reason to act now. Lead with a Quantum-Safe Network pilot on the trading link, attach Unified SASE and managed security, then move executive roaming lines onto Singtel Mobility.",
+    "likelyNeeds": [
+      "Quantum-Safe Network on the trading link",
+      "Unified SASE and managed security across branches",
+      "Managed mobility for executive roaming lines"
+    ],
+    "recommendedBundle": {
+      "bundleName": "Quantum-Safe Trading Network",
+      "products": [
+        "SGT-QSN",
+        "SGT-CYBER",
+        "SGT-MOB"
+      ],
+      "estimatedArrSgd": 333000,
+      "starterDownsellBundle": [
+        "SGT-CYBER"
+      ],
+      "starterArrSgd": 110000
+    },
+    "complianceFlags": [
+      "SG_MAS_TRM",
+      "MAS_QUANTUM_ADVISORY",
+      "SG_CYBERSECURITY_ACT_CII"
+    ],
+    "complianceNote": "MAS TRM and the quantum advisory expect banks to plan for cryptographic agility. Quantum-Safe Network on the trading link gives the CISO evidence for both, inside the existing Singtel contract.",
+    "decisionMaker": {
+      "role": "Managing Director, Trading Infrastructure",
+      "targetTitle": "MD Trading Infrastructure / CISO",
+      "entryRoute": "Existing Singtel Client Partner (62-day renewal window)",
+      "localPartnerNote": "Co-sell with the Connectivity and Cyber desks in one deal room"
+    },
+    "coSellPath": {
+      "partner": "NCS Financial Services Practice",
+      "partnerType": "ncs",
+      "note": "NCS already runs LionRock's core banking modernisation programme. Co-sell with NCS client lead Rachel Goh so the network upgrade lands inside the same steering committee.",
+      "source": {
+        "title": "Singtel posts FY26 net profit of S$5.61bn; underlying profit up 12% to S$2.77bn",
+        "url": "https://www.telecomtv.com/content/digital-platforms-services/singtel-posts-fy26-net-profit-of-s-5-61bn-underlying-profit-up-12-to-s-2-77bn-55535/",
+        "publisher": "TelecomTV",
+        "publishedAt": "2026-05-21",
+        "kind": "press"
+      }
+    },
+    "accountPlanSteps": [
+      {
+        "phase": "30-Day Immediate Fix",
+        "title": "Quantum-Safe Network pilot on the Marina Bay trading link",
+        "arrImpactSgd": 175000
+      },
+      {
+        "phase": "Q3 Cross-Division Attach",
+        "title": "Unified SASE and managed security across branches",
+        "arrImpactSgd": 110000
+      },
+      {
+        "phase": "12-Month Strategic Partnership",
+        "title": "Managed mobility for executive roaming lines",
+        "arrImpactSgd": 48000
+      }
+    ],
+    "nextAction": "Book the renewal review with the MD Trading Infrastructure and bring the latency and PQC sandbox; invite Rachel Goh from NCS.",
+    "draftOutreach": "Subject: Your Marina Bay trading link: proactive SLA review before renewal\n\nHi [Name],\n\nCUBΣ flagged 4.2 ms jitter micro-bursts on your trading link at market open this week, against the 1.5 ms SLA in your current contract. Ahead of the renewal in 62 days, we would like to walk you through a Quantum-Safe Network pilot on the trading link with managed security, which also supports your response to the MAS quantum advisory.\n\nThe linked sandbox shows the modelled latency on the upgraded route. Rachel Goh from NCS will join so it aligns with your core banking programme.",
+    "usageTrend": {
+      "label": "Trading link jitter at market open",
+      "unit": "ms",
+      "threshold": 1.5,
+      "points": [
+        1.1,
+        1.2,
+        1.1,
+        1.4,
+        1.3,
+        1.6,
+        1.9,
+        2.2,
+        2.1,
+        2.8,
+        3.1,
+        3.6,
+        3.9,
+        4.2
+      ]
+    }
+  },
+  {
+    "mode": "farming",
+    "isDemoAccount": true,
+    "recommendedUpgrades": [
+      "SGT-5G",
+      "SGT-IOT",
+      "SGT-CYBER"
+    ],
+    "id": "acct-straits-maritime-sg",
+    "play": "maritime",
+    "ring": "ring1",
+    "trigger": "bandwidth",
+    "companyName": "Straits Vanguard Maritime Lines",
+    "hqCity": "Singapore (Tuas)",
+    "hubLabel": "Tuas Mega Port",
+    "relationshipLabel": "Existing Singtel Customer · 4 Yrs",
+    "corridor": "maa-tuas",
+    "corridorLabel": "Tuas Port <-> Malacca Strait <-> Chennai",
+    "industry": "logistics",
+    "industryLabel": "Maritime Trade & Shipping",
+    "coordinates": [
+      1.24,
+      103.62
+    ],
+    "priorityScore": 95,
+    "currentArrSgd": 180000,
+    "contractRenewalDays": 45,
+    "ownedProducts": [
+      "SGT-CUBE"
+    ],
+    "telemetryAlerts": [
+      {
+        "id": "tel-03",
+        "metric": "Tuas Port 5G slice saturation (Paragon)",
+        "currentValue": "94.2% sustained load on the berth automation slice",
+        "threshold": "< 75% utilisation",
+        "severity": "critical",
+        "minutesAgo": 6,
+        "desk": "connectivity",
+        "simulated": true
+      },
+      {
+        "id": "tel-04",
+        "metric": "Fleet VSAT bandwidth load (Indian Ocean)",
+        "currentValue": "12 vessels above 90% with 18% packet drop",
+        "threshold": "< 75% utilisation",
+        "severity": "high",
+        "minutesAgo": 41,
+        "desk": "connectivity",
+        "simulated": true
+      }
+    ],
+    "scoreBreakdown": [
+      {
+        "label": "Paragon slice at 94% load",
+        "points": 40
+      },
+      {
+        "label": "CII cyber obligations for port operations",
+        "points": 30
+      },
+      {
+        "label": "Contract renewal in 45 days",
+        "points": 25
+      }
+    ],
+    "whyNow": "Paragon shows the Tuas berth automation slice at 94% sustained load and 12 vessels on the Chennai route above 90% VSAT load, 45 days before renewal.",
+    "signals": [
+      {
+        "claim": "Paragon usage signal: the Tuas berth automation 5G slice is at 94.2% sustained load.",
+        "source": {
+          "title": "CUBΣ & Paragon Usage Signal. Reference product: Singtel 5G+",
+          "url": "https://www.singtel.com/business/products-services/5g",
+          "publisher": "Singtel CUBΣ & Paragon",
+          "kind": "simulated-telemetry"
+        }
+      },
+      {
+        "claim": "CUBΣ usage signal: 12 vessels crossing the Bay of Bengal are above 90% VSAT load with 18% packet drop.",
+        "source": {
+          "title": "CUBΣ & Paragon Usage Signal. Reference product: Singtel Internet of Things",
+          "url": "https://www.singtel.com/business/products-services/iot",
+          "publisher": "Singtel CUBΣ & Paragon",
+          "kind": "simulated-telemetry"
+        }
+      },
+      {
+        "claim": "MPA's Port of the Future programme drives automation and digitalisation at Tuas.",
+        "source": {
+          "title": "MPA: Port of the Future",
+          "url": "https://www.mpa.gov.sg/maritime-singapore/port-of-the-future",
+          "publisher": "Maritime and Port Authority of Singapore",
+          "kind": "regulator"
+        }
+      }
+    ],
+    "hypothesis": "The port slice and the fleet links are both near capacity on a high-value route, and maritime is a CII sector. Lead with a larger 5G+ slice at Tuas, add IoT connectivity for vessels and reefers, then managed security for the OT network.",
+    "likelyNeeds": [
+      "Larger Paragon 5G+ slice at Tuas",
+      "Fleet and reefer IoT connectivity on the Chennai route",
+      "Managed security for OT and bridge networks"
+    ],
+    "recommendedBundle": {
+      "bundleName": "Smart Port 5G+ & Fleet IoT",
+      "products": [
+        "SGT-5G",
+        "SGT-IOT",
+        "SGT-CYBER"
+      ],
+      "estimatedArrSgd": 315000,
+      "starterDownsellBundle": [
+        "SGT-5G"
+      ],
+      "starterArrSgd": 140000
+    },
+    "complianceFlags": [
+      "SG_CYBERSECURITY_ACT_CII",
+      "IMO_MARITIME_CYBER",
+      "SG_PDPA"
+    ],
+    "complianceNote": "IMO cyber risk guidance and Singapore's CII regime call for separating crew welfare networks from bridge and engine systems. Singtel managed security segments the two.",
+    "decisionMaker": {
+      "role": "VP Fleet Operations & Maritime IT",
+      "targetTitle": "VP Fleet Digitalisation",
+      "entryRoute": "Existing Singtel Client Partner (proactive Paragon alert)",
+      "localPartnerNote": "Shore handoff between Singtel 5G at Tuas and the Chennai Port partner network"
+    },
+    "coSellPath": {
+      "partner": "Garuda Robotics (Singtel 5G+ partner)",
+      "partnerType": "paragon-partner",
+      "note": "Package 5G-connected drone inspection of berths and hulls from Singtel 5G+ partner Garuda Robotics on the same Paragon slice, giving operations a second reason to upgrade.",
+      "source": {
+        "title": "Singtel 5G+ partner ecosystem",
+        "url": "https://www.singtel.com/business/products-services/5g/partners",
+        "publisher": "Singtel",
+        "kind": "company"
+      }
+    },
+    "accountPlanSteps": [
+      {
+        "phase": "30-Day Immediate Fix",
+        "title": "Expand the Paragon 5G+ slice at Tuas",
+        "arrImpactSgd": 140000
+      },
+      {
+        "phase": "Q3 Cross-Division Attach",
+        "title": "IoT connectivity for vessels and reefers on the Chennai route",
+        "arrImpactSgd": 65000
+      },
+      {
+        "phase": "12-Month Strategic Partnership",
+        "title": "Managed security for OT and bridge networks",
+        "arrImpactSgd": 110000
+      }
+    ],
+    "nextAction": "Send the Fleet Director the 5G+ slice expansion plan for Tuas and an IoT connectivity proposal for the 12 vessels.",
+    "draftOutreach": "Subject: Tuas slice and fleet capacity ahead of your renewal\n\nHi [Name],\n\nParagon shows your Tuas berth automation slice at 94% sustained load, and 12 vessels on the Chennai route are above 90% VSAT load with gaps in engine and reefer data. Expanding the Tuas 5G+ slice and moving vessel telemetry onto Singtel IoT connectivity removes both bottlenecks before your renewal in 45 days.\n\nThe linked sandbox shows the modelled throughput for your route and port operations.",
+    "usageTrend": {
+      "label": "Tuas berth slice load",
+      "unit": "%",
+      "threshold": 75,
+      "points": [
+        61,
+        63,
+        66,
+        64,
+        70,
+        72,
+        74,
+        78,
+        81,
+        84,
+        86,
+        90,
+        92,
+        94.2
+      ]
+    }
+  },
+  {
+    "mode": "farming",
+    "isDemoAccount": true,
+    "recommendedUpgrades": [
+      "SGT-5G",
+      "SGT-CYBER",
+      "SGT-QSN"
+    ],
+    "id": "acct-aeropulse-sg",
+    "play": "aviation-logistics",
+    "ring": "ring1",
+    "trigger": "cii-cyber",
+    "companyName": "AeroPulse Aviation & Cargo",
+    "hqCity": "Singapore (Changi)",
+    "hubLabel": "Changi Aviation Hub",
+    "relationshipLabel": "Existing Singtel Customer · 5 Yrs",
+    "corridor": "jb-sg",
+    "corridorLabel": "Changi <-> Johor SEZ (Senai)",
+    "industry": "logistics",
+    "industryLabel": "Aviation MRO & Air Cargo",
+    "coordinates": [
+      1.3644,
+      103.9915
+    ],
+    "priorityScore": 91,
+    "currentArrSgd": 150000,
+    "contractRenewalDays": 120,
+    "ownedProducts": [
+      "SGT-CUBE",
+      "SGT-IOT"
+    ],
+    "telemetryAlerts": [
+      {
+        "id": "tel-05",
+        "metric": "Changi apron Wi-Fi offload congestion",
+        "currentValue": "28 min engine log offload per turnaround",
+        "threshold": "< 5 min",
+        "severity": "high",
+        "minutesAgo": 22,
+        "desk": "connectivity",
+        "simulated": true
+      },
+      {
+        "id": "tel-06",
+        "metric": "OT access attempts on MRO hangar systems",
+        "currentValue": "3 unrecognised remote sessions blocked",
+        "threshold": "Zero tolerance",
+        "severity": "medium",
+        "minutesAgo": 180,
+        "desk": "cyber",
+        "simulated": true
+      }
+    ],
+    "scoreBreakdown": [
+      {
+        "label": "Apron offload delaying turnarounds",
+        "points": 38
+      },
+      {
+        "label": "Aviation is a CII sector",
+        "points": 28
+      },
+      {
+        "label": "Johor SEZ cargo expansion",
+        "points": 25
+      }
+    ],
+    "whyNow": "CUBΣ shows engine log offload taking 28 minutes per turnaround on congested apron Wi-Fi, and the MRO hangar blocked 3 unrecognised OT remote sessions this week.",
+    "signals": [
+      {
+        "claim": "CUBΣ usage signal: engine log offload averages 28 minutes per turnaround on apron Wi-Fi.",
+        "source": {
+          "title": "CUBΣ & Paragon Usage Signal. Reference product: Singtel 5G+",
+          "url": "https://www.singtel.com/business/products-services/5g",
+          "publisher": "Singtel CUBΣ & Paragon",
+          "kind": "simulated-telemetry"
+        }
+      },
+      {
+        "claim": "Singtel and DART launched an APT detection and response programme for CII sectors across IT and OT, with a curriculum reviewed by CSA.",
+        "source": {
+          "title": "Singtel, DART launch cybersecurity training program to strengthen cyber defenses across Singapore's enterprises",
+          "url": "https://technode.global/?p=996930",
+          "publisher": "TNGlobal",
+          "publishedAt": "2026-11-04",
+          "kind": "press"
+        }
+      }
+    ],
+    "hypothesis": "Turnaround delays and OT access attempts are both board-level risks for an aviation CII operator. Lead with a 5G+ apron slice, then managed security and Quantum-Safe Network for the MRO systems.",
+    "likelyNeeds": [
+      "5G+ apron slice for engine data offload",
+      "Managed security for MRO OT systems",
+      "Quantum-Safe Network for hangar links"
+    ],
+    "recommendedBundle": {
+      "bundleName": "Changi Apron 5G+ & Aviation CII Shield",
+      "products": [
+        "SGT-5G",
+        "SGT-CYBER",
+        "SGT-QSN"
+      ],
+      "estimatedArrSgd": 425000,
+      "starterDownsellBundle": [
+        "SGT-5G"
+      ],
+      "starterArrSgd": 140000
+    },
+    "complianceFlags": [
+      "SG_CYBERSECURITY_ACT_CII",
+      "SG_PDPA",
+      "MY_PDPA"
+    ],
+    "complianceNote": "Aviation is a designated CII sector. Singtel managed security covers OT incident response, and Johor SEZ cargo data stays under Malaysian PDPA with SD-WAN segmentation.",
+    "decisionMaker": {
+      "role": "Chief Operating Officer",
+      "targetTitle": "COO / Head of MRO Technology",
+      "entryRoute": "Quarterly business review with the existing Client Partner",
+      "localPartnerNote": "Johor SEZ leg via TM Nxera and Singtel CUBΣ SD-WAN"
+    },
+    "coSellPath": {
+      "partner": "Axis Communications (Singtel 5G+ partner)",
+      "partnerType": "paragon-partner",
+      "note": "Add apron video analytics on 5G-connected Axis cameras from the Singtel 5G+ ecosystem to the same slice, so ground safety and engineering share one business case.",
+      "source": {
+        "title": "Singtel 5G+ partner ecosystem",
+        "url": "https://www.singtel.com/business/products-services/5g/partners",
+        "publisher": "Singtel",
+        "kind": "company"
+      }
+    },
+    "accountPlanSteps": [
+      {
+        "phase": "30-Day Immediate Fix",
+        "title": "Launch a 5G+ apron slice for engine data offload",
+        "arrImpactSgd": 140000
+      },
+      {
+        "phase": "Q3 Cross-Division Attach",
+        "title": "Managed security for MRO OT systems",
+        "arrImpactSgd": 110000
+      },
+      {
+        "phase": "12-Month Strategic Partnership",
+        "title": "Quantum-Safe Network for hangar and MRO links",
+        "arrImpactSgd": 175000
+      }
+    ],
+    "nextAction": "Use the QBR to propose the apron slice and the CII cyber attach; follow up with the co-engineering proposal.",
+    "draftOutreach": "Subject: Cutting engine log offload from 28 minutes at Changi\n\nHi [Name],\n\nCUBΣ shows engine log offload averaging 28 minutes per turnaround on apron Wi-Fi. A dedicated Paragon 5G+ apron slice is modelled to bring that under 5 minutes. Given the OT access attempts on your hangar systems this week, we would also like to cover Singtel managed security for your MRO systems.\n\nThe linked sandbox shows the modelled offload time at different slice capacities.",
+    "usageTrend": {
+      "label": "Engine log offload per turnaround",
+      "unit": "min",
+      "threshold": 5,
+      "points": [
+        14,
+        15,
+        17,
+        16,
+        19,
+        20,
+        21,
+        22,
+        24,
+        23,
+        25,
+        26,
+        27,
+        28
+      ]
+    }
+  },
+  {
+    "mode": "farming",
+    "isDemoAccount": true,
+    "recommendedUpgrades": [
+      "SGT-5G",
+      "SGT-REAI",
+      "SGT-CYBER"
+    ],
+    "id": "acct-orchidbay-sg",
+    "play": "ai-cloud",
+    "ring": "ring1",
+    "trigger": "bandwidth",
+    "companyName": "Orchid Bay Medical Group",
+    "hqCity": "Singapore (Novena)",
+    "hubLabel": "Novena Health District",
+    "relationshipLabel": "Existing Singtel Customer · 3 Yrs",
+    "corridor": "in-sg-other",
+    "corridorLabel": "Novena <-> DC Tuas <-> Chennai",
+    "industry": "ai-biotech",
+    "industryLabel": "Private Hospitals & Specialist Care",
+    "coordinates": [
+      1.3204,
+      103.8436
+    ],
+    "priorityScore": 92,
+    "currentArrSgd": 130000,
+    "contractRenewalDays": 150,
+    "ownedProducts": [
+      "SGT-CUBE"
+    ],
+    "telemetryAlerts": [
+      {
+        "id": "tel-07",
+        "metric": "Ward device traffic on campus Wi-Fi (CUBΣ)",
+        "currentValue": "89% peak load across 4 inpatient wards",
+        "threshold": "< 70% utilisation",
+        "severity": "high",
+        "minutesAgo": 35,
+        "desk": "connectivity",
+        "simulated": true
+      },
+      {
+        "id": "tel-08",
+        "metric": "Clinical AI inference sent offshore",
+        "currentValue": "3 pilot tools calling overseas model endpoints",
+        "threshold": "Sovereign hosting policy",
+        "severity": "high",
+        "minutesAgo": 90,
+        "desk": "infraco",
+        "simulated": true
+      }
+    ],
+    "scoreBreakdown": [
+      {
+        "label": "Ward connectivity at 89% load",
+        "points": 36
+      },
+      {
+        "label": "Offshore AI inference risk",
+        "points": 30
+      },
+      {
+        "label": "NUHS NXAC blueprint now public",
+        "points": 26
+      }
+    ],
+    "whyNow": "CUBΣ shows ward device traffic at 89% of campus Wi-Fi capacity, and three clinical AI pilots are calling overseas model endpoints. NUHS, Singtel, and Ericsson have just published the NXAC blueprint for 5G-Advanced hospitals.",
+    "signals": [
+      {
+        "claim": "CUBΣ usage signal: ward device traffic peaks at 89% of campus Wi-Fi capacity across 4 inpatient wards.",
+        "source": {
+          "title": "CUBΣ & Paragon Usage Signal. Reference product: Singtel 5G+",
+          "url": "https://www.singtel.com/business/products-services/5g",
+          "publisher": "Singtel CUBΣ & Paragon",
+          "kind": "simulated-telemetry"
+        }
+      },
+      {
+        "claim": "NUHS, Singtel, and Ericsson signed an MOU on 5G-Advanced and 6G healthcare, with Singtel and Ericsson as founding partners of the National University XG AI Centre (NXAC).",
+        "source": {
+          "title": "NUHS, Singtel and Ericsson expand partnership to advance next-generation connected healthcare",
+          "url": "https://www.ericsson.com/en/press-releases/2/2026/nuhs-singtel-and-ericsson-expand-partnership-to-advance-next-generation-connected-healthcare",
+          "publisher": "Ericsson",
+          "publishedAt": "2026-11-05",
+          "kind": "press"
+        }
+      },
+      {
+        "claim": "Singtel's RE:AI launched AI Token-as-a-Service, hosting models on sovereign infrastructure in Singapore.",
+        "source": {
+          "title": "Singtel's RE:AI launches AI Token-as-a-Service",
+          "url": "https://www.lightreading.com/ai-machine-learning/singtel-s-re-ai-launches-ai-token-as-a-service",
+          "publisher": "Light Reading",
+          "publishedAt": "2026-10-01",
+          "kind": "press"
+        }
+      }
+    ],
+    "hypothesis": "The hospital needs ward capacity for clinical devices and a sovereign home for AI inference. Move the clinical AI pilots onto RE:AI, add 5G+ ward coverage on the NUHS NXAC blueprint, then managed security for medical devices and OT.",
+    "likelyNeeds": [
+      "5G+ ward coverage for devices and robotics",
+      "Sovereign AI inference for clinical pilots",
+      "Managed security for medical devices"
+    ],
+    "recommendedBundle": {
+      "bundleName": "Connected Hospital 5G+ & Sovereign AI",
+      "products": [
+        "SGT-5G",
+        "SGT-REAI",
+        "SGT-CYBER"
+      ],
+      "estimatedArrSgd": 530000,
+      "starterDownsellBundle": [
+        "SGT-CYBER"
+      ],
+      "starterArrSgd": 110000
+    },
+    "complianceFlags": [
+      "SG_PDPA",
+      "SG_CYBERSECURITY_ACT_CII"
+    ],
+    "complianceNote": "Patient data stays in Singapore on RE:AI sovereign infrastructure under PDPA, and healthcare is a designated CII sector covered by Singtel managed security.",
+    "decisionMaker": {
+      "role": "Chief Medical Information Officer",
+      "targetTitle": "CMIO / Group CIO",
+      "entryRoute": "Existing Singtel Client Partner (capacity review)",
+      "localPartnerNote": "Clinical workflow design with the Singtel 5G+ ecosystem"
+    },
+    "coSellPath": {
+      "partner": "DataMesh (Singtel 5G+ partner)",
+      "partnerType": "paragon-partner",
+      "note": "Bring Singtel 5G+ partner DataMesh to model a ward digital twin on the new slice, so the CMIO sees bed flow and device coverage together.",
+      "source": {
+        "title": "Singtel 5G+ partner ecosystem",
+        "url": "https://www.singtel.com/business/products-services/5g/partners",
+        "publisher": "Singtel",
+        "kind": "company"
+      }
+    },
+    "accountPlanSteps": [
+      {
+        "phase": "30-Day Immediate Fix",
+        "title": "Move the clinical AI pilots onto RE:AI sovereign inference",
+        "arrImpactSgd": 280000
+      },
+      {
+        "phase": "Q3 Cross-Division Attach",
+        "title": "5G+ ward coverage on the NUHS NXAC blueprint",
+        "arrImpactSgd": 140000
+      },
+      {
+        "phase": "12-Month Strategic Partnership",
+        "title": "Managed security for medical devices and OT",
+        "arrImpactSgd": 110000
+      }
+    ],
+    "nextAction": "Offer the CMIO a TaaS onboarding for the three pilots this month and a ward slice walkthrough based on NXAC.",
+    "draftOutreach": "Subject: Bringing your clinical AI pilots onshore, and ward capacity for what comes next\n\nHi [Name],\n\nCUBΣ shows ward device traffic at 89% of campus capacity, and three of your clinical AI pilots call overseas model endpoints. RE:AI Token-as-a-Service runs those models on sovereign Singapore infrastructure on a token subscription, so the pilots can move this month. We would also like to share the NXAC 5G-Advanced blueprint that NUHS, Singtel, and Ericsson announced.\n\nThe linked sandbox models the ward capacity and token volumes.",
+    "usageTrend": {
+      "label": "Peak ward network load",
+      "unit": "%",
+      "threshold": 70,
+      "points": [
+        58,
+        60,
+        61,
+        64,
+        63,
+        67,
+        70,
+        72,
+        74,
+        77,
+        80,
+        83,
+        86,
+        89
+      ]
+    }
+  },
+  {
+    "mode": "farming",
+    "isDemoAccount": true,
+    "recommendedUpgrades": [
+      "SGT-REAI",
+      "SGT-NXERA"
+    ],
+    "id": "acct-helixveda-sg",
+    "play": "ai-cloud",
+    "ring": "ring2",
+    "trigger": "ai-compute",
+    "companyName": "HelixVeda Bio-AI",
+    "hqCity": "Singapore (one-north)",
+    "hubLabel": "one-north Biopolis",
+    "relationshipLabel": "Existing Singtel Customer · Paragon Partner Co-Sell",
+    "corridor": "blr-sg",
+    "corridorLabel": "Biopolis <-> DC Tuas <-> Bengaluru",
+    "industry": "ai-biotech",
+    "industryLabel": "Computational Biology & Drug Discovery",
+    "coordinates": [
+      1.304,
+      103.793
+    ],
+    "priorityScore": 93,
+    "currentArrSgd": 160000,
+    "contractRenewalDays": 200,
+    "ownedProducts": [
+      "SGT-CUBE"
+    ],
+    "telemetryAlerts": [
+      {
+        "id": "tel-09",
+        "metric": "Public cloud GPU queue wait",
+        "currentValue": "6.5 h queue for model training jobs",
+        "threshold": "< 30 min",
+        "severity": "critical",
+        "minutesAgo": 18,
+        "desk": "infraco",
+        "simulated": true
+      },
+      {
+        "id": "tel-10",
+        "metric": "Biopolis to Bengaluru checkpoint sync (CUBΣ)",
+        "currentValue": "14 h weekly sync window",
+        "threshold": "< 1 h",
+        "severity": "high",
+        "minutesAgo": 75,
+        "desk": "connectivity",
+        "simulated": true
+      }
+    ],
+    "scoreBreakdown": [
+      {
+        "label": "GPU queue blocking research",
+        "points": 40
+      },
+      {
+        "label": "GB300 capacity now available",
+        "points": 28
+      },
+      {
+        "label": "Bengaluru research arm growth",
+        "points": 25
+      }
+    ],
+    "whyNow": "Training jobs wait 6.5 hours for public cloud GPUs, and the weekly checkpoint sync to the Bengaluru research arm takes 14 hours. RE:AI has just announced the first NVIDIA DGX GB300 deployment in Asia Pacific.",
+    "signals": [
+      {
+        "claim": "CUBΣ usage signal: model training jobs wait 6.5 hours in a public cloud GPU queue.",
+        "source": {
+          "title": "CUBΣ & Paragon Usage Signal. Reference product: RE:AI sovereign AI cloud",
+          "url": "https://www.re-ai.ai/about-us/newsroom/singtel-re-ai-first-in-APAC-to-deploy-nvidia-dgx-gb300",
+          "publisher": "Singtel CUBΣ & Paragon",
+          "kind": "simulated-telemetry"
+        }
+      },
+      {
+        "claim": "RE:AI says it is first in Asia Pacific to deploy NVIDIA DGX GB300, with initial capacity fully committed ahead of deployment.",
+        "source": {
+          "title": "Singtel's RE:AI first in APAC to deploy NVIDIA DGX GB300 amid strong demand for advanced AI compute",
+          "url": "https://www.re-ai.ai/about-us/newsroom/singtel-re-ai-first-in-APAC-to-deploy-nvidia-dgx-gb300",
+          "publisher": "RE:AI (Singtel Digital InfraCo)",
+          "publishedAt": "2026-10-28",
+          "kind": "company"
+        }
+      },
+      {
+        "claim": "STT GDC runs 34 data centres across 10 Indian cities with more than 613MW of IT capacity; KKR and Singtel completed the acquisition on 2 September 2026.",
+        "source": {
+          "title": "KKR-Singtel Consortium Completes Acquisition Of STTGDC As Data Center Capacity Reaches 780 MW",
+          "url": "https://pulse2.com/kkr-singtel-consortium-completes-acquisition-of-sttgdc-as-data-center-capacity-reaches-780-mw/",
+          "publisher": "Pulse 2.0",
+          "publishedAt": "2026-09-02",
+          "kind": "press"
+        }
+      }
+    ],
+    "hypothesis": "GPU queues are slowing research, and GB300 capacity is scarce. Reserve RE:AI capacity now and colocate the research cluster in Nxera DC Tuas on the same Singtel contract.",
+    "likelyNeeds": [
+      "Dedicated GPU capacity for model training",
+      "Colocation for the research cluster",
+      "Fast checkpoint sync between sites"
+    ],
+    "recommendedBundle": {
+      "bundleName": "Sovereign Bio-AI Compute",
+      "products": [
+        "SGT-REAI",
+        "SGT-NXERA"
+      ],
+      "estimatedArrSgd": 500000,
+      "starterDownsellBundle": [
+        "SGT-REAI"
+      ],
+      "starterArrSgd": 280000
+    },
+    "complianceFlags": [
+      "SG_PDPA",
+      "INDIA_DPDP_ACT_2023"
+    ],
+    "complianceNote": "Genomic data from Singapore cohorts stays on RE:AI at DC Tuas under PDPA. Indian cohort data stays in India under the DPDP Act, with only model weights synced.",
+    "decisionMaker": {
+      "role": "Chief Science Officer",
+      "targetTitle": "CSO / Head of AI Platform",
+      "entryRoute": "Existing Singtel Client Partner with Digital InfraCo specialist",
+      "localPartnerNote": "Joint RE:AI and STT GDC architecture session"
+    },
+    "coSellPath": {
+      "partner": "Cosmiqo (Singtel 5G+ partner)",
+      "partnerType": "paragon-partner",
+      "note": "Cosmiqo's AI video analytics already monitor HelixVeda's automated lab on Paragon edge. Co-sell the GPU reservation with Cosmiqo's account lead Wei Ling Tan as the next phase of the same platform.",
+      "source": {
+        "title": "Singtel 5G+ partner ecosystem",
+        "url": "https://www.singtel.com/business/products-services/5g/partners",
+        "publisher": "Singtel",
+        "kind": "company"
+      }
+    },
+    "accountPlanSteps": [
+      {
+        "phase": "30-Day Immediate Fix",
+        "title": "Reserve RE:AI DGX GB300 capacity",
+        "arrImpactSgd": 280000
+      },
+      {
+        "phase": "Q3 Cross-Division Attach",
+        "title": "Colocate the research cluster in Nxera DC Tuas",
+        "arrImpactSgd": 220000
+      },
+      {
+        "phase": "12-Month Strategic Partnership",
+        "title": "NCS data engineering for the genomics pipeline",
+        "arrImpactSgd": 150000
+      }
+    ],
+    "nextAction": "Request a GB300 capacity hold from the RE:AI team and book a joint session with Cosmiqo.",
+    "draftOutreach": "Subject: GB300 capacity for your training pipeline\n\nHi [Name],\n\nYour training jobs are waiting 6.5 hours in public cloud GPU queues. RE:AI has just announced the first NVIDIA DGX GB300 deployment in Asia Pacific, and initial capacity was committed before deployment, so we would like to hold capacity for you now. We can also colocate your research cluster in Nxera DC Tuas on the same Singtel contract.\n\nThe linked sandbox models training time by GPU commitment.",
+    "usageTrend": {
+      "label": "GPU queue wait per training job",
+      "unit": "h",
+      "threshold": 0.5,
+      "points": [
+        0.8,
+        1.1,
+        1.4,
+        1.3,
+        2.0,
+        2.4,
+        2.9,
+        3.1,
+        3.8,
+        4.2,
+        4.9,
+        5.4,
+        6.0,
+        6.5
+      ]
+    }
+  },
+  {
+    "mode": "farming",
+    "isDemoAccount": true,
+    "recommendedUpgrades": [
+      "SGT-NCS",
+      "SGT-NXERA",
+      "SGT-IOT"
+    ],
+    "id": "acct-harbourline-sg",
+    "play": "aviation-logistics",
+    "ring": "ring2",
+    "trigger": "renewal",
+    "companyName": "Harbourline Logistics Group",
+    "hqCity": "Singapore (Pasir Panjang)",
+    "hubLabel": "Pasir Panjang Logistics Hub",
+    "relationshipLabel": "Existing Singtel Customer · NCS Co-Sell",
+    "corridor": "jb-sg",
+    "corridorLabel": "Pasir Panjang <-> Johor SEZ (Iskandar Puteri)",
+    "industry": "logistics",
+    "industryLabel": "Contract Logistics & Warehousing",
+    "coordinates": [
+      1.278,
+      103.765
+    ],
+    "priorityScore": 88,
+    "currentArrSgd": 110000,
+    "contractRenewalDays": 95,
+    "ownedProducts": [
+      "SGT-CUBE"
+    ],
+    "telemetryAlerts": [
+      {
+        "id": "tel-11",
+        "metric": "Johor warehouse sync over CUBΣ",
+        "currentValue": "6 h nightly inventory sync",
+        "threshold": "< 30 min",
+        "severity": "high",
+        "minutesAgo": 50,
+        "desk": "connectivity",
+        "simulated": true
+      }
+    ],
+    "scoreBreakdown": [
+      {
+        "label": "NCS ERP modernisation in flight",
+        "points": 34
+      },
+      {
+        "label": "Johor SEZ warehouse expansion",
+        "points": 30
+      },
+      {
+        "label": "Nightly sync delaying dispatch",
+        "points": 24
+      }
+    ],
+    "whyNow": "NCS is modernising Harbourline's warehouse ERP, the company is opening a Johor SEZ warehouse, and CUBΣ shows a 6-hour nightly inventory sync between the two sites.",
+    "signals": [
+      {
+        "claim": "CUBΣ usage signal: nightly inventory sync between Pasir Panjang and Johor takes 6 hours.",
+        "source": {
+          "title": "CUBΣ & Paragon Usage Signal. Reference product: Singtel CUBΣ",
+          "url": "https://www.singtel.com/business/products-services/connectivity/cube",
+          "publisher": "Singtel CUBΣ & Paragon",
+          "kind": "simulated-telemetry"
+        }
+      },
+      {
+        "claim": "TM Nxera secured 280MW of power from TNB for its data centre campus in Iskandar Puteri, a flagship Johor-Singapore SEZ investment.",
+        "source": {
+          "title": "TM Nxera partners with TNB to secure 280MW for data centre campus",
+          "url": "https://www.thestar.com.my/business/business-news/2026/01/12/tm-nxera-partners-with-tnb-to-secure-280mw-for-data-centre-campus",
+          "publisher": "The Star",
+          "kind": "press",
+          "publishedAt": "2026-01-12"
+        }
+      }
+    ],
+    "hypothesis": "The NCS ERP programme is the natural moment to move hosting and site connectivity onto Singtel. Co-sell with NCS: host the new ERP in Nxera across DC Tuas and TM Nxera Johor, and put warehouse IoT on Global IoT eSIM.",
+    "likelyNeeds": [
+      "ERP hosting across Singapore and Johor",
+      "Warehouse and fleet IoT",
+      "Faster cross-border inventory sync"
+    ],
+    "recommendedBundle": {
+      "bundleName": "Cross-Border Warehouse Cloud & IoT",
+      "products": [
+        "SGT-NCS",
+        "SGT-NXERA",
+        "SGT-IOT"
+      ],
+      "estimatedArrSgd": 435000,
+      "starterDownsellBundle": [
+        "SGT-IOT"
+      ],
+      "starterArrSgd": 65000
+    },
+    "complianceFlags": [
+      "SG_PDPA",
+      "MY_PDPA"
+    ],
+    "complianceNote": "Customer shipment data is split by jurisdiction: Singapore records in DC Tuas under PDPA, Malaysian records in TM Nxera Johor under Malaysia's PDPA.",
+    "decisionMaker": {
+      "role": "Group CIO",
+      "targetTitle": "Group CIO / Head of Regional Operations",
+      "entryRoute": "Warm intro through the NCS programme steering committee",
+      "localPartnerNote": "TM Nxera Johor for the SEZ leg"
+    },
+    "coSellPath": {
+      "partner": "NCS Cloud Practice",
+      "partnerType": "ncs",
+      "note": "NCS Cloud Practice is modernising Harbourline's warehouse ERP. Co-sell with NCS client partner David Lim so Nxera hosting and CUBΣ connectivity are scoped into the same programme.",
+      "source": {
+        "title": "Singtel posts FY26 net profit of S$5.61bn; underlying profit up 12% to S$2.77bn",
+        "url": "https://www.telecomtv.com/content/digital-platforms-services/singtel-posts-fy26-net-profit-of-s-5-61bn-underlying-profit-up-12-to-s-2-77bn-55535/",
+        "publisher": "TelecomTV",
+        "publishedAt": "2026-05-21",
+        "kind": "press"
+      }
+    },
+    "accountPlanSteps": [
+      {
+        "phase": "30-Day Immediate Fix",
+        "title": "IoT connectivity for Johor warehouse scanners and fleet trackers",
+        "arrImpactSgd": 65000
+      },
+      {
+        "phase": "Q3 Cross-Division Attach",
+        "title": "Host the modernised ERP in Nxera DC Tuas",
+        "arrImpactSgd": 220000
+      },
+      {
+        "phase": "12-Month Strategic Partnership",
+        "title": "Extend the NCS managed cloud and data programme",
+        "arrImpactSgd": 150000
+      }
+    ],
+    "nextAction": "Join David Lim at the next NCS steering committee with a hosting and connectivity proposal for the Johor go-live.",
+    "draftOutreach": "Subject: Hosting your new ERP across Singapore and Johor\n\nHi [Name],\n\nAs NCS modernises your warehouse ERP, we would like to make sure hosting and connectivity are ready for the Johor go-live. CUBΣ shows your nightly inventory sync takes 6 hours today. Hosting the new ERP in Nxera DC Tuas and TM Nxera Johor, with your sites on one Singtel network, is modelled to cut that to minutes.\n\nDavid Lim from NCS and I can walk you through the linked proposal.",
+    "usageTrend": {
+      "label": "Nightly Singapore-Johor sync",
+      "unit": "h",
+      "threshold": 0.5,
+      "points": [
+        3.1,
+        3.3,
+        3.4,
+        3.8,
+        3.9,
+        4.2,
+        4.4,
+        4.6,
+        4.9,
+        5.1,
+        5.3,
+        5.6,
+        5.8,
+        6.0
+      ]
+    }
+  },
+  {
+    "id": "lead-capitaland-sg",
+    "mode": "hunting",
+    "play": "ai-cloud",
+    "isDemoAccount": false,
+    "companyName": "CapitaLand India Trust",
+    "hqCity": "Singapore",
+    "corridor": "bom-pnq-sg",
+    "corridorLabel": "Singapore <-> Navi Mumbai",
+    "industry": "digital-infra",
+    "industryLabel": "Data Centres & Digital Infrastructure",
+    "coordinates": [
+      19.159,
+      72.9986
+    ],
+    "priorityScore": 84,
+    "scoreBreakdown": [
+      {
+        "label": "Confirmed hyperscaler demand",
+        "points": 36
+      },
+      {
+        "label": "Cross-border interconnect need",
+        "points": 28
+      },
+      {
+        "label": "Nxera partnership fit",
+        "points": 20
+      }
+    ],
+    "whyNow": "CapitaLand India Trust signed a second long-term hyperscaler agreement for Tower 2 of CapitaLand DC Navi Mumbai (37 MW IT load) and has pre-leased 53% of capacity across its three data centres under development.",
+    "signals": [
+      {
+        "claim": "CLINT signed a second long-term agreement with a global hyperscaler for Tower 2 of CapitaLand DC Navi Mumbai, with 37 MW planned IT load and completion expected in 4Q 2026.",
+        "source": {
+          "title": "CLINT gains leasing momentum with second hyperscaler agreement for data centre",
+          "url": "https://www.capitaland.com/en/about-capitaland/newsroom/news-releases/international/2026/january/CLINT-gains-leasing-momentum-with-second-hyperscaler-agreement-for-data-centre.html",
+          "publisher": "CapitaLand",
+          "publishedAt": "2026-01-15",
+          "kind": "company"
+        }
+      },
+      {
+        "claim": "CLINT has pre-leased 53% of total gross power capacity across its data centres under development in Navi Mumbai, Hyderabad, and Chennai.",
+        "source": {
+          "title": "CLINT gains leasing momentum with second hyperscaler agreement for data centre",
+          "url": "https://www.capitaland.com/en/about-capitaland/newsroom/news-releases/international/2026/january/CLINT-gains-leasing-momentum-with-second-hyperscaler-agreement-for-data-centre.html",
+          "publisher": "CapitaLand",
+          "publishedAt": "2026-01-15",
+          "kind": "company"
+        }
+      }
+    ],
+    "hypothesis": "Hyperscaler tenants in Indian facilities need diverse international routes and interconnect to Singapore cloud regions. SingTech assesses fit for data centre interconnect and quantum-safe encryption, with Nxera as a Singapore capacity partner.",
+    "likelyNeeds": [
+      "Diverse Singapore-Mumbai interconnect for tenants",
+      "Quantum-safe encryption on inter-site links",
+      "Singapore overflow colocation"
+    ],
+    "recommendedBundle": {
+      "bundleName": "Hyperscale Corridor Interconnect",
+      "products": [
+        "SGT-CUBE",
+        "SGT-QSN",
+        "SGT-NXERA"
+      ],
+      "estimatedArrSgd": 515000,
+      "starterDownsellBundle": [
+        "SGT-CUBE"
+      ],
+      "starterArrSgd": 120000
+    },
+    "complianceFlags": [
+      "INDIA_DPDP_ACT_2023",
+      "INDIA_CERT_IN"
+    ],
+    "complianceNote": "Tenant data hosted in India falls under the DPDP Act and CERT-In reporting duties. Encrypted interconnect and clear routing records support tenant compliance.",
+    "decisionMaker": {
+      "role": "Head of Data Centres",
+      "targetTitle": "Head of Data Centres / CTO",
+      "entryRoute": "Warm Intro Path via Singtel Digital InfraCo",
+      "localPartnerNote": "Indian landing via Airtel on the SEA-ME-WE 6 cable system"
+    },
+    "nextAction": "Propose a Digital InfraCo session on tenant interconnect between Navi Mumbai and Singapore, positioned before the Tower 2 handover in 1H 2027.",
+    "draftOutreach": "Subject: Tenant interconnect for CapitaLand DC Navi Mumbai Tower 2\n\nHi [Name],\n\nCongratulations on the second hyperscaler agreement for Tower 2. As handover approaches in 1H 2027, tenants will look for diverse, low-latency routes between Navi Mumbai and Singapore cloud regions.\n\nSingtel Digital InfraCo can offer dedicated interconnect, quantum-safe link encryption, and Nxera capacity in Singapore. Could we schedule a short session with your data centre team?",
+    "ring": "ring3",
+    "trigger": "ai-compute",
+    "hubLabel": "SG HQ · Navi Mumbai DC campus",
+    "relationshipLabel": "New Prospect · India DC Corridor"
+  },
+  {
+    "id": "lead-optimum-sg",
+    "mode": "hunting",
+    "play": "india-sea",
+    "isDemoAccount": false,
+    "companyName": "Optimum Solutions",
+    "hqCity": "Singapore",
+    "corridor": "in-sg-other",
+    "corridorLabel": "Singapore <-> Hyderabad",
+    "industry": "digital-infra",
+    "industryLabel": "IT Services & Global Capability Centres",
+    "coordinates": [
+      17.4435,
+      78.3772
+    ],
+    "priorityScore": 80,
+    "scoreBreakdown": [
+      {
+        "label": "GCC headcount growth plan",
+        "points": 32
+      },
+      {
+        "label": "Multi-country delivery traffic",
+        "points": 26
+      },
+      {
+        "label": "SD-WAN and SASE fit",
+        "points": 22
+      }
+    ],
+    "whyNow": "Singapore-based Optimum Solutions launched a Hyderabad GCC with ABeam Consulting, starting with about 150 to 165 staff and targeting 2,000 by 2030.",
+    "signals": [
+      {
+        "claim": "Optimum Solutions and ABeam Consulting launched a Hyderabad GCC for Japanese clients, starting with about 150 to 165 employees and planning to reach 2,000 by 2030.",
+        "source": {
+          "title": "Singapore and Japan firms jointly launch digital transformation GCC in Hyderabad",
+          "url": "https://www.peoplematters.in/news/business/singapore-and-japan-firms-jointly-launch-digital-transformation-gcc-in-hyderabad-48598",
+          "publisher": "People Matters",
+          "publishedAt": "2026-02-27",
+          "kind": "press"
+        }
+      },
+      {
+        "claim": "Optimum employs about 4,000 people globally, roughly 2,000 of them across offices in Chennai, Pune, Hyderabad, and Bengaluru.",
+        "source": {
+          "title": "Singapore and Japan firms jointly launch digital transformation GCC in Hyderabad",
+          "url": "https://www.peoplematters.in/news/business/singapore-and-japan-firms-jointly-launch-digital-transformation-gcc-in-hyderabad-48598",
+          "publisher": "People Matters",
+          "publishedAt": "2026-02-27",
+          "kind": "press"
+        }
+      }
+    ],
+    "hypothesis": "A delivery centre scaling headcount needs secure, resilient links between India, Singapore, and Japan, and zero-trust access for distributed engineers. SingTech assesses fit for CUBΣ SD-WAN, Unified SASE, and Mobility.",
+    "likelyNeeds": [
+      "Multi-site SD-WAN across Indian offices on CUBΣ",
+      "Zero-trust SASE for distributed engineers",
+      "Managed mobility for the delivery team"
+    ],
+    "recommendedBundle": {
+      "bundleName": "GCC Secure Delivery Fabric",
+      "products": [
+        "SGT-CUBE",
+        "SGT-CYBER",
+        "SGT-MOB"
+      ],
+      "estimatedArrSgd": 278000,
+      "starterDownsellBundle": [
+        "SGT-CUBE"
+      ],
+      "starterArrSgd": 120000
+    },
+    "complianceFlags": [
+      "INDIA_DPDP_ACT_2023",
+      "SG_PDPA"
+    ],
+    "complianceNote": "Client data handled in India falls under the DPDP Act, and Singapore operations under the PDPA. Zero-trust access and logged cross-border routing simplify audits for client programmes.",
+    "decisionMaker": {
+      "role": "Head of IT Infrastructure",
+      "targetTitle": "CIO / Head of GCC Operations",
+      "entryRoute": "Cold executive outreach referencing the Hyderabad GCC launch",
+      "localPartnerNote": "India branch connectivity through Bridge Alliance partner Airtel"
+    },
+    "nextAction": "Offer a network and security design review for the Hyderabad GCC scale-up, covering SD-WAN across Indian offices and SASE for client programmes.",
+    "draftOutreach": "Subject: Network and security for Optimum's Hyderabad GCC scale-up\n\nHi [Name],\n\nCongratulations on launching the Hyderabad GCC with ABeam. Scaling toward 2,000 people by 2030 will put steady pressure on the links between your Indian offices, Singapore, and Japanese clients.\n\nSingtel can provide one SD-WAN across your four Indian offices, managed SASE for zero-trust access, and managed mobility for the delivery team. Would a design review in the next two weeks help?",
+    "ring": "ring3",
+    "trigger": "bandwidth",
+    "hubLabel": "SG HQ · Hyderabad GCC",
+    "relationshipLabel": "New Prospect · India Delivery Corridor"
+  },
+  {
+    "id": "lead-tazapay-sg",
+    "mode": "hunting",
+    "play": "banking",
+    "isDemoAccount": false,
+    "companyName": "Tazapay",
+    "hqCity": "Singapore",
+    "corridor": "blr-sg",
+    "corridorLabel": "Singapore <-> Bengaluru",
+    "industry": "fintech",
+    "industryLabel": "Cross-Border Payments",
+    "coordinates": [
+      12.9141,
+      77.6446
+    ],
+    "priorityScore": 82,
+    "scoreBreakdown": [
+      {
+        "label": "New India engineering and treasury hub",
+        "points": 33
+      },
+      {
+        "label": "Payment routing and treasury traffic",
+        "points": 27
+      },
+      {
+        "label": "Network API fraud control fit",
+        "points": 22
+      }
+    ],
+    "whyNow": "Tazapay opened its largest India office in Bengaluru as a centre of excellence for engineering, product, and treasury operations, and plans to hire more than 150 people there.",
+    "signals": [
+      {
+        "claim": "Tazapay opened its largest India office in Bengaluru and plans to hire more than 150 people there over the next 18 months.",
+        "source": {
+          "title": "Tazapay opens its largest India office and plans 150 hires",
+          "url": "https://fintechnews.sg/136852/payments/tazapay-india-office-bengaluru/",
+          "publisher": "Fintech News Singapore",
+          "publishedAt": "2026-09-08",
+          "kind": "press"
+        }
+      },
+      {
+        "claim": "Bengaluru staff will work across the cross-border payment process, including routing and compliance, and the hub will support work on stablecoins and AI agents.",
+        "source": {
+          "title": "Tazapay opens its largest India office and plans 150 hires",
+          "url": "https://fintechnews.sg/136852/payments/tazapay-india-office-bengaluru/",
+          "publisher": "Fintech News Singapore",
+          "publishedAt": "2026-09-08",
+          "kind": "press"
+        }
+      }
+    ],
+    "hypothesis": "Running payment routing and treasury from India for a Singapore company needs low-latency, secure links between Bengaluru, Chennai, and Singapore. SingTech assesses fit for CUBΣ SD-WAN and managed security.",
+    "likelyNeeds": [
+      "Secure Bengaluru-Chennai-Singapore SD-WAN on CUBΣ",
+      "Managed security for treasury and settlement links"
+    ],
+    "recommendedBundle": {
+      "bundleName": "Cross-Border Treasury Link",
+      "products": [
+        "SGT-CUBE",
+        "SGT-CYBER"
+      ],
+      "estimatedArrSgd": 230000,
+      "starterDownsellBundle": [
+        "SGT-CYBER"
+      ],
+      "starterArrSgd": 110000
+    },
+    "complianceFlags": [
+      "SG_PDPA",
+      "INDIA_DPDP_ACT_2023"
+    ],
+    "complianceNote": "Customer data processed by the Bengaluru team moves between Singapore and India, so transfers must meet both the PDPA and the DPDP Act. Encrypted, logged routing supports both.",
+    "decisionMaker": {
+      "role": "Head of Engineering",
+      "targetTitle": "CTO / Head of Infrastructure",
+      "entryRoute": "Cold executive outreach referencing the Bengaluru centre",
+      "localPartnerNote": "Chennai and Bengaluru sites on one Singtel CUBΣ SD-WAN"
+    },
+    "nextAction": "Send a corridor connectivity brief covering Bengaluru, Chennai, and Singapore, with a managed security review for the treasury links.",
+    "draftOutreach": "Subject: Connecting Tazapay's new Bengaluru centre to Singapore\n\nHi [Name],\n\nCongratulations on opening Tazapay's largest India office in Bengaluru. With routing, compliance, and treasury work running from India, the links between Bengaluru, Chennai, and Singapore become part of your payment path.\n\nSingtel can connect all three sites on one SD-WAN, and add managed security for the treasury links. Could we share a short design next week?",
+    "ring": "ring3",
+    "trigger": "bandwidth",
+    "hubLabel": "SG HQ · Bengaluru hub",
+    "relationshipLabel": "New Prospect · Payments Corridor"
+  },
+  {
+    "id": "lead-juspay-in",
+    "mode": "hunting",
+    "play": "banking",
+    "isDemoAccount": false,
+    "companyName": "Juspay",
+    "hqCity": "Bengaluru",
+    "corridor": "blr-sg",
+    "corridorLabel": "Bengaluru <-> Singapore",
+    "industry": "fintech",
+    "industryLabel": "Payments Infrastructure",
+    "coordinates": [
+      12.9352,
+      77.6245
+    ],
+    "priorityScore": 86,
+    "scoreBreakdown": [
+      {
+        "label": "New Singapore APAC hub",
+        "points": 34
+      },
+      {
+        "label": "High-volume transaction infrastructure",
+        "points": 30
+      },
+      {
+        "label": "Network API authentication fit",
+        "points": 22
+      }
+    ],
+    "whyNow": "Juspay opened a Singapore office as its Asia Pacific base, citing rising enterprise demand and plans to scale its Singapore team.",
+    "signals": [
+      {
+        "claim": "Juspay opened a Singapore office to serve as a regional base for Asia Pacific clients and said it intends to scale its Singapore team.",
+        "source": {
+          "title": "Juspay opens Singapore office",
+          "url": "https://fintechnews.sg/110576/fintech-india/juspay-singapore-office/",
+          "publisher": "Fintech News Singapore",
+          "publishedAt": "2025-04-24",
+          "kind": "press"
+        }
+      },
+      {
+        "claim": "Juspay processes over 200 million transactions daily, with annual volume above US$900 billion.",
+        "source": {
+          "title": "Juspay opens Singapore office",
+          "url": "https://fintechnews.sg/110576/fintech-india/juspay-singapore-office/",
+          "publisher": "Fintech News Singapore",
+          "publishedAt": "2025-04-24",
+          "kind": "press"
+        }
+      }
+    ],
+    "hypothesis": "Payment orchestration at this volume depends on resilient, low-jitter links between Indian processing and Singapore client integrations. SingTech assesses fit for CUBΣ connectivity and SD-WAN at the new office, Unified SASE, and Mobility for the APAC team.",
+    "likelyNeeds": [
+      "Resilient Bengaluru-Singapore connectivity on CUBΣ",
+      "Managed SD-WAN for the Singapore office",
+      "Unified SASE for distributed engineering teams"
+    ],
+    "recommendedBundle": {
+      "bundleName": "Payments Corridor Network & Security",
+      "products": [
+        "SGT-CUBE",
+        "SGT-CYBER",
+        "SGT-MOB"
+      ],
+      "estimatedArrSgd": 278000,
+      "starterDownsellBundle": [
+        "SGT-CUBE"
+      ],
+      "starterArrSgd": 120000
+    },
+    "complianceFlags": [
+      "INDIA_DPDP_ACT_2023",
+      "RBI_DATA_LOCALIZATION",
+      "SG_PDPA"
+    ],
+    "complianceNote": "Payment data for Indian transactions must stay in India under RBI rules, while Singapore client data falls under the PDPA. Split processing over an encrypted interconnect supports both.",
+    "decisionMaker": {
+      "role": "Head of Infrastructure",
+      "targetTitle": "VP Engineering / Head of APAC Infrastructure",
+      "entryRoute": "Cold executive outreach referencing the Singapore launch",
+      "localPartnerNote": "Singapore office connectivity on Singtel CUBΣ SD-WAN"
+    },
+    "nextAction": "Send a short brief on Bengaluru-Singapore connectivity on CUBΣ and Unified SASE to the APAC infrastructure lead; propose a joint architecture session.",
+    "draftOutreach": "Subject: Connectivity for Juspay's Singapore APAC hub\n\nHi [Name],\n\nCongratulations on opening Juspay's Singapore office. At more than 200 million transactions a day, the links between your Indian processing and Singapore client integrations need to stay resilient and low-jitter.\n\nSingtel can provide managed SD-WAN for the new office, a dedicated data centre interconnect to India, and Unified SASE for your distributed teams. Could we set up a 20-minute architecture session?",
+    "ring": "ring3",
+    "trigger": "bandwidth",
+    "hubLabel": "Bengaluru · new SG APAC office",
+    "relationshipLabel": "New Prospect · Payments Corridor"
+  },
+  {
+    "id": "lead-tata-elec-in",
+    "mode": "hunting",
+    "play": "india-sea",
+    "isDemoAccount": false,
+    "companyName": "Tata Electronics",
+    "hqCity": "Jagiroad, Assam (OSAT plant)",
+    "corridor": "in-sg-other",
+    "corridorLabel": "Assam / Gujarat <-> Singapore",
+    "industry": "semi-ev",
+    "industryLabel": "Semiconductor Assembly & Test",
+    "coordinates": [
+      26.1167,
+      92.2
+    ],
+    "priorityScore": 89,
+    "scoreBreakdown": [
+      {
+        "label": "OSAT production ramp-up",
+        "points": 36
+      },
+      {
+        "label": "Equipment and design IP protection",
+        "points": 31
+      },
+      {
+        "label": "NCS and Singtel co-sell fit",
+        "points": 22
+      }
+    ],
+    "whyNow": "Tata Electronics has started pilot chip production at its Jagiroad, Assam assembly and test plant ahead of a formal inauguration, and lists ASMPT Singapore among its semiconductor partners.",
+    "signals": [
+      {
+        "claim": "Pilot chip production has begun at the Jagiroad OSAT plant, which is designed for up to 48 million semiconductor units per day; formal inauguration is expected in December 2026 or January 2027.",
+        "source": {
+          "title": "Tata Electronics begins semiconductor pilot in Assam, automotive modules in focus",
+          "url": "https://www.autocarpro.in/news/tata-electronics-begins-semiconductor-pilot-in-assam-automotive-modules-in-focus-135049",
+          "publisher": "Autocar Professional",
+          "publishedAt": "2026-10-05",
+          "kind": "press"
+        }
+      },
+      {
+        "claim": "Tata Electronics lists a partnership with ASMPT Singapore covering semiconductor assembly equipment, workforce training, and automation.",
+        "source": {
+          "title": "Tata Electronics business partners",
+          "url": "https://www.tata.com/newsroom/business/tata-electronics-business-partners",
+          "publisher": "Tata Group",
+          "kind": "company"
+        }
+      }
+    ],
+    "hypothesis": "A new assembly and test plant working with Singapore equipment partners will exchange yield telemetry, equipment data, and design files across borders. SingTech assesses fit for 5G+ slicing inside the plant, IoT connectivity for equipment, and managed OT security.",
+    "likelyNeeds": [
+      "Private 5G slicing for plant automation",
+      "IoT connectivity for equipment and yield telemetry",
+      "Managed OT security for the plant network"
+    ],
+    "recommendedBundle": {
+      "bundleName": "Smart Plant 5G+, IoT & OT Security",
+      "products": [
+        "SGT-5G",
+        "SGT-IOT",
+        "SGT-CYBER"
+      ],
+      "estimatedArrSgd": 315000,
+      "starterDownsellBundle": [
+        "SGT-IOT"
+      ],
+      "starterArrSgd": 65000
+    },
+    "complianceFlags": [
+      "INDIA_CERT_IN",
+      "INDIA_DPDP_ACT_2023"
+    ],
+    "complianceNote": "CERT-In directions set strict incident reporting and log retention duties. Segmented plant networks and encrypted cross-border links reduce exposure for equipment and yield data.",
+    "decisionMaker": {
+      "role": "Chief Information Officer",
+      "targetTitle": "CIO / VP Manufacturing IT",
+      "entryRoute": "Warm Intro Path via the NCS manufacturing practice",
+      "localPartnerNote": "Joint delivery by NCS and Singtel"
+    },
+    "nextAction": "Coordinate a Singtel briefing on plant 5G+, IoT connectivity, and OT security for the Singapore equipment partner links.",
+    "draftOutreach": "Subject: Securing data flows for Tata Electronics' Jagiroad ramp-up\n\nHi [Name],\n\nCongratulations on starting pilot production at Jagiroad. As the plant ramps up with partners such as ASMPT Singapore, equipment data, yield telemetry, and design files will move across borders every day.\n\nOur joint Singtel and NCS team has outlined a 5G+ design for plant automation, IoT connectivity for equipment telemetry, and managed OT security. Would a 30-minute briefing with your manufacturing IT team be useful?",
+    "ring": "ring3",
+    "trigger": "cii-cyber",
+    "hubLabel": "Assam OSAT plant · SG partners",
+    "relationshipLabel": "New Prospect · Semiconductor Corridor"
+  },
+  {
+    "id": "lead-sarvam-in",
+    "mode": "hunting",
+    "play": "ai-cloud",
+    "isDemoAccount": false,
+    "companyName": "Sarvam AI",
+    "hqCity": "Bengaluru",
+    "corridor": "blr-sg",
+    "corridorLabel": "Bengaluru <-> Singapore DC Tuas",
+    "industry": "ai-biotech",
+    "industryLabel": "Sovereign AI & Foundation Models",
+    "coordinates": [
+      12.9784,
+      77.6408
+    ],
+    "priorityScore": 72,
+    "scoreBreakdown": [
+      {
+        "label": "Large GPU scale-up plan",
+        "points": 34
+      },
+      {
+        "label": "Sovereign hosting alignment",
+        "points": 26
+      },
+      {
+        "label": "ASEAN expansion (unconfirmed)",
+        "points": 12
+      }
+    ],
+    "whyNow": "Sarvam is positioning itself as a full-stack sovereign AI platform, with access to about 2,000 NVIDIA Blackwell GPUs, a target of 10,000, and over 500 organisations using its products.",
+    "signals": [
+      {
+        "claim": "Sarvam says it has access to about 2,000 NVIDIA Blackwell GPUs and aims to scale to 10,000.",
+        "source": {
+          "title": "From models to infrastructure: Sarvam's next bet is becoming India's AI platform",
+          "url": "https://www.businesstoday.in/technology/news/story/from-models-to-infrastructure-sarvams-next-bet-is-becoming-indias-ai-platform-546384-2026-07-30",
+          "publisher": "Business Today",
+          "publishedAt": "2026-07-30",
+          "kind": "press"
+        }
+      },
+      {
+        "claim": "Sarvam describes a sovereign AI stack of models built from scratch and hosted in India for enterprises with data residency needs, used by over 500 organisations.",
+        "source": {
+          "title": "From models to infrastructure: Sarvam's next bet is becoming India's AI platform",
+          "url": "https://www.businesstoday.in/technology/news/story/from-models-to-infrastructure-sarvams-next-bet-is-becoming-indias-ai-platform-546384-2026-07-30",
+          "publisher": "Business Today",
+          "publishedAt": "2026-07-30",
+          "kind": "press"
+        }
+      }
+    ],
+    "hypothesis": "Sarvam's stated focus is India-hosted infrastructure, and no Southeast Asia expansion has been announced. SingTech assesses an exploratory fit: RE:AI burst capacity and Nxera colocation for any future ASEAN enterprise deployments that need in-region hosting.",
+    "likelyNeeds": [
+      "In-region GPU capacity for ASEAN clients",
+      "Liquid-cooled colocation",
+      "100G burst interconnect to India"
+    ],
+    "recommendedBundle": {
+      "bundleName": "Sovereign AI Compute & Interconnect Pack",
+      "products": [
+        "SGT-REAI",
+        "SGT-NXERA",
+        "SGT-CUBE"
+      ],
+      "estimatedArrSgd": 620000,
+      "starterDownsellBundle": [
+        "SGT-REAI"
+      ],
+      "starterArrSgd": 280000
+    },
+    "complianceFlags": [
+      "INDIA_DPDP_ACT_2023",
+      "SG_PDPA"
+    ],
+    "complianceNote": "Model weights and data for Indian clients stay in India. Any ASEAN deployment would run in Singapore under the PDPA without moving Indian personal data across the border.",
+    "decisionMaker": {
+      "role": "Head of AI Infrastructure",
+      "targetTitle": "VP Infrastructure / Head of AI Platform",
+      "entryRoute": "Cold outreach backed by a RE:AI capacity brief",
+      "localPartnerNote": "100G interconnect between Indian partner nodes and Nxera DC Tuas"
+    },
+    "nextAction": "Offer a capacity briefing on RE:AI and Nxera DC Tuas as an in-region option for ASEAN enterprise inference; qualify whether ASEAN is on the roadmap.",
+    "draftOutreach": "Subject: In-region AI capacity in Singapore, if Sarvam serves ASEAN clients\n\nHi [Name],\n\nSarvam's sovereign stack, hosted in India, fits enterprises with strict data residency needs. If ASEAN enterprises ask for the same guarantee in their own region, Singtel can offer RE:AI GPU capacity and Nxera colocation at DC Tuas, linked to India by dedicated interconnect.\n\nWould a short capacity briefing be useful for your planning?",
+    "ring": "ring3",
+    "trigger": "ai-compute",
+    "hubLabel": "Bengaluru · DC Tuas option",
+    "relationshipLabel": "New Prospect · Sovereign AI Corridor"
+  }
+]

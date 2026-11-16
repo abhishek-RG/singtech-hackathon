@@ -1,0 +1,47 @@
+[
+  {
+    "id": "rep-weiling",
+    "name": "Wei Ling",
+    "role": "Client Partner, Financial Services",
+    "quotaSgd": 4200000,
+    "closedSgd": 3150000,
+    "winRatePct": 38,
+    "avgCycleDays": 186
+  },
+  {
+    "id": "rep-arjun",
+    "name": "Arjun",
+    "role": "Client Partner, Transport and Logistics",
+    "quotaSgd": 3800000,
+    "closedSgd": 2470000,
+    "winRatePct": 34,
+    "avgCycleDays": 204
+  },
+  {
+    "id": "rep-farah",
+    "name": "Farah",
+    "role": "Client Partner, Aviation and Critical Infrastructure",
+    "quotaSgd": 3500000,
+    "closedSgd": 2905000,
+    "winRatePct": 41,
+    "avgCycleDays": 221
+  },
+  {
+    "id": "rep-daniel",
+    "name": "Daniel",
+    "role": "Client Partner, Healthcare and Life Sciences",
+    "quotaSgd": 3200000,
+    "closedSgd": 1760000,
+    "winRatePct": 29,
+    "avgCycleDays": 168
+  },
+  {
+    "id": "rep-priya",
+    "name": "Priya",
+    "role": "Strategic Account Director, Regional MNC",
+    "quotaSgd": 6500000,
+    "closedSgd": 4420000,
+    "winRatePct": 36,
+    "avgCycleDays": 247
+  }
+]

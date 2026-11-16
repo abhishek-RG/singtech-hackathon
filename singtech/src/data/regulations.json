@@ -1,0 +1,124 @@
+[
+  {
+    "code": "INDIA_DPDP_ACT_2023",
+    "name": "Digital Personal Data Protection Act, 2023",
+    "jurisdiction": "India",
+    "summary": "Governs processing of digital personal data in India, including consent, purpose limitation, and rules on transfers outside India.",
+    "source": {
+      "title": "MeitY: Data Protection Framework",
+      "url": "https://www.meity.gov.in/data-protection-framework",
+      "publisher": "Ministry of Electronics and IT, India",
+      "kind": "regulator"
+    }
+  },
+  {
+    "code": "RBI_DATA_LOCALIZATION",
+    "name": "RBI Storage of Payment System Data",
+    "jurisdiction": "India",
+    "summary": "Payment system providers must store full end-to-end payment data only in India; data for the foreign leg of a transaction may also be stored abroad.",
+    "source": {
+      "title": "RBI/2017-18/153: Storage of Payment System Data",
+      "url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx?Id=11244",
+      "publisher": "Reserve Bank of India",
+      "publishedAt": "2018-04-06",
+      "kind": "regulator"
+    }
+  },
+  {
+    "code": "INDIA_CERT_IN",
+    "name": "CERT-In Directions",
+    "jurisdiction": "India",
+    "summary": "Indian Computer Emergency Response Team directions on reporting cyber security incidents and maintaining logs.",
+    "source": {
+      "title": "CERT-In",
+      "url": "https://www.cert-in.org.in/",
+      "publisher": "CERT-In, Government of India",
+      "kind": "regulator"
+    }
+  },
+  {
+    "code": "DOT_M2M_ESIM",
+    "name": "DoT M2M SIM and eSIM Rules",
+    "jurisdiction": "India",
+    "summary": "Department of Telecommunications requirements for machine-to-machine SIMs and eSIM profiles on connected devices operating in India.",
+    "source": {
+      "title": "Department of Telecommunications",
+      "url": "https://www.dot.gov.in/",
+      "publisher": "Department of Telecommunications, India",
+      "kind": "regulator"
+    }
+  },
+  {
+    "code": "SG_PDPA",
+    "name": "Personal Data Protection Act 2012",
+    "jurisdiction": "Singapore",
+    "summary": "Singapore's baseline law for collection, use, disclosure, and cross-border transfer of personal data.",
+    "source": {
+      "title": "PDPC: Personal Data Protection Act",
+      "url": "https://www.pdpc.gov.sg/overview-of-pdpa/the-legislation/personal-data-protection-act",
+      "publisher": "Personal Data Protection Commission, Singapore",
+      "kind": "regulator"
+    }
+  },
+  {
+    "code": "SG_MAS_TRM",
+    "name": "MAS Technology Risk Management Guidelines",
+    "jurisdiction": "Singapore",
+    "summary": "MAS expectations for financial institutions on technology risk governance, resilience, cryptography, and cyber security.",
+    "source": {
+      "title": "MAS: Technology Risk Management Guidelines",
+      "url": "https://www.mas.gov.sg/regulation/guidelines/technology-risk-management-guidelines",
+      "publisher": "Monetary Authority of Singapore",
+      "kind": "regulator"
+    }
+  },
+  {
+    "code": "MAS_QUANTUM_ADVISORY",
+    "name": "MAS Advisory on Cybersecurity Risks Associated with Quantum",
+    "jurisdiction": "Singapore",
+    "summary": "MAS advisory on cyber security risks from quantum computing, with mitigating measures financial institutions should consider.",
+    "source": {
+      "title": "MAS/TCRS/2024/01: Advisory on Addressing the Cybersecurity Risks Associated with Quantum",
+      "url": "https://www.mas.gov.sg/regulation/circulars/advisory-on-addressing-the-cybersecurity-risks-associated-with-quantum",
+      "publisher": "Monetary Authority of Singapore",
+      "publishedAt": "2024-02-20",
+      "kind": "regulator"
+    }
+  },
+  {
+    "code": "SG_CYBERSECURITY_ACT_CII",
+    "name": "Cybersecurity Act (Critical Information Infrastructure)",
+    "jurisdiction": "Singapore",
+    "summary": "Obligations for owners of Critical Information Infrastructure in sectors including aviation, maritime, banking, and energy.",
+    "source": {
+      "title": "CSA: Cybersecurity Act",
+      "url": "https://www.csa.gov.sg/legislation/cybersecurity-act",
+      "publisher": "Cyber Security Agency of Singapore",
+      "kind": "regulator"
+    }
+  },
+  {
+    "code": "MY_PDPA",
+    "name": "Personal Data Protection Act 2010 (as amended 2024)",
+    "jurisdiction": "Malaysia",
+    "summary": "Malaysia's personal data law, relevant to operations in Johor and the Johor-Singapore Special Economic Zone.",
+    "source": {
+      "title": "Personal Data Protection Department, Malaysia",
+      "url": "https://www.pdp.gov.my/",
+      "publisher": "JPDP Malaysia",
+      "kind": "regulator"
+    }
+  },
+  {
+    "code": "IMO_MARITIME_CYBER",
+    "name": "IMO Maritime Cyber Risk Management",
+    "jurisdiction": "International",
+    "summary": "IMO guidance on maritime cyber risk management, including protection of ship operational technology.",
+    "source": {
+      "title": "IMO: Maritime cyber security",
+      "url": "https://www.imo.org/en/OurWork/Security/Pages/Cyber-security.aspx",
+      "publisher": "International Maritime Organization",
+      "kind": "regulator"
+    }
+  }
+]

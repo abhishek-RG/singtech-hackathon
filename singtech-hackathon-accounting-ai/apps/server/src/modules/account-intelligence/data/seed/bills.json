@@ -1,0 +1,3617 @@
+[
+  {
+    "id": "c17d25f1-eb54-5d2d-8a20-375ecd0c5d51",
+    "billing_account_id": "67ebf87e-cb3a-55f3-8f4a-bbb9bfc2c555",
+    "bill_number": "INV-2025-004801",
+    "period_start": "2025-11-01",
+    "period_end": "2025-11-30",
+    "currency": "SGD",
+    "amount": 34258.5,
+    "amount_sgd": 34258.5,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 18370.5
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 6156.6
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 9731.4
+      }
+    ]
+  },
+  {
+    "id": "8bef4259-41a0-5b6e-9fa1-6e74ef9a9339",
+    "billing_account_id": "67ebf87e-cb3a-55f3-8f4a-bbb9bfc2c555",
+    "bill_number": "INV-2025-004802",
+    "period_start": "2025-12-01",
+    "period_end": "2025-12-31",
+    "currency": "SGD",
+    "amount": 34224,
+    "amount_sgd": 34224,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 18352
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 6150.4
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 9721.6
+      }
+    ]
+  },
+  {
+    "id": "4aa7ee71-b286-57a6-a5a1-a894ecf85f1d",
+    "billing_account_id": "67ebf87e-cb3a-55f3-8f4a-bbb9bfc2c555",
+    "bill_number": "INV-2026-004803",
+    "period_start": "2026-01-01",
+    "period_end": "2026-01-31",
+    "currency": "SGD",
+    "amount": 34638,
+    "amount_sgd": 34638,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 18574
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 6224.8
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 9839.2
+      }
+    ]
+  },
+  {
+    "id": "7bd6e095-5aa9-50fc-8a91-19e0b8dc488b",
+    "billing_account_id": "67ebf87e-cb3a-55f3-8f4a-bbb9bfc2c555",
+    "bill_number": "INV-2026-004804",
+    "period_start": "2026-02-01",
+    "period_end": "2026-02-28",
+    "currency": "SGD",
+    "amount": 34810.5,
+    "amount_sgd": 34810.5,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 18666.5
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 6255.8
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 9888.2
+      }
+    ]
+  },
+  {
+    "id": "9a846a64-2101-5789-82eb-7df1468ac1b9",
+    "billing_account_id": "67ebf87e-cb3a-55f3-8f4a-bbb9bfc2c555",
+    "bill_number": "INV-2026-004805",
+    "period_start": "2026-03-01",
+    "period_end": "2026-03-31",
+    "currency": "SGD",
+    "amount": 34155,
+    "amount_sgd": 34155,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 18315
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 6138
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 9702
+      }
+    ]
+  },
+  {
+    "id": "d20351ae-9e42-557c-86ee-e37c79152ab0",
+    "billing_account_id": "67ebf87e-cb3a-55f3-8f4a-bbb9bfc2c555",
+    "bill_number": "INV-2026-004806",
+    "period_start": "2026-04-01",
+    "period_end": "2026-04-30",
+    "currency": "SGD",
+    "amount": 34362,
+    "amount_sgd": 34362,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 18426
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 6175.2
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 9760.8
+      }
+    ]
+  },
+  {
+    "id": "989e0539-44e9-58a0-a159-57c012e8c6a9",
+    "billing_account_id": "67ebf87e-cb3a-55f3-8f4a-bbb9bfc2c555",
+    "bill_number": "INV-2026-004807",
+    "period_start": "2026-05-01",
+    "period_end": "2026-05-31",
+    "currency": "SGD",
+    "amount": 34741.5,
+    "amount_sgd": 34741.5,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 18629.5
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 6243.4
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 9868.6
+      }
+    ]
+  },
+  {
+    "id": "b3e5c0c8-6a1b-5b13-ad68-6cef55bacff8",
+    "billing_account_id": "67ebf87e-cb3a-55f3-8f4a-bbb9bfc2c555",
+    "bill_number": "INV-2026-004808",
+    "period_start": "2026-06-01",
+    "period_end": "2026-06-30",
+    "currency": "SGD",
+    "amount": 34569,
+    "amount_sgd": 34569,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 18537
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 6212.4
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 9819.6
+      }
+    ]
+  },
+  {
+    "id": "2ca148a7-a665-52be-948e-e6cd7f78c449",
+    "billing_account_id": "67ebf87e-cb3a-55f3-8f4a-bbb9bfc2c555",
+    "bill_number": "INV-2026-004809",
+    "period_start": "2026-07-01",
+    "period_end": "2026-07-31",
+    "currency": "SGD",
+    "amount": 34776,
+    "amount_sgd": 34776,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 18648
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 6249.6
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 9878.4
+      }
+    ]
+  },
+  {
+    "id": "0b8f3666-7f7c-5c90-9587-92bb9f0beb90",
+    "billing_account_id": "67ebf87e-cb3a-55f3-8f4a-bbb9bfc2c555",
+    "bill_number": "INV-2026-004810",
+    "period_start": "2026-08-01",
+    "period_end": "2026-08-31",
+    "currency": "SGD",
+    "amount": 34845,
+    "amount_sgd": 34845,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 18685
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 6262
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 9898
+      }
+    ]
+  },
+  {
+    "id": "4279213d-543e-5c63-bf59-64929966c178",
+    "billing_account_id": "67ebf87e-cb3a-55f3-8f4a-bbb9bfc2c555",
+    "bill_number": "INV-2026-004811",
+    "period_start": "2026-09-01",
+    "period_end": "2026-09-30",
+    "currency": "SGD",
+    "amount": 34707,
+    "amount_sgd": 34707,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 18611
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 6237.2
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 9858.8
+      }
+    ]
+  },
+  {
+    "id": "3866e67a-a919-575b-805b-075a84b1a95e",
+    "billing_account_id": "67ebf87e-cb3a-55f3-8f4a-bbb9bfc2c555",
+    "bill_number": "INV-2026-004812",
+    "period_start": "2026-10-01",
+    "period_end": "2026-10-31",
+    "currency": "SGD",
+    "amount": 34293,
+    "amount_sgd": 34293,
+    "status": "due",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 18389
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 6162.8
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 9741.2
+      }
+    ]
+  },
+  {
+    "id": "627205e7-a8f3-5528-b459-8e64552fb2c3",
+    "billing_account_id": "a26782ac-5907-59ad-bbcd-2c1b8e6cfa54",
+    "bill_number": "INV-2025-004813",
+    "period_start": "2025-11-01",
+    "period_end": "2025-11-30",
+    "currency": "SGD",
+    "amount": 37500,
+    "amount_sgd": 37500,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 16000
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 5400
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 7200
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 8900
+      }
+    ]
+  },
+  {
+    "id": "ee07c600-921c-5d7c-8747-3b9833b6137b",
+    "billing_account_id": "a26782ac-5907-59ad-bbcd-2c1b8e6cfa54",
+    "bill_number": "INV-2025-004814",
+    "period_start": "2025-12-01",
+    "period_end": "2025-12-31",
+    "currency": "SGD",
+    "amount": 37500,
+    "amount_sgd": 37500,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 16000
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 5400
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 7200
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 8900
+      }
+    ]
+  },
+  {
+    "id": "b272b0b0-6e33-5d99-9124-d7d4979c7338",
+    "billing_account_id": "a26782ac-5907-59ad-bbcd-2c1b8e6cfa54",
+    "bill_number": "INV-2026-004815",
+    "period_start": "2026-01-01",
+    "period_end": "2026-01-31",
+    "currency": "SGD",
+    "amount": 37500,
+    "amount_sgd": 37500,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 16000
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 5400
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 7200
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 8900
+      }
+    ]
+  },
+  {
+    "id": "700111b0-1dcc-5d02-b2a0-f61739109cf1",
+    "billing_account_id": "a26782ac-5907-59ad-bbcd-2c1b8e6cfa54",
+    "bill_number": "INV-2026-004816",
+    "period_start": "2026-02-01",
+    "period_end": "2026-02-28",
+    "currency": "SGD",
+    "amount": 37500,
+    "amount_sgd": 37500,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 16000
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 5400
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 7200
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 8900
+      }
+    ]
+  },
+  {
+    "id": "31ecda76-1aae-5f3c-89ed-d321c230e402",
+    "billing_account_id": "a26782ac-5907-59ad-bbcd-2c1b8e6cfa54",
+    "bill_number": "INV-2026-004817",
+    "period_start": "2026-03-01",
+    "period_end": "2026-03-31",
+    "currency": "SGD",
+    "amount": 37500,
+    "amount_sgd": 37500,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 16000
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 5400
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 7200
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 8900
+      }
+    ]
+  },
+  {
+    "id": "17bbc0fb-4ef4-5de1-b195-2851ed701ef0",
+    "billing_account_id": "a26782ac-5907-59ad-bbcd-2c1b8e6cfa54",
+    "bill_number": "INV-2026-004818",
+    "period_start": "2026-04-01",
+    "period_end": "2026-04-30",
+    "currency": "SGD",
+    "amount": 37500,
+    "amount_sgd": 37500,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 16000
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 5400
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 7200
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 8900
+      }
+    ]
+  },
+  {
+    "id": "54f4eaa6-db1b-534e-9c1c-91a17dc27d8e",
+    "billing_account_id": "a26782ac-5907-59ad-bbcd-2c1b8e6cfa54",
+    "bill_number": "INV-2026-004819",
+    "period_start": "2026-05-01",
+    "period_end": "2026-05-31",
+    "currency": "SGD",
+    "amount": 37500,
+    "amount_sgd": 37500,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 16000
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 5400
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 7200
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 8900
+      }
+    ]
+  },
+  {
+    "id": "c521a150-ee47-5eae-a913-7c76352c0623",
+    "billing_account_id": "a26782ac-5907-59ad-bbcd-2c1b8e6cfa54",
+    "bill_number": "INV-2026-004820",
+    "period_start": "2026-06-01",
+    "period_end": "2026-06-30",
+    "currency": "SGD",
+    "amount": 37500,
+    "amount_sgd": 37500,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 16000
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 5400
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 7200
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 8900
+      }
+    ]
+  },
+  {
+    "id": "f828021d-231f-5281-9ded-8e9c6f31d8cd",
+    "billing_account_id": "a26782ac-5907-59ad-bbcd-2c1b8e6cfa54",
+    "bill_number": "INV-2026-004821",
+    "period_start": "2026-07-01",
+    "period_end": "2026-07-31",
+    "currency": "SGD",
+    "amount": 37500,
+    "amount_sgd": 37500,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 16000
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 5400
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 7200
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 8900
+      }
+    ]
+  },
+  {
+    "id": "1c19dd20-2d24-5cf8-867f-3293cfd5a03e",
+    "billing_account_id": "a26782ac-5907-59ad-bbcd-2c1b8e6cfa54",
+    "bill_number": "INV-2026-004822",
+    "period_start": "2026-08-01",
+    "period_end": "2026-08-31",
+    "currency": "SGD",
+    "amount": 39750,
+    "amount_sgd": 39750,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 16960
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 5724
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 7632
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 9434
+      }
+    ]
+  },
+  {
+    "id": "1d026fdb-6eb1-5964-9f5a-473129a56fec",
+    "billing_account_id": "a26782ac-5907-59ad-bbcd-2c1b8e6cfa54",
+    "bill_number": "INV-2026-004823",
+    "period_start": "2026-09-01",
+    "period_end": "2026-09-30",
+    "currency": "SGD",
+    "amount": 40500,
+    "amount_sgd": 40500,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 17280
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 5832
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 7776
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 9612
+      }
+    ]
+  },
+  {
+    "id": "7f44e59b-b7a5-5646-a7c4-aa6d1cfaed9b",
+    "billing_account_id": "a26782ac-5907-59ad-bbcd-2c1b8e6cfa54",
+    "bill_number": "INV-2026-004824",
+    "period_start": "2026-10-01",
+    "period_end": "2026-10-31",
+    "currency": "SGD",
+    "amount": 41250,
+    "amount_sgd": 41250,
+    "status": "due",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 17600
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 5940
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 7920
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 9790
+      }
+    ]
+  },
+  {
+    "id": "4a4fd7b1-e73b-5a8d-bea6-c66d00db1600",
+    "billing_account_id": "0c4c7a51-a117-5838-8c87-d1cdb0133f51",
+    "bill_number": "INV-2025-004825",
+    "period_start": "2025-11-01",
+    "period_end": "2025-11-30",
+    "currency": "SGD",
+    "amount": 30713.5,
+    "amount_sgd": 30713.5,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 14601.5
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 4833.6
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 11278.4
+      }
+    ]
+  },
+  {
+    "id": "99b907e3-679f-52d2-ac41-11db6b149729",
+    "billing_account_id": "0c4c7a51-a117-5838-8c87-d1cdb0133f51",
+    "bill_number": "INV-2025-004826",
+    "period_start": "2025-12-01",
+    "period_end": "2025-12-31",
+    "currency": "SGD",
+    "amount": 30683,
+    "amount_sgd": 30683,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 14587
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 4828.8
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 11267.2
+      }
+    ]
+  },
+  {
+    "id": "ef502ce0-b5b7-5646-8164-4ddbf4c2fa08",
+    "billing_account_id": "0c4c7a51-a117-5838-8c87-d1cdb0133f51",
+    "bill_number": "INV-2026-004827",
+    "period_start": "2026-01-01",
+    "period_end": "2026-01-31",
+    "currency": "SGD",
+    "amount": 30225.5,
+    "amount_sgd": 30225.5,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 14369.5
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 4756.8
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 11099.2
+      }
+    ]
+  },
+  {
+    "id": "7aeb605d-e62d-57a3-83df-588940250e0d",
+    "billing_account_id": "0c4c7a51-a117-5838-8c87-d1cdb0133f51",
+    "bill_number": "INV-2026-004828",
+    "period_start": "2026-02-01",
+    "period_end": "2026-02-28",
+    "currency": "SGD",
+    "amount": 30530.5,
+    "amount_sgd": 30530.5,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 14514.5
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 4804.8
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 11211.2
+      }
+    ]
+  },
+  {
+    "id": "c64b2303-6f30-537d-a5c8-699494507b47",
+    "billing_account_id": "0c4c7a51-a117-5838-8c87-d1cdb0133f51",
+    "bill_number": "INV-2026-004829",
+    "period_start": "2026-03-01",
+    "period_end": "2026-03-31",
+    "currency": "SGD",
+    "amount": 30317,
+    "amount_sgd": 30317,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 14413
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 4771.2
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 11132.8
+      }
+    ]
+  },
+  {
+    "id": "e0289b31-0f7c-5b37-b610-ddb6bb42592a",
+    "billing_account_id": "0c4c7a51-a117-5838-8c87-d1cdb0133f51",
+    "bill_number": "INV-2026-004830",
+    "period_start": "2026-04-01",
+    "period_end": "2026-04-30",
+    "currency": "SGD",
+    "amount": 30744,
+    "amount_sgd": 30744,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 14616
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 4838.4
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 11289.6
+      }
+    ]
+  },
+  {
+    "id": "040215fb-10e1-53df-9302-e24e4e9e20b2",
+    "billing_account_id": "0c4c7a51-a117-5838-8c87-d1cdb0133f51",
+    "bill_number": "INV-2026-004831",
+    "period_start": "2026-05-01",
+    "period_end": "2026-05-31",
+    "currency": "SGD",
+    "amount": 30805,
+    "amount_sgd": 30805,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 14645
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 4848
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 11312
+      }
+    ]
+  },
+  {
+    "id": "293c8d31-0fbe-53c6-a6f9-ece773db63f7",
+    "billing_account_id": "0c4c7a51-a117-5838-8c87-d1cdb0133f51",
+    "bill_number": "INV-2026-004832",
+    "period_start": "2026-06-01",
+    "period_end": "2026-06-30",
+    "currency": "SGD",
+    "amount": 30744,
+    "amount_sgd": 30744,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 14616
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 4838.4
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 11289.6
+      }
+    ]
+  },
+  {
+    "id": "86ca3afe-873c-5f2c-9618-738f850edd70",
+    "billing_account_id": "0c4c7a51-a117-5838-8c87-d1cdb0133f51",
+    "bill_number": "INV-2026-004833",
+    "period_start": "2026-07-01",
+    "period_end": "2026-07-31",
+    "currency": "SGD",
+    "amount": 30683,
+    "amount_sgd": 30683,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 14587
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 4828.8
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 11267.2
+      }
+    ]
+  },
+  {
+    "id": "68a58de2-3284-5628-9493-35fe6994c582",
+    "billing_account_id": "0c4c7a51-a117-5838-8c87-d1cdb0133f51",
+    "bill_number": "INV-2026-004834",
+    "period_start": "2026-08-01",
+    "period_end": "2026-08-31",
+    "currency": "SGD",
+    "amount": 30622,
+    "amount_sgd": 30622,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 14558
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 4819.2
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 11244.8
+      }
+    ]
+  },
+  {
+    "id": "5a8e1450-0397-5c23-9712-e818cd3e5fb3",
+    "billing_account_id": "0c4c7a51-a117-5838-8c87-d1cdb0133f51",
+    "bill_number": "INV-2026-004835",
+    "period_start": "2026-09-01",
+    "period_end": "2026-09-30",
+    "currency": "SGD",
+    "amount": 30286.5,
+    "amount_sgd": 30286.5,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 14398.5
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 4766.4
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 11121.6
+      }
+    ]
+  },
+  {
+    "id": "8e53ed3f-cfc6-56d7-8c2c-58fdcead64ba",
+    "billing_account_id": "0c4c7a51-a117-5838-8c87-d1cdb0133f51",
+    "bill_number": "INV-2026-004836",
+    "period_start": "2026-10-01",
+    "period_end": "2026-10-31",
+    "currency": "SGD",
+    "amount": 30408.5,
+    "amount_sgd": 30408.5,
+    "status": "due",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 14456.5
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 4785.6
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 11166.4
+      }
+    ]
+  },
+  {
+    "id": "a3fa5f7d-a9d8-58ba-8f22-bcf6f43b7f98",
+    "billing_account_id": "a41d940a-f189-534e-953a-53cd852d0135",
+    "bill_number": "INV-2025-004837",
+    "period_start": "2025-11-01",
+    "period_end": "2025-11-30",
+    "currency": "SGD",
+    "amount": 28857.6,
+    "amount_sgd": 28857.6,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 13827.6
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 4609.2
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 10420.8
+      }
+    ]
+  },
+  {
+    "id": "731dff07-88bf-5ec4-8400-bbf22eb5349c",
+    "billing_account_id": "a41d940a-f189-534e-953a-53cd852d0135",
+    "bill_number": "INV-2025-004838",
+    "period_start": "2025-12-01",
+    "period_end": "2025-12-31",
+    "currency": "SGD",
+    "amount": 28540.8,
+    "amount_sgd": 28540.8,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 13675.8
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 4558.6
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 10306.4
+      }
+    ]
+  },
+  {
+    "id": "dc13843e-e041-5661-8dcc-d840ee75bf60",
+    "billing_account_id": "a41d940a-f189-534e-953a-53cd852d0135",
+    "bill_number": "INV-2026-004839",
+    "period_start": "2026-01-01",
+    "period_end": "2026-01-31",
+    "currency": "SGD",
+    "amount": 28569.6,
+    "amount_sgd": 28569.6,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 13689.6
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 4563.2
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 10316.8
+      }
+    ]
+  },
+  {
+    "id": "01671062-908a-57e2-9b55-789856c4072a",
+    "billing_account_id": "a41d940a-f189-534e-953a-53cd852d0135",
+    "bill_number": "INV-2026-004840",
+    "period_start": "2026-02-01",
+    "period_end": "2026-02-28",
+    "currency": "SGD",
+    "amount": 28915.2,
+    "amount_sgd": 28915.2,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 13855.2
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 4618.4
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 10441.6
+      }
+    ]
+  },
+  {
+    "id": "09df33ec-ddbb-5558-a7a5-7524d000f6af",
+    "billing_account_id": "a41d940a-f189-534e-953a-53cd852d0135",
+    "bill_number": "INV-2026-004841",
+    "period_start": "2026-03-01",
+    "period_end": "2026-03-31",
+    "currency": "SGD",
+    "amount": 28944,
+    "amount_sgd": 28944,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 13869
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 4623
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 10452
+      }
+    ]
+  },
+  {
+    "id": "04fd93c8-6adc-5576-aecd-984459613c05",
+    "billing_account_id": "a41d940a-f189-534e-953a-53cd852d0135",
+    "bill_number": "INV-2026-004842",
+    "period_start": "2026-04-01",
+    "period_end": "2026-04-30",
+    "currency": "SGD",
+    "amount": 28713.6,
+    "amount_sgd": 28713.6,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 13758.6
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 4586.2
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 10368.8
+      }
+    ]
+  },
+  {
+    "id": "d23ec73f-71f9-57fa-b604-effcf282af8c",
+    "billing_account_id": "a41d940a-f189-534e-953a-53cd852d0135",
+    "bill_number": "INV-2026-004843",
+    "period_start": "2026-05-01",
+    "period_end": "2026-05-31",
+    "currency": "SGD",
+    "amount": 29001.6,
+    "amount_sgd": 29001.6,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 13896.6
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 4632.2
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 10472.8
+      }
+    ]
+  },
+  {
+    "id": "ad86d824-4ceb-5b4c-a258-f25fc62b2d60",
+    "billing_account_id": "a41d940a-f189-534e-953a-53cd852d0135",
+    "bill_number": "INV-2026-004844",
+    "period_start": "2026-06-01",
+    "period_end": "2026-06-30",
+    "currency": "SGD",
+    "amount": 28713.6,
+    "amount_sgd": 28713.6,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 13758.6
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 4586.2
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 10368.8
+      }
+    ]
+  },
+  {
+    "id": "8e0351cb-fda8-5708-aaa4-1fbfefb0e6a6",
+    "billing_account_id": "a41d940a-f189-534e-953a-53cd852d0135",
+    "bill_number": "INV-2026-004845",
+    "period_start": "2026-07-01",
+    "period_end": "2026-07-31",
+    "currency": "SGD",
+    "amount": 28944,
+    "amount_sgd": 28944,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 13869
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 4623
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 10452
+      }
+    ]
+  },
+  {
+    "id": "b2111944-59b3-580d-8f97-4069c6910f35",
+    "billing_account_id": "a41d940a-f189-534e-953a-53cd852d0135",
+    "bill_number": "INV-2026-004846",
+    "period_start": "2026-08-01",
+    "period_end": "2026-08-31",
+    "currency": "SGD",
+    "amount": 28569.6,
+    "amount_sgd": 28569.6,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 13689.6
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 4563.2
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 10316.8
+      }
+    ]
+  },
+  {
+    "id": "c55bfd7c-4ae2-58ed-8cb4-f7e27cf4d58c",
+    "billing_account_id": "a41d940a-f189-534e-953a-53cd852d0135",
+    "bill_number": "INV-2026-004847",
+    "period_start": "2026-09-01",
+    "period_end": "2026-09-30",
+    "currency": "SGD",
+    "amount": 28713.6,
+    "amount_sgd": 28713.6,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 13758.6
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 4586.2
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 10368.8
+      }
+    ]
+  },
+  {
+    "id": "f5141f30-2cf6-55c0-a978-53e8a54a0edb",
+    "billing_account_id": "a41d940a-f189-534e-953a-53cd852d0135",
+    "bill_number": "INV-2026-004848",
+    "period_start": "2026-10-01",
+    "period_end": "2026-10-31",
+    "currency": "SGD",
+    "amount": 28512,
+    "amount_sgd": 28512,
+    "status": "due",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 13662
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 4554
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 10296
+      }
+    ]
+  },
+  {
+    "id": "09992b67-7b57-5577-a123-97c5b77b1d27",
+    "billing_account_id": "f2003dee-89d5-5c7a-8f61-53acc4349356",
+    "bill_number": "INV-2025-004849",
+    "period_start": "2025-11-01",
+    "period_end": "2025-11-30",
+    "currency": "AUD",
+    "amount": 57758.97,
+    "amount_sgd": 50250.3,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 21063
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 19558.5
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 9628.8
+      }
+    ]
+  },
+  {
+    "id": "ef8f5109-082e-508b-880e-6a600e7dacc0",
+    "billing_account_id": "f2003dee-89d5-5c7a-8f61-53acc4349356",
+    "bill_number": "INV-2025-004850",
+    "period_start": "2025-12-01",
+    "period_end": "2025-12-31",
+    "currency": "AUD",
+    "amount": 57355.86,
+    "amount_sgd": 49899.6,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 20916
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 19422
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 9561.6
+      }
+    ]
+  },
+  {
+    "id": "6ebda811-1354-5e28-b195-e834d12ebd98",
+    "billing_account_id": "f2003dee-89d5-5c7a-8f61-53acc4349356",
+    "bill_number": "INV-2026-004851",
+    "period_start": "2026-01-01",
+    "period_end": "2026-01-31",
+    "currency": "AUD",
+    "amount": 57758.97,
+    "amount_sgd": 50250.3,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 21063
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 19558.5
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 9628.8
+      }
+    ]
+  },
+  {
+    "id": "61975b86-311f-5206-9388-749f4e96783e",
+    "billing_account_id": "f2003dee-89d5-5c7a-8f61-53acc4349356",
+    "bill_number": "INV-2026-004852",
+    "period_start": "2026-02-01",
+    "period_end": "2026-02-28",
+    "currency": "AUD",
+    "amount": 58162.07,
+    "amount_sgd": 50601,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 21210
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 19695
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 9696
+      }
+    ]
+  },
+  {
+    "id": "7586db79-72ed-523c-a87f-2dbe291dae3a",
+    "billing_account_id": "f2003dee-89d5-5c7a-8f61-53acc4349356",
+    "bill_number": "INV-2026-004853",
+    "period_start": "2026-03-01",
+    "period_end": "2026-03-31",
+    "currency": "AUD",
+    "amount": 58046.9,
+    "amount_sgd": 50500.8,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 21168
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 19656
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 9676.8
+      }
+    ]
+  },
+  {
+    "id": "cd8d19ad-781a-5f97-a7ab-5b2fffd66eb5",
+    "billing_account_id": "f2003dee-89d5-5c7a-8f61-53acc4349356",
+    "bill_number": "INV-2026-004854",
+    "period_start": "2026-04-01",
+    "period_end": "2026-04-30",
+    "currency": "AUD",
+    "amount": 57586.21,
+    "amount_sgd": 50100,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 21000
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 19500
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 9600
+      }
+    ]
+  },
+  {
+    "id": "a518fe93-7b03-53ad-9d54-9ee5c7732990",
+    "billing_account_id": "f2003dee-89d5-5c7a-8f61-53acc4349356",
+    "bill_number": "INV-2026-004855",
+    "period_start": "2026-05-01",
+    "period_end": "2026-05-31",
+    "currency": "AUD",
+    "amount": 57528.62,
+    "amount_sgd": 50049.9,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 20979
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 19480.5
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 9590.4
+      }
+    ]
+  },
+  {
+    "id": "516e6a19-7033-5aa7-8181-30c39055ddb7",
+    "billing_account_id": "f2003dee-89d5-5c7a-8f61-53acc4349356",
+    "bill_number": "INV-2026-004856",
+    "period_start": "2026-06-01",
+    "period_end": "2026-06-30",
+    "currency": "AUD",
+    "amount": 57758.97,
+    "amount_sgd": 50250.3,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 21063
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 19558.5
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 9628.8
+      }
+    ]
+  },
+  {
+    "id": "ffa07c8b-541a-58cb-9cf2-44c2ad725e70",
+    "billing_account_id": "f2003dee-89d5-5c7a-8f61-53acc4349356",
+    "bill_number": "INV-2026-004857",
+    "period_start": "2026-07-01",
+    "period_end": "2026-07-31",
+    "currency": "AUD",
+    "amount": 57125.52,
+    "amount_sgd": 49699.2,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 20832
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 19344
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 9523.2
+      }
+    ]
+  },
+  {
+    "id": "75929212-f337-521f-ac93-c3aa1e1d80fd",
+    "billing_account_id": "f2003dee-89d5-5c7a-8f61-53acc4349356",
+    "bill_number": "INV-2026-004858",
+    "period_start": "2026-08-01",
+    "period_end": "2026-08-31",
+    "currency": "AUD",
+    "amount": 57413.45,
+    "amount_sgd": 49949.7,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 20937
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 19441.5
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 9571.2
+      }
+    ]
+  },
+  {
+    "id": "9cb678c7-e0c8-5288-8ee4-430a24d98d5c",
+    "billing_account_id": "f2003dee-89d5-5c7a-8f61-53acc4349356",
+    "bill_number": "INV-2026-004859",
+    "period_start": "2026-09-01",
+    "period_end": "2026-09-30",
+    "currency": "AUD",
+    "amount": 57643.79,
+    "amount_sgd": 50150.1,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 21021
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 19519.5
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 9609.6
+      }
+    ]
+  },
+  {
+    "id": "8cb4bc24-0887-54e5-8d57-c834286dff4c",
+    "billing_account_id": "f2003dee-89d5-5c7a-8f61-53acc4349356",
+    "bill_number": "INV-2026-004860",
+    "period_start": "2026-10-01",
+    "period_end": "2026-10-31",
+    "currency": "AUD",
+    "amount": 53638.51,
+    "amount_sgd": 46665.5,
+    "status": "due",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 20895
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 19402.5
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 6368
+      }
+    ]
+  },
+  {
+    "id": "3dc17e40-11a1-5cd0-876e-b39a09f576d1",
+    "billing_account_id": "d3fcd1fd-c26f-5394-93ea-d3b29797345c",
+    "bill_number": "INV-2025-004861",
+    "period_start": "2025-11-01",
+    "period_end": "2025-11-30",
+    "currency": "AUD",
+    "amount": 61432.76,
+    "amount_sgd": 53446.5,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 17982
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 16983
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 5994
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 12487.5
+      }
+    ]
+  },
+  {
+    "id": "a324605b-606c-5bac-8be2-75ffc26dffdf",
+    "billing_account_id": "d3fcd1fd-c26f-5394-93ea-d3b29797345c",
+    "bill_number": "INV-2025-004862",
+    "period_start": "2025-12-01",
+    "period_end": "2025-12-31",
+    "currency": "AUD",
+    "amount": 61986.21,
+    "amount_sgd": 53928,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 18144
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 17136
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 6048
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 12600
+      }
+    ]
+  },
+  {
+    "id": "093db4ab-0121-54b7-bd33-c03b6e79812d",
+    "billing_account_id": "d3fcd1fd-c26f-5394-93ea-d3b29797345c",
+    "bill_number": "INV-2026-004863",
+    "period_start": "2026-01-01",
+    "period_end": "2026-01-31",
+    "currency": "AUD",
+    "amount": 61432.76,
+    "amount_sgd": 53446.5,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 17982
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 16983
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 5994
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 12487.5
+      }
+    ]
+  },
+  {
+    "id": "0674c270-6794-5a48-a5e9-83f26052c83a",
+    "billing_account_id": "d3fcd1fd-c26f-5394-93ea-d3b29797345c",
+    "bill_number": "INV-2026-004864",
+    "period_start": "2026-02-01",
+    "period_end": "2026-02-28",
+    "currency": "AUD",
+    "amount": 61125.29,
+    "amount_sgd": 53179,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 17892
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 16898
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 5964
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 12425
+      }
+    ]
+  },
+  {
+    "id": "2f85b778-bda1-5ea1-8583-1288c233bfb5",
+    "billing_account_id": "d3fcd1fd-c26f-5394-93ea-d3b29797345c",
+    "bill_number": "INV-2026-004865",
+    "period_start": "2026-03-01",
+    "period_end": "2026-03-31",
+    "currency": "AUD",
+    "amount": 61801.72,
+    "amount_sgd": 53767.5,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 18090
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 17085
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 6030
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 12562.5
+      }
+    ]
+  },
+  {
+    "id": "699a36f9-7cc9-5b7f-a848-50ea1f33aa53",
+    "billing_account_id": "d3fcd1fd-c26f-5394-93ea-d3b29797345c",
+    "bill_number": "INV-2026-004866",
+    "period_start": "2026-04-01",
+    "period_end": "2026-04-30",
+    "currency": "AUD",
+    "amount": 61617.24,
+    "amount_sgd": 53607,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 18036
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 17034
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 6012
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 12525
+      }
+    ]
+  },
+  {
+    "id": "fd81d6b3-965e-56ed-8173-fe43c7cd724f",
+    "billing_account_id": "d3fcd1fd-c26f-5394-93ea-d3b29797345c",
+    "bill_number": "INV-2026-004867",
+    "period_start": "2026-05-01",
+    "period_end": "2026-05-31",
+    "currency": "AUD",
+    "amount": 61063.79,
+    "amount_sgd": 53125.5,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 17874
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 16881
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 5958
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 12412.5
+      }
+    ]
+  },
+  {
+    "id": "0e33698f-ee28-5dd1-b65b-b95bd55aafef",
+    "billing_account_id": "d3fcd1fd-c26f-5394-93ea-d3b29797345c",
+    "bill_number": "INV-2026-004868",
+    "period_start": "2026-06-01",
+    "period_end": "2026-06-30",
+    "currency": "AUD",
+    "amount": 60940.8,
+    "amount_sgd": 53018.5,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 17838
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 16847
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 5946
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 12387.5
+      }
+    ]
+  },
+  {
+    "id": "63209b92-961e-5cb6-98c1-020f20dd68d3",
+    "billing_account_id": "d3fcd1fd-c26f-5394-93ea-d3b29797345c",
+    "bill_number": "INV-2026-004869",
+    "period_start": "2026-07-01",
+    "period_end": "2026-07-31",
+    "currency": "AUD",
+    "amount": 60940.8,
+    "amount_sgd": 53018.5,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 17838
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 16847
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 5946
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 12387.5
+      }
+    ]
+  },
+  {
+    "id": "d5b93d6a-65f0-5132-97be-431941510d13",
+    "billing_account_id": "d3fcd1fd-c26f-5394-93ea-d3b29797345c",
+    "bill_number": "INV-2026-004870",
+    "period_start": "2026-08-01",
+    "period_end": "2026-08-31",
+    "currency": "AUD",
+    "amount": 63971.95,
+    "amount_sgd": 55655.6,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 18018
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 17017
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 8108.1
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 12512.5
+      }
+    ]
+  },
+  {
+    "id": "4e3a1e1e-8f09-585d-8081-36d17498f822",
+    "billing_account_id": "d3fcd1fd-c26f-5394-93ea-d3b29797345c",
+    "bill_number": "INV-2026-004871",
+    "period_start": "2026-09-01",
+    "period_end": "2026-09-30",
+    "currency": "AUD",
+    "amount": 63844.14,
+    "amount_sgd": 55544.4,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 17982
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 16983
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 8091.9
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 12487.5
+      }
+    ]
+  },
+  {
+    "id": "ad841853-265b-5c69-a37f-b200bc8a52bb",
+    "billing_account_id": "d3fcd1fd-c26f-5394-93ea-d3b29797345c",
+    "bill_number": "INV-2026-004872",
+    "period_start": "2026-10-01",
+    "period_end": "2026-10-31",
+    "currency": "AUD",
+    "amount": 63971.95,
+    "amount_sgd": 55655.6,
+    "status": "due",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 18018
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 17017
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 8108.1
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 12512.5
+      }
+    ]
+  },
+  {
+    "id": "f60c2f4c-8f28-57b3-a2b1-ac8ee6b2ecd2",
+    "billing_account_id": "dc0d669a-a1ec-5409-9f54-fa64684d901d",
+    "bill_number": "INV-2025-004873",
+    "period_start": "2025-11-01",
+    "period_end": "2025-11-30",
+    "currency": "INR",
+    "amount": 2393548.39,
+    "amount_sgd": 37100,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 7800
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 12600
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 6900
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 9800
+      }
+    ]
+  },
+  {
+    "id": "6011eb9b-0345-5f74-a044-641fc590f184",
+    "billing_account_id": "dc0d669a-a1ec-5409-9f54-fa64684d901d",
+    "bill_number": "INV-2025-004874",
+    "period_start": "2025-12-01",
+    "period_end": "2025-12-31",
+    "currency": "INR",
+    "amount": 2393548.39,
+    "amount_sgd": 37100,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 7800
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 12600
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 6900
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 9800
+      }
+    ]
+  },
+  {
+    "id": "7b0e4d66-fdbe-5675-9919-3f8590a55c70",
+    "billing_account_id": "dc0d669a-a1ec-5409-9f54-fa64684d901d",
+    "bill_number": "INV-2026-004875",
+    "period_start": "2026-01-01",
+    "period_end": "2026-01-31",
+    "currency": "INR",
+    "amount": 2393548.39,
+    "amount_sgd": 37100,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 7800
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 12600
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 6900
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 9800
+      }
+    ]
+  },
+  {
+    "id": "ae62f9d5-8ded-524b-b127-eb27a787f323",
+    "billing_account_id": "dc0d669a-a1ec-5409-9f54-fa64684d901d",
+    "bill_number": "INV-2026-004876",
+    "period_start": "2026-02-01",
+    "period_end": "2026-02-28",
+    "currency": "INR",
+    "amount": 2393548.39,
+    "amount_sgd": 37100,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 7800
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 12600
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 6900
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 9800
+      }
+    ]
+  },
+  {
+    "id": "c0104615-b24e-5c77-845e-f6b968120ac7",
+    "billing_account_id": "dc0d669a-a1ec-5409-9f54-fa64684d901d",
+    "bill_number": "INV-2026-004877",
+    "period_start": "2026-03-01",
+    "period_end": "2026-03-31",
+    "currency": "INR",
+    "amount": 2393548.39,
+    "amount_sgd": 37100,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 7800
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 12600
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 6900
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 9800
+      }
+    ]
+  },
+  {
+    "id": "e21591f6-c5d8-50d2-82f5-022d9ce0dc8e",
+    "billing_account_id": "dc0d669a-a1ec-5409-9f54-fa64684d901d",
+    "bill_number": "INV-2026-004878",
+    "period_start": "2026-04-01",
+    "period_end": "2026-04-30",
+    "currency": "INR",
+    "amount": 2393548.39,
+    "amount_sgd": 37100,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 7800
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 12600
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 6900
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 9800
+      }
+    ]
+  },
+  {
+    "id": "7c94a51b-5286-5681-8b1a-fe382f2ad9fe",
+    "billing_account_id": "dc0d669a-a1ec-5409-9f54-fa64684d901d",
+    "bill_number": "INV-2026-004879",
+    "period_start": "2026-05-01",
+    "period_end": "2026-05-31",
+    "currency": "INR",
+    "amount": 2393548.39,
+    "amount_sgd": 37100,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 7800
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 12600
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 6900
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 9800
+      }
+    ]
+  },
+  {
+    "id": "3ebf0691-6102-5353-bd27-8b81063cebf9",
+    "billing_account_id": "dc0d669a-a1ec-5409-9f54-fa64684d901d",
+    "bill_number": "INV-2026-004880",
+    "period_start": "2026-06-01",
+    "period_end": "2026-06-30",
+    "currency": "INR",
+    "amount": 2393548.39,
+    "amount_sgd": 37100,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 7800
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 12600
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 6900
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 9800
+      }
+    ]
+  },
+  {
+    "id": "ab2e7d34-ab52-5287-8e0e-4af8a273999e",
+    "billing_account_id": "dc0d669a-a1ec-5409-9f54-fa64684d901d",
+    "bill_number": "INV-2026-004881",
+    "period_start": "2026-07-01",
+    "period_end": "2026-07-31",
+    "currency": "INR",
+    "amount": 2393548.39,
+    "amount_sgd": 37100,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 7800
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 12600
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 6900
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 9800
+      }
+    ]
+  },
+  {
+    "id": "a01f9d1a-bc0a-57e4-a218-56fa5a16e5c8",
+    "billing_account_id": "dc0d669a-a1ec-5409-9f54-fa64684d901d",
+    "bill_number": "INV-2026-004882",
+    "period_start": "2026-08-01",
+    "period_end": "2026-08-31",
+    "currency": "INR",
+    "amount": 1866967.74,
+    "amount_sgd": 28938,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 6084
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 9828
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 5382
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 7644
+      }
+    ]
+  },
+  {
+    "id": "23acf8f8-4ab4-5f49-825f-56334b2ed024",
+    "billing_account_id": "dc0d669a-a1ec-5409-9f54-fa64684d901d",
+    "bill_number": "INV-2026-004883",
+    "period_start": "2026-09-01",
+    "period_end": "2026-09-30",
+    "currency": "INR",
+    "amount": 1409032.26,
+    "amount_sgd": 21840,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 6240
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 10080
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 5520
+      }
+    ]
+  },
+  {
+    "id": "2c9d5299-8aab-5e3d-9d58-b7bdb31f1108",
+    "billing_account_id": "dc0d669a-a1ec-5409-9f54-fa64684d901d",
+    "bill_number": "INV-2026-004884",
+    "period_start": "2026-10-01",
+    "period_end": "2026-10-31",
+    "currency": "INR",
+    "amount": 1373806.45,
+    "amount_sgd": 21294,
+    "status": "due",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 6084
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 9828
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 5382
+      }
+    ]
+  },
+  {
+    "id": "c98b9a39-929d-537c-8a51-5a370b273c09",
+    "billing_account_id": "fccc69ee-229c-58cb-9bbd-4a7db2ce26f9",
+    "bill_number": "INV-2025-004885",
+    "period_start": "2025-11-01",
+    "period_end": "2025-11-30",
+    "currency": "INR",
+    "amount": 2219354.84,
+    "amount_sgd": 34400,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 7200
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 11900
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 8800
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 6500
+      }
+    ]
+  },
+  {
+    "id": "872bb56c-812e-56d8-abf4-0732ecf2cc4c",
+    "billing_account_id": "fccc69ee-229c-58cb-9bbd-4a7db2ce26f9",
+    "bill_number": "INV-2025-004886",
+    "period_start": "2025-12-01",
+    "period_end": "2025-12-31",
+    "currency": "INR",
+    "amount": 2219354.84,
+    "amount_sgd": 34400,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 7200
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 11900
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 8800
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 6500
+      }
+    ]
+  },
+  {
+    "id": "243859d3-ebf8-5ef3-93bb-3780aa304f37",
+    "billing_account_id": "fccc69ee-229c-58cb-9bbd-4a7db2ce26f9",
+    "bill_number": "INV-2026-004887",
+    "period_start": "2026-01-01",
+    "period_end": "2026-01-31",
+    "currency": "INR",
+    "amount": 2219354.84,
+    "amount_sgd": 34400,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 7200
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 11900
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 8800
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 6500
+      }
+    ]
+  },
+  {
+    "id": "5cbe89b8-40fb-5aad-8045-c7c316639bdd",
+    "billing_account_id": "fccc69ee-229c-58cb-9bbd-4a7db2ce26f9",
+    "bill_number": "INV-2026-004888",
+    "period_start": "2026-02-01",
+    "period_end": "2026-02-28",
+    "currency": "INR",
+    "amount": 2219354.84,
+    "amount_sgd": 34400,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 7200
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 11900
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 8800
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 6500
+      }
+    ]
+  },
+  {
+    "id": "cff0ccc1-3183-5124-a9b6-65680e7af08f",
+    "billing_account_id": "fccc69ee-229c-58cb-9bbd-4a7db2ce26f9",
+    "bill_number": "INV-2026-004889",
+    "period_start": "2026-03-01",
+    "period_end": "2026-03-31",
+    "currency": "INR",
+    "amount": 2219354.84,
+    "amount_sgd": 34400,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 7200
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 11900
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 8800
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 6500
+      }
+    ]
+  },
+  {
+    "id": "c239feb2-fa37-52a1-8d7c-bab357b69a94",
+    "billing_account_id": "fccc69ee-229c-58cb-9bbd-4a7db2ce26f9",
+    "bill_number": "INV-2026-004890",
+    "period_start": "2026-04-01",
+    "period_end": "2026-04-30",
+    "currency": "INR",
+    "amount": 2219354.84,
+    "amount_sgd": 34400,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 7200
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 11900
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 8800
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 6500
+      }
+    ]
+  },
+  {
+    "id": "e49349eb-fc3a-56eb-af8b-477e706be5fd",
+    "billing_account_id": "fccc69ee-229c-58cb-9bbd-4a7db2ce26f9",
+    "bill_number": "INV-2026-004891",
+    "period_start": "2026-05-01",
+    "period_end": "2026-05-31",
+    "currency": "INR",
+    "amount": 2219354.84,
+    "amount_sgd": 34400,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 7200
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 11900
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 8800
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 6500
+      }
+    ]
+  },
+  {
+    "id": "f0c537a4-bc88-5521-9068-072337e779e3",
+    "billing_account_id": "fccc69ee-229c-58cb-9bbd-4a7db2ce26f9",
+    "bill_number": "INV-2026-004892",
+    "period_start": "2026-06-01",
+    "period_end": "2026-06-30",
+    "currency": "INR",
+    "amount": 2219354.84,
+    "amount_sgd": 34400,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 7200
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 11900
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 8800
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 6500
+      }
+    ]
+  },
+  {
+    "id": "eb6e9159-1e79-5ce2-a3ee-b080d54b8062",
+    "billing_account_id": "fccc69ee-229c-58cb-9bbd-4a7db2ce26f9",
+    "bill_number": "INV-2026-004893",
+    "period_start": "2026-07-01",
+    "period_end": "2026-07-31",
+    "currency": "INR",
+    "amount": 2219354.84,
+    "amount_sgd": 34400,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 7200
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 11900
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 8800
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 6500
+      }
+    ]
+  },
+  {
+    "id": "4bbb4a52-f44d-50ec-b8f1-d6637703996a",
+    "billing_account_id": "fccc69ee-229c-58cb-9bbd-4a7db2ce26f9",
+    "bill_number": "INV-2026-004894",
+    "period_start": "2026-08-01",
+    "period_end": "2026-08-31",
+    "currency": "INR",
+    "amount": 2396903.23,
+    "amount_sgd": 37152,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 7776
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 12852
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 9504
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 7020
+      }
+    ]
+  },
+  {
+    "id": "5499d5b1-9aa0-5e64-a8af-d059d8ff962a",
+    "billing_account_id": "fccc69ee-229c-58cb-9bbd-4a7db2ce26f9",
+    "bill_number": "INV-2026-004895",
+    "period_start": "2026-09-01",
+    "period_end": "2026-09-30",
+    "currency": "INR",
+    "amount": 2441290.32,
+    "amount_sgd": 37840,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 7920
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 13090
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 9680
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 7150
+      }
+    ]
+  },
+  {
+    "id": "40db2f64-1d08-51fc-9e73-5a315fc8fcaf",
+    "billing_account_id": "fccc69ee-229c-58cb-9bbd-4a7db2ce26f9",
+    "bill_number": "INV-2026-004896",
+    "period_start": "2026-10-01",
+    "period_end": "2026-10-31",
+    "currency": "INR",
+    "amount": 2485677.42,
+    "amount_sgd": 38528,
+    "status": "due",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 8064
+      },
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 13328
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 9856
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 7280
+      }
+    ]
+  },
+  {
+    "id": "8dbe769a-efbd-5065-adee-a68c4c2eaf32",
+    "billing_account_id": "28171da6-2ec4-5b39-8d78-f510fe3cd7f2",
+    "bill_number": "INV-2025-004897",
+    "period_start": "2025-11-01",
+    "period_end": "2025-11-30",
+    "currency": "SGD",
+    "amount": 58232,
+    "amount_sgd": 58232,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 24096
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 9538
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 14056
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 10542
+      }
+    ]
+  },
+  {
+    "id": "3706d31a-5c1a-5462-9503-052a2cc34662",
+    "billing_account_id": "28171da6-2ec4-5b39-8d78-f510fe3cd7f2",
+    "bill_number": "INV-2025-004898",
+    "period_start": "2025-12-01",
+    "period_end": "2025-12-31",
+    "currency": "SGD",
+    "amount": 57826,
+    "amount_sgd": 57826,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 23928
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 9471.5
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 13958
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 10468.5
+      }
+    ]
+  },
+  {
+    "id": "bc676ca2-a16f-5485-b734-a08a8555061b",
+    "billing_account_id": "28171da6-2ec4-5b39-8d78-f510fe3cd7f2",
+    "bill_number": "INV-2026-004899",
+    "period_start": "2026-01-01",
+    "period_end": "2026-01-31",
+    "currency": "SGD",
+    "amount": 58522,
+    "amount_sgd": 58522,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 24216
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 9585.5
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 14126
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 10594.5
+      }
+    ]
+  },
+  {
+    "id": "afc66edb-15f8-5d57-90e0-53f0bbc85fec",
+    "billing_account_id": "28171da6-2ec4-5b39-8d78-f510fe3cd7f2",
+    "bill_number": "INV-2026-004900",
+    "period_start": "2026-02-01",
+    "period_end": "2026-02-28",
+    "currency": "SGD",
+    "amount": 57942,
+    "amount_sgd": 57942,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 23976
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 9490.5
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 13986
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 10489.5
+      }
+    ]
+  },
+  {
+    "id": "678fa3f2-d522-543f-8081-13c6d540899c",
+    "billing_account_id": "28171da6-2ec4-5b39-8d78-f510fe3cd7f2",
+    "bill_number": "INV-2026-004901",
+    "period_start": "2026-03-01",
+    "period_end": "2026-03-31",
+    "currency": "SGD",
+    "amount": 57884,
+    "amount_sgd": 57884,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 23952
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 9481
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 13972
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 10479
+      }
+    ]
+  },
+  {
+    "id": "bc75f7b6-80fa-5abe-bf70-7cee150b0914",
+    "billing_account_id": "28171da6-2ec4-5b39-8d78-f510fe3cd7f2",
+    "bill_number": "INV-2026-004902",
+    "period_start": "2026-04-01",
+    "period_end": "2026-04-30",
+    "currency": "SGD",
+    "amount": 58406,
+    "amount_sgd": 58406,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 24168
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 9566.5
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 14098
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 10573.5
+      }
+    ]
+  },
+  {
+    "id": "bccf69e0-4acb-5c38-9452-f5a63d14360f",
+    "billing_account_id": "28171da6-2ec4-5b39-8d78-f510fe3cd7f2",
+    "bill_number": "INV-2026-004903",
+    "period_start": "2026-05-01",
+    "period_end": "2026-05-31",
+    "currency": "SGD",
+    "amount": 57652,
+    "amount_sgd": 57652,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 23856
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 9443
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 13916
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 10437
+      }
+    ]
+  },
+  {
+    "id": "9ddc721f-b731-5689-ae25-a8dca85f0e32",
+    "billing_account_id": "28171da6-2ec4-5b39-8d78-f510fe3cd7f2",
+    "bill_number": "INV-2026-004904",
+    "period_start": "2026-06-01",
+    "period_end": "2026-06-30",
+    "currency": "SGD",
+    "amount": 70870.8,
+    "amount_sgd": 70870.8,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 24024
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 9509.5
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 14014
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 10510.5
+      },
+      {
+        "product_code": "5G_PLUS",
+        "description": "5G+",
+        "amount_sgd": 12812.8
+      }
+    ]
+  },
+  {
+    "id": "03c23947-eced-568b-9865-1feddc3458e1",
+    "billing_account_id": "28171da6-2ec4-5b39-8d78-f510fe3cd7f2",
+    "bill_number": "INV-2026-004905",
+    "period_start": "2026-07-01",
+    "period_end": "2026-07-31",
+    "currency": "SGD",
+    "amount": 71366.4,
+    "amount_sgd": 71366.4,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 24192
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 9576
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 14112
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 10584
+      },
+      {
+        "product_code": "5G_PLUS",
+        "description": "5G+",
+        "amount_sgd": 12902.4
+      }
+    ]
+  },
+  {
+    "id": "d830927d-d707-57c5-beee-5df3da4f894c",
+    "billing_account_id": "28171da6-2ec4-5b39-8d78-f510fe3cd7f2",
+    "bill_number": "INV-2026-004906",
+    "period_start": "2026-08-01",
+    "period_end": "2026-08-31",
+    "currency": "SGD",
+    "amount": 70375.2,
+    "amount_sgd": 70375.2,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 23856
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 9443
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 13916
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 10437
+      },
+      {
+        "product_code": "5G_PLUS",
+        "description": "5G+",
+        "amount_sgd": 12723.2
+      }
+    ]
+  },
+  {
+    "id": "a6a2bcea-05d1-5729-bd3b-ee83b1eda1e7",
+    "billing_account_id": "28171da6-2ec4-5b39-8d78-f510fe3cd7f2",
+    "bill_number": "INV-2026-004907",
+    "period_start": "2026-09-01",
+    "period_end": "2026-09-30",
+    "currency": "SGD",
+    "amount": 70658.4,
+    "amount_sgd": 70658.4,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 23952
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 9481
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 13972
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 10479
+      },
+      {
+        "product_code": "5G_PLUS",
+        "description": "5G+",
+        "amount_sgd": 12774.4
+      }
+    ]
+  },
+  {
+    "id": "3a566dbf-e453-56f0-9955-8f8ecc16bfbb",
+    "billing_account_id": "28171da6-2ec4-5b39-8d78-f510fe3cd7f2",
+    "bill_number": "INV-2026-004908",
+    "period_start": "2026-10-01",
+    "period_end": "2026-10-31",
+    "currency": "SGD",
+    "amount": 70941.6,
+    "amount_sgd": 70941.6,
+    "status": "due",
+    "product_lines": [
+      {
+        "product_code": "CUBE",
+        "description": "Singtel CUBΣ",
+        "amount_sgd": 24048
+      },
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 9519
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 14028
+      },
+      {
+        "product_code": "CYBER",
+        "description": "Cyber Security",
+        "amount_sgd": 10521
+      },
+      {
+        "product_code": "5G_PLUS",
+        "description": "5G+",
+        "amount_sgd": 12825.6
+      }
+    ]
+  },
+  {
+    "id": "abd9130e-00a7-57bb-9477-0fbb0982dfe4",
+    "billing_account_id": "40d667fb-19c5-5112-ad41-f97c3a515ac9",
+    "bill_number": "INV-2025-004909",
+    "period_start": "2025-11-01",
+    "period_end": "2025-11-30",
+    "currency": "IDR",
+    "amount": 115496969.7,
+    "amount_sgd": 9528.5,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 3911.7
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 5616.8
+      }
+    ]
+  },
+  {
+    "id": "d8396438-f12d-5e3d-b916-2625638d2f93",
+    "billing_account_id": "40d667fb-19c5-5112-ad41-f97c3a515ac9",
+    "bill_number": "INV-2025-004910",
+    "period_start": "2025-12-01",
+    "period_end": "2025-12-31",
+    "currency": "IDR",
+    "amount": 116303030.3,
+    "amount_sgd": 9595,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 3939
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 5656
+      }
+    ]
+  },
+  {
+    "id": "9c603f97-1f4f-5c21-933d-f0fa86205559",
+    "billing_account_id": "40d667fb-19c5-5112-ad41-f97c3a515ac9",
+    "bill_number": "INV-2026-004911",
+    "period_start": "2026-01-01",
+    "period_end": "2026-01-31",
+    "currency": "IDR",
+    "amount": 115381818.18,
+    "amount_sgd": 9519,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 3907.8
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 5611.2
+      }
+    ]
+  },
+  {
+    "id": "21a116a7-8b49-5197-8642-2868f8b93222",
+    "billing_account_id": "40d667fb-19c5-5112-ad41-f97c3a515ac9",
+    "bill_number": "INV-2026-004912",
+    "period_start": "2026-02-01",
+    "period_end": "2026-02-28",
+    "currency": "IDR",
+    "amount": 114230303.03,
+    "amount_sgd": 9424,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 3868.8
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 5555.2
+      }
+    ]
+  },
+  {
+    "id": "df8158d1-5d3d-5992-87a9-bd0fae684f16",
+    "billing_account_id": "40d667fb-19c5-5112-ad41-f97c3a515ac9",
+    "bill_number": "INV-2026-004913",
+    "period_start": "2026-03-01",
+    "period_end": "2026-03-31",
+    "currency": "IDR",
+    "amount": 115957575.76,
+    "amount_sgd": 9566.5,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 3927.3
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 5639.2
+      }
+    ]
+  },
+  {
+    "id": "48379d96-ca46-5c5b-8e07-876ef06cfdce",
+    "billing_account_id": "40d667fb-19c5-5112-ad41-f97c3a515ac9",
+    "bill_number": "INV-2026-004914",
+    "period_start": "2026-04-01",
+    "period_end": "2026-04-30",
+    "currency": "IDR",
+    "amount": 115727272.73,
+    "amount_sgd": 9547.5,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 3919.5
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 5628
+      }
+    ]
+  },
+  {
+    "id": "95bcf210-b60c-518f-b83d-d7fc34bc1fd6",
+    "billing_account_id": "40d667fb-19c5-5112-ad41-f97c3a515ac9",
+    "bill_number": "INV-2026-004915",
+    "period_start": "2026-05-01",
+    "period_end": "2026-05-31",
+    "currency": "IDR",
+    "amount": 114115151.52,
+    "amount_sgd": 9414.5,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 3864.9
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 5549.6
+      }
+    ]
+  },
+  {
+    "id": "691dd603-0719-5ff4-a119-f55744101a9e",
+    "billing_account_id": "40d667fb-19c5-5112-ad41-f97c3a515ac9",
+    "bill_number": "INV-2026-004916",
+    "period_start": "2026-06-01",
+    "period_end": "2026-06-30",
+    "currency": "IDR",
+    "amount": 115266666.67,
+    "amount_sgd": 9509.5,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 3903.9
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 5605.6
+      }
+    ]
+  },
+  {
+    "id": "d2e97d66-f1e3-5fa4-8a18-3ccf56337512",
+    "billing_account_id": "40d667fb-19c5-5112-ad41-f97c3a515ac9",
+    "bill_number": "INV-2026-004917",
+    "period_start": "2026-07-01",
+    "period_end": "2026-07-31",
+    "currency": "IDR",
+    "amount": 115842424.24,
+    "amount_sgd": 9557,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 3923.4
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 5633.6
+      }
+    ]
+  },
+  {
+    "id": "3aa89c2d-4b06-59f6-af4f-19246dfb63c0",
+    "billing_account_id": "40d667fb-19c5-5112-ad41-f97c3a515ac9",
+    "bill_number": "INV-2026-004918",
+    "period_start": "2026-08-01",
+    "period_end": "2026-08-31",
+    "currency": "IDR",
+    "amount": 114230303.03,
+    "amount_sgd": 9424,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 3868.8
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 5555.2
+      }
+    ]
+  },
+  {
+    "id": "33992ee1-5150-5cf6-8e26-1784dd83fdc5",
+    "billing_account_id": "40d667fb-19c5-5112-ad41-f97c3a515ac9",
+    "bill_number": "INV-2026-004919",
+    "period_start": "2026-09-01",
+    "period_end": "2026-09-30",
+    "currency": "IDR",
+    "amount": 115957575.76,
+    "amount_sgd": 9566.5,
+    "status": "paid",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 3927.3
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 5639.2
+      }
+    ]
+  },
+  {
+    "id": "7b8ad377-c570-5f9d-9ce8-f6cdef81351f",
+    "billing_account_id": "40d667fb-19c5-5112-ad41-f97c3a515ac9",
+    "bill_number": "INV-2026-004920",
+    "period_start": "2026-10-01",
+    "period_end": "2026-10-31",
+    "currency": "IDR",
+    "amount": 114575757.58,
+    "amount_sgd": 9452.5,
+    "status": "due",
+    "product_lines": [
+      {
+        "product_code": "MOBILITY",
+        "description": "Mobility",
+        "amount_sgd": 3880.5
+      },
+      {
+        "product_code": "IOT",
+        "description": "Internet of Things",
+        "amount_sgd": 5572
+      }
+    ]
+  }
+]

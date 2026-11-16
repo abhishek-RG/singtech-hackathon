@@ -1,0 +1,132 @@
+[
+  {
+    "account_id": "67ebf87e-cb3a-55f3-8f4a-bbb9bfc2c555",
+    "story_key": "R1",
+    "story_code": "service_issues",
+    "title": "Repeated outages at the plants",
+    "narrative": "Four high-severity outages in 90 days at the Tuas and Senoko plants, low satisfaction, and the operations director has asked Competitor A for a secondary link.",
+    "expected": {
+      "band": "at_risk",
+      "top_reason": "service_issues",
+      "gap_product": "5G_PLUS",
+      "next_action": "service_recovery"
+    }
+  },
+  {
+    "account_id": "a26782ac-5907-59ad-bbcd-2c1b8e6cfa54",
+    "story_key": "H1",
+    "story_code": "healthy_lookalike",
+    "title": "Healthy manufacturer, ready for 5G+",
+    "narrative": "Same industry and size as Kestrelwick. Recent QBR, spend up, no severe cases. The plant floor is a natural fit for 5G+.",
+    "expected": {
+      "band": "healthy",
+      "top_reason": null,
+      "gap_product": "5G_PLUS",
+      "next_action": "cross_sell"
+    }
+  },
+  {
+    "account_id": "0c4c7a51-a117-5838-8c87-d1cdb0133f51",
+    "story_key": "R2",
+    "story_code": "price_perception",
+    "title": "Renewal in 60 days, Competitor B pricing pressure",
+    "narrative": "Contract ends in 60 days with no renewal opportunity open. Procurement cites a cheaper bundle from Competitor B twice. Spend is flat.",
+    "expected": {
+      "band": "at_risk",
+      "top_reason": "price_perception",
+      "gap_product": "QSN",
+      "next_action": "renewal_value_case"
+    }
+  },
+  {
+    "account_id": "a41d940a-f189-534e-953a-53cd852d0135",
+    "story_key": "H2",
+    "story_code": "healthy_lookalike",
+    "title": "Healthy wealth manager, quantum-safe interest",
+    "narrative": "Same industry and size as Halvora. Renewal is ten months away and on track. Asked about quantum-safe options at the last QBR.",
+    "expected": {
+      "band": "healthy",
+      "top_reason": null,
+      "gap_product": "QSN",
+      "next_action": "cross_sell"
+    }
+  },
+  {
+    "account_id": "f2003dee-89d5-5c7a-8f61-53acc4349356",
+    "story_key": "R3",
+    "story_code": "relationship",
+    "title": "Champion left, relationship gone quiet",
+    "narrative": "The CIO who championed Singtel left in August. No meeting in four months, the CFO has not replied, and IoT was downgraded in September.",
+    "expected": {
+      "band": "watch",
+      "top_reason": "relationship",
+      "gap_product": "CYBER",
+      "next_action": "stakeholder_remap"
+    }
+  },
+  {
+    "account_id": "d3fcd1fd-c26f-5394-93ea-d3b29797345c",
+    "story_key": "H3",
+    "story_code": "healthy_lookalike",
+    "title": "Healthy health network, growing headcount",
+    "narrative": "Same industry and size as Wattlegrove. Champion in place, recent QBR, IoT upgraded. Two new clinics planned: grow what they already buy.",
+    "expected": {
+      "band": "healthy",
+      "top_reason": null,
+      "gap_product": null,
+      "next_action": "upsell"
+    }
+  },
+  {
+    "account_id": "dc0d669a-a1ec-5409-9f54-fa64684d901d",
+    "story_key": "R4",
+    "story_code": "partial_move",
+    "title": "IoT moved to Competitor C, RFP open",
+    "narrative": "IoT shelf sensors were moved to Competitor C in September, spend is down 35% over three months, and a store connectivity RFP is open with Competitor C shortlisted.",
+    "expected": {
+      "band": "at_risk",
+      "top_reason": "partial_move",
+      "gap_product": "IOT",
+      "next_action": "renewal_value_case"
+    }
+  },
+  {
+    "account_id": "fccc69ee-229c-58cb-9bbd-4a7db2ce26f9",
+    "story_key": "H4",
+    "story_code": "healthy_lookalike",
+    "title": "Healthy retailer opening a distribution centre",
+    "narrative": "Same industry and size as Saffronvale. Spend up 10%, recent QBR, and a second distribution centre is planned: a fit for 5G+.",
+    "expected": {
+      "band": "healthy",
+      "top_reason": null,
+      "gap_product": "5G_PLUS",
+      "next_action": "cross_sell"
+    }
+  },
+  {
+    "account_id": "28171da6-2ec4-5b39-8d78-f510fe3cd7f2",
+    "story_key": "H5",
+    "story_code": "healthy_lookalike",
+    "title": "Healthy logistics group, 5G+ added this year",
+    "narrative": "Group parent of the Indonesia subsidiary. Owns five of six products, added 5G+ in June, recent QBR. Grow what they already buy.",
+    "expected": {
+      "band": "healthy",
+      "top_reason": null,
+      "gap_product": null,
+      "next_action": "upsell"
+    }
+  },
+  {
+    "account_id": "40d667fb-19c5-5112-ad41-f97c3a515ac9",
+    "story_key": "R5",
+    "story_code": "coverage_gap",
+    "title": "New Indonesian warehouses off the Singtel network",
+    "narrative": "The Indonesia subsidiary opened two warehouses since August on local broadband, off the Singtel network, and both now log performance cases.",
+    "expected": {
+      "band": "watch",
+      "top_reason": "coverage_gap",
+      "gap_product": "CUBE",
+      "next_action": "cross_sell"
+    }
+  }
+]
